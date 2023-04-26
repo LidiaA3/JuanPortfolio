@@ -1,4 +1,5 @@
-import Nav from "../styleguide/nav";
+// import Nav from "../styleguide/nav";
+import Nav from "./Nav";
 import "./Styleguide.scss";
 
 function Styleguide() {
