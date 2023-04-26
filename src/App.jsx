@@ -1,6 +1,6 @@
 import { Link, Route, Routes } from "react-router-dom";
 import "./App.css";
-import "./scss/style.scss";
+import "./scss/global.scss";
 // Scss metido aquí en vez de en la raíz
 import Home from "./views/Home";
 import Contact from "./views/contact/Contact";
