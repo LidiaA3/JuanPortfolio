@@ -1,0 +1,50 @@
+// COLORES
+$color-gray: #637083;
+$color-gray-light: #F2F4F7;
+$color-gray-dark: #454f54;
+$color-blue: #1A75FF;
+$color-blue-light: #F2F4F7;
+$color-blue-dark: #003d99;
+$color-green: #40bf7f;
+$color-green-light: #d9f2e5;
+$color-green-dark: #194d33;
+
+//COLORES DISEÑO PROPIO
+$color-blue-fluor: hsl(251%, 100%, 58%);
+
+$color-primary: $color-blue-fluor;
+
+
+// FUENTES
+@import url(../fonts/fonts.css);
+$font-primary: 'Space Grotesk', sans-serif;
+$font-secundary: 'Anthony Regular', sans-serif;
+
+$font-headers: $font-secundary;
+$font-paragraphs: $font-primary;
+
+// TAMAÑOS DE FUENTE
+$font-medium: 1rem;
+
+// @mixin font-size($font-size: $font-medium) {
+//     font-size: $font-size;
+//     @include mq(medium) {
+//         font-size: $font-size *1.2;
+//     }
+// }
+
+//TAMAÑOS DE FUENTE
+html {
+    font-size: 62.5%;
+}
+
+$font-size-h1: 6.4rem;  
+$font-size-h2: 4.8rem;
+$font-size-h3: 4.0rem;
+$font-size-h4: 3.2rem;
+$font-size-h5: 2.4rem;
+$font-size-h6: 2.0rem; 
+
+
+//COLORES DE BORDES 
+$border-color: $color-gray; 

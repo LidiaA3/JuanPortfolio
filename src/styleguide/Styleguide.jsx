@@ -8,6 +8,23 @@ function Styleguide() {
     <>
       <h1 className="styleguide">Hola, soy la Styleguide</h1>
       <Nav />
+      <section className="colors">
+        <div className="colors__grayscale">
+          <div className="color__gray-light">gray-light</div>
+          <div className="color__gray">gray</div>
+          <div className="color__gray-dark">gray-dark</div>
+        </div>
+        <div className="colors__blue">
+          <div className="color__blue-light">blue-light</div>
+          <div className="color__blue">blue</div>
+          <div className="color__blue-dark">blue-dark</div>
+        </div>
+        <div className="colors__green">
+          <div className="color__green-light">green-light</div>
+          <div className="color__green">green</div>
+          <div className="color__green-dark">green-dark</div>
+        </div>
+      </section>
       <section className="headers-section">
         <h1>Esto sería un ecabezado h1</h1>
         <h2>Esto sería un ecabezado h2</h2>
