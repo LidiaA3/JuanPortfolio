@@ -10,13 +10,15 @@ $color-green-light: #d9f2e5;
 $color-green-dark: #194d33;
 
 //COLORES DISEÑO PROPIO
-$color-blue-fluor: hsl(251%, 100%, 58%);
+// $color-blue-fluor: #2d00f7;
+$color-blue-fluor: hsl(251%, 100%, 48%);
+
+
 
 $color-primary: $color-blue-fluor;
 
 
 // FUENTES
-@import url(../fonts/fonts.css);
 $font-primary: 'Space Grotesk', sans-serif;
 $font-secundary: 'Anthony Regular', sans-serif;
 
@@ -45,6 +47,10 @@ $font-size-h4: 3.2rem;
 $font-size-h5: 2.4rem;
 $font-size-h6: 2.0rem; 
 
+$font-size-small: 0.8rem;
+$font-size-default: 1.6rem;
+$font-size-big: 2rem;
+
 
 //COLORES DE BORDES 
-$border-color: $color-gray; 
+$border-color: $color-primary; 
