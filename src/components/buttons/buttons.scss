@@ -6,7 +6,8 @@
     font-weight: var(--weight-light);
     color: var(--color-gray);
     background-color: var(--color-red);
-    border: 1px solid $color-primary;   
+    border: 1px solid $color-primary;  
+    border-radius: 5rem; 
     padding: 8px;
     width: 100%;
     box-sizing: border-box;

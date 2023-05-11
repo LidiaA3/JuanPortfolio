@@ -1,32 +1,49 @@
-// COLORES
-$color-gray: #637083;
-$color-gray-light: #F2F4F7;
-$color-gray-dark: #454f54;
-$color-blue: #1A75FF;
-$color-blue-light: #F2F4F7;
-$color-blue-dark: #003d99;
-$color-green: #40bf7f;
-$color-green-light: #d9f2e5;
-$color-green-dark: #194d33;
-
-//COLORES DISEÑO PROPIO
-// $color-blue-fluor: #2d00f7;
+// COLORS
 $color-blue-fluor: hsl(251%, 100%, 48%);
 
-
-
+//COLOR IMPLEMENTATION
 $color-primary: $color-blue-fluor;
 
-
-// FUENTES
+// FONT FAMILIES
 $font-primary: 'Space Grotesk', sans-serif;
 $font-secundary: 'Anthony Regular', sans-serif;
 
+// FONT FAMILIES IMPLEMENTATION
 $font-headers: $font-secundary;
 $font-paragraphs: $font-primary;
 
-// TAMAÑOS DE FUENTE
-$font-medium: 1rem;
+
+//UNITS
+$unit-base: 0.8rem;
+$unit-lineheight-ratio: 1.3;
+
+//TYPE RATIOS
+$perfect-fourth: 1.333;
+$augmented-fourth: 1.414;
+
+$type-ratio: $perfect-fourth;
+
+//FONT SIZES
+$font-size-base: 1.6rem;
+
+    //paragraphs
+    $font-small: calc($font-size-base / $type-ratio);
+    $font-medium: $font-size-base;
+    $font-big: calc($font-size-base * $type-ratio);
+
+    //headers
+    // $font-size-h1: $font-size-base * 
+
+
+//FONT SIZE IMPLEMENTATION 
+    
+    
+
+
+
+
+
+//MEDIA QUERIES
 
 // @mixin font-size($font-size: $font-medium) {
 //     font-size: $font-size;
@@ -52,5 +69,5 @@ $font-size-default: 1.6rem;
 $font-size-big: 2rem;
 
 
-//COLORES DE BORDES 
+//BORDER COLORS
 $border-color: $color-primary; 
