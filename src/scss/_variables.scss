@@ -1,16 +1,38 @@
 // COLORS
 $color-blue-fluor: hsl(251%, 100%, 48%);
 
-//COLOR IMPLEMENTATION
-$color-primary: $color-blue-fluor;
+    //COLOR IMPLEMENTATION
+    $color-primary: $color-blue-fluor;
 
-// FONT FAMILIES
-$font-primary: 'Space Grotesk', sans-serif;
-$font-secundary: 'Anthony Regular', sans-serif;
+// FONTS
 
-// FONT FAMILIES IMPLEMENTATION
-$font-headers: $font-secundary;
-$font-paragraphs: $font-primary;
+    // FONT FAMILIES
+    $font-primary: 'Space Grotesk', sans-serif;
+    $font-secundary: 'Anthony Regular', sans-serif;
+
+    // FONT FAMILIES IMPLEMENTATION
+    $font-headers: $font-secundary;
+    $font-paragraphs: $font-primary;
+
+    //FONT SIZES
+    html {
+        font-size: 62.5%;
+    }
+    $font-size-base: 2.0rem;
+
+    // headers
+    $font-size-h1: 8.5rem;
+    $font-size-h2: 6.4rem;
+    $font-size-h3: 4.8rem;
+    $font-size-h4: 3.6rem;
+    $font-size-h5: 2.7rem;
+    $font-size-h6: 2.7rem;
+
+    //paragraphs
+    $font-small: 1.5rem;
+    $font-default: $font-size-base;
+
+
 
 
 //UNITS
@@ -23,16 +45,7 @@ $augmented-fourth: 1.414;
 
 $type-ratio: $perfect-fourth;
 
-//FONT SIZES
-$font-size-base: 1.6rem;
 
-    //paragraphs
-    $font-small: calc($font-size-base / $type-ratio);
-    $font-medium: $font-size-base;
-    $font-big: calc($font-size-base * $type-ratio);
-
-    //headers
-    // $font-size-h1: $font-size-base * 
 
 
 //FONT SIZE IMPLEMENTATION 
@@ -52,22 +65,24 @@ $font-size-base: 1.6rem;
 //     }
 // }
 
-//TAMAÑOS DE FUENTE
-html {
-    font-size: 62.5%;
-}
-
-$font-size-h1: 6.4rem;  
-$font-size-h2: 4.8rem;
-$font-size-h3: 4.0rem;
-$font-size-h4: 3.2rem;
-$font-size-h5: 2.4rem;
-$font-size-h6: 2.0rem; 
-
-$font-size-small: 0.8rem;
-$font-size-default: 1.6rem;
-$font-size-big: 2rem;
+// //BORDER COLORS
+// $border-color: $color-primary; 
 
 
-//BORDER COLORS
-$border-color: $color-primary; 
+// // MAPA DE VARIABLES
+// $red: red;
+// // &blue: #0000ff;
+// // &pink: rgb(0,0,255);
+
+// $mapa-colores: (
+//     "red": $red,
+//     "blue": $blue,
+//     "pink": $blue,
+
+// );
+
+// @each $color, $i in $color {
+//     .text-#{$color} {
+//         color: $i;
+//     }
+// }

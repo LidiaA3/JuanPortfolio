@@ -1,5 +1,16 @@
 @import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
 
 .topbar {
-   @include color-blue
+   // @include color-blue
+   display: flex;
+   justify-content: space-between;
+   padding: 16px;
+
+   a {
+      text-decoration: none;
+      color: $color-primary;
+   }
+
+    
 }

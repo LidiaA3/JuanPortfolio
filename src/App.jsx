@@ -6,16 +6,22 @@ import Home from "./views/Home";
 import Contact from "./views/contact/Contact";
 import Styleguide from "./styleguide/Styleguide";
 import Topbar from "./components/topbar/Topbar";
+import IconHead from "./components/icons/IconHead";
 
 function App() {
   return (
     <>
       <header>
-        <Topbar />
-        <h1>Project Gamma</h1>
-        <Link to="/">Home</Link>
+        {/* <Topbar /> */}
+        {/* <h1>
+          Project Gamma 
+          <div className="green">
+          <IconHead size="" className=""/>
+          </div>
+        </h1> */}
+        {/* <Link to="/">Home</Link>
         <Link to="/contact">Contact</Link>
-        <Link to="/styleguide">Styleguide</Link>
+        <Link to="/styleguide">Styleguide</Link> */}
       </header>
       <main>
         <Routes>
