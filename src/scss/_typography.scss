@@ -16,7 +16,8 @@ h2, .h2 {
    }
 
 h3, .h3 {
- font-size: $font-size-h3;
+    font-family: $font-secundary;
+    font-size: $font-size-h3;
 }
 
 h4, .h4 {
@@ -30,4 +31,14 @@ h5, .h5 {
 h6, .h6 {
     font-size: $font-size-h6;
     font-family: $font-secundary;
+}
+
+p, .text-default {
+    font-family: $font-primary;
+    font-size: $font-size-default;
+}
+
+.text-small {
+    font-family: $font-primary;
+    font-size: $font-size-small;
 }

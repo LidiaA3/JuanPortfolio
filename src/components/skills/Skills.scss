@@ -1,0 +1,11 @@
+@import '../../scss/variables';
+
+.skill {
+    border: 1px solid $color-primary;
+}
+.rounded {
+    border-radius: 100px;
+}
+.straight {
+    border-radius: 0;
+}

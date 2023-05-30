@@ -1,5 +1,5 @@
 // COLORS
-$color-blue-fluor: hsl(251%, 100%, 48%);
+$color-blue-fluor: hsl(251 % 360, 100%, 48%);
 
     //COLOR IMPLEMENTATION
     $color-primary: $color-blue-fluor;
@@ -29,8 +29,8 @@ $color-blue-fluor: hsl(251%, 100%, 48%);
     $font-size-h6: 2.7rem;
 
     //paragraphs
-    $font-small: 1.5rem;
-    $font-default: $font-size-base;
+    $font-size-small: 1.5rem;
+    $font-size-default: $font-size-base;
 
 
 
