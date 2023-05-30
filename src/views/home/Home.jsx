@@ -77,7 +77,7 @@ export default function Home() {
         <section className="buttons-section">
           <span className="text-default">¿Quieres saber más?</span>
           <Button text="CV detallado" />
-          <Button text="Portafolio" />
+          <Button url="/portafolio" text="Portafolio" />
         </section>
       </main>
     </>
