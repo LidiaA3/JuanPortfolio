@@ -1,5 +1,6 @@
 import Topbar from "../components/topbar/Topbar";
 import Skill from "../components/skills/Skill";
+import Button from "../components/buttons/button";
 import "./Home.scss";
 
 export default function Home() {
@@ -72,6 +73,11 @@ export default function Home() {
               <Skill type="rounded" text="texto corto" />
             </div>
           </div>
+        </section>
+        <section className="buttons-section">
+          <span className="text-default">¿Quieres saber más?</span>
+          <Button text="CV detallado" />
+          <Button text="Portafolio" />
         </section>
       </main>
     </>

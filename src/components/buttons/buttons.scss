@@ -1,23 +1,22 @@
 @import '../../scss/variables';
 
 .btn {
-    font-family: 'Anthony Regular';
-    font-size: 20px;
     font-weight: var(--weight-light);
     color: var(--color-gray);
     background-color: var(--color-red);
     border: 1px solid $color-primary;  
-    border-radius: 5rem; 
+    border-radius: 100px; 
     padding: 8px;
     width: 100%;
-    box-sizing: border-box;
-    transition: all 0.1s ease-in-out;
+    // box-sizing: border-box;
+    // transition: all 0.1s ease-in-out;
+
 
 }
 
-.btn:hover, .btn:active {
-    color: var(--color-red);
-    background-color: $color-primary;
-    border: solid 1px var(--color-red);
-    cursor: pointer;
-}
+// .btn:hover, .btn:active {
+//     color: var(--color-red);
+//     background-color: $color-primary;
+//     border: solid 1px var(--color-red);
+//     cursor: pointer;
+// }

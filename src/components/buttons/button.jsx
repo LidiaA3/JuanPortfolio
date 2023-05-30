@@ -1,10 +1,9 @@
 import "./buttons.scss";
 
-function Button() {
+function Button(props) {
   return (
     <>
-      <button className="btn">AÑADIR AL CARRITO</button>;
-      <button>AÑADIR AL CARRITO</button>;<button>AÑADIR AL CARRITO</button>;
+      <button className="btn h4">{props.text}</button>;
     </>
   );
 }
