@@ -1,12 +1,12 @@
-import Topbar from "../components/topbar/Topbar";
-import Skill from "../components/skills/Skill";
-import Button from "../components/buttons/button";
+import Topbar from "../../components/topbar/Topbar";
+import Skill from "../../components/skills/Skill";
+import Button from "../../components/buttons/button";
 import "./Home.scss";
 
 export default function Home() {
   return (
     <>
-      <Topbar />
+      <Topbar url="/portafolio" link="Portafolio" />
       <main>
         <section className="hero-section">
           <div className="hero-section__main-text">
