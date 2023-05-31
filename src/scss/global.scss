@@ -1,12 +1,15 @@
 @import './variables';
 @import './_mixins.scss';
 @import './_typography';
+@import './_images';
+
 
 
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     color: $color-primary;

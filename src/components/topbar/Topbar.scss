@@ -5,12 +5,19 @@
    // @include color-blue
    display: flex;
    justify-content: space-between;
+   width: 100%;
+   position: fixed;
    padding: 16px;
 
    a {
       text-decoration: none;
       color: $color-primary;
-   }
+   }   
+   
+}
 
-    
+
+.topbar__nav {
+   color: red;
+   justify-content: space-between;
 }

@@ -2,6 +2,7 @@ import Topbar from "../../components/topbar/Topbar";
 import Skill from "../../components/skills/Skill";
 import Button from "../../components/buttons/button";
 import "./Home.scss";
+import "../../scss/_images.scss";
 
 export default function Home() {
   return (
@@ -27,6 +28,11 @@ export default function Home() {
               React.js
             </span>
           </div>
+          <img
+            className="hero-section__floor"
+            src="/public/floor-mobile-optimized.svg"
+            alt="decorative image"
+          />
         </section>
         <section className="bio-section">
           <p>

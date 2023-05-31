@@ -1,10 +1,9 @@
 @import '../../scss/variables';
 
 .hero-section {
-    height: calc(100vh - 65px);
-    background-image: url(https://placekeanu.com/2000/105);
-    background-repeat: no-repeat;
-    background-position: center bottom;
+    padding-top: 65px;
+    height: calc(100vh - 65px);    
+    // height: 100vh;
         &__main-text {
             display: flex;
             flex-direction: column;            
