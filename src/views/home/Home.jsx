@@ -3,31 +3,29 @@ import Skill from "../../components/skills/Skill";
 import Button from "../../components/buttons/button";
 import "./Home.scss";
 import "../../scss/_images.scss";
+import Credits from "../../components/credits/Credits";
 
 export default function Home() {
   return (
     <>
       <Topbar url="/portafolio" link="Portafolio" />
-      <main>
+      <main className="home-main">
         <section className="hero-section">
           <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
-            <span className="text-default hero-section__profession-text">
-              diseñador UX/UI
-              <br />
-              diseñador gráfico
-              <br />
-              desarrollador web
-            </span>
-            <span className="hero-section__credits text-small">
-              Diseño y desarrollo: <br />
-              Juan Tamarit
-              <br />
-              Framework:
-              <br />
-              React.js
-            </span>
+            <div>
+              <h2 className="text-default hero-section__profession-text">
+                diseñador UX/UI
+              </h2>
+              <h2 className="text-default hero-section__profession-text">
+                diseñador gráfico
+              </h2>
+              <h2 className="text-default hero-section__profession-text">
+                desarrollador web
+              </h2>
+            </div>
           </div>
+          <Credits />
           <div className="hero-section__floor-container">
             <img
               className="hero-section__floor"

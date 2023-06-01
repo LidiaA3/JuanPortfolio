@@ -32,18 +32,47 @@ $color-blue-fluor: hsl(251 % 360, 100%, 48%);
     $font-size-small: 1.5rem;
     $font-size-default: $font-size-base;
 
-
-
+    //FONT WEIGHTS
+    $font-weight-light: 300;
+    $font-weight-regular: 400;
+    $font-weight-medium: 500;
+    $font-weight-semibold: 600;
+    $font-weight-bold: 700;
 
 //UNITS
-$unit-base: 0.8rem;
-$unit-lineheight-ratio: 1.3;
+    $base-unit: 0.8rem; //8px
+    //big-scale (scale of values)
+    // consists in a valor succession where each value is the result of the addition of the all anterior values
+    $big-scale-base-unit: $base-unit; //8px
+    $big-scale-unit-1: $big-scale-base-unit; //8px
+    $big-scale-unit-2: calc($big-scale-base-unit * 2); //16px
+    $big-scale-unit-3: calc($big-scale-unit-1 + $big-scale-unit-2); //24px
+    $big-scale-unit-4: calc($big-scale-unit-1 + $big-scale-unit-2 + $big-scale-unit-3); //48px
+    $big-scale-unit-5: calc($big-scale-unit-1 + $big-scale-unit-2 + $big-scale-unit-3 + $big-scale-unit-4); //96px
+    $big-scale-unit-6: calc($big-scale-unit-1 + $big-scale-unit-2 + $big-scale-unit-3 + $big-scale-unit-4 + $big-scale-unit-5); //192px
 
-//TYPE RATIOS
-$perfect-fourth: 1.333;
-$augmented-fourth: 1.414;
+    //default-scale (scale of values)
+    // consists in a valor succession based on multiples of 16px
+    $default-scale-base-unit: ($base-unit * 2); //16px
+    $default-scale-unit-1: $default-scale-base-unit; //16px
+    $default-scale-unit-2: calc($default-scale-base-unit * 2); //32px
+    $default-scale-unit-3: calc($default-scale-base-unit * 3); //48px
+    $default-scale-unit-4: calc($default-scale-base-unit * 4); //64px
+    $default-scale-unit-5: calc($default-scale-base-unit * 5); //80px
+    $default-scale-unit-6: calc($default-scale-base-unit * 6); //96px
+    $default-scale-unit-7: calc($default-scale-base-unit * 7); //112px
+    $default-scale-unit-8: calc($default-scale-base-unit * 8); //128px
+    $default-scale-unit-9: calc($default-scale-base-unit * 9); //144px
+    $default-scale-unit-10: calc($default-scale-base-unit * 10); //160px
 
-$type-ratio: $perfect-fourth;
+
+
+// $unit-lineheight-ratio: 1.3;
+
+//MARGINS
+$horizontal-margins-mobile: 2.4rem;
+
+
 
 
 

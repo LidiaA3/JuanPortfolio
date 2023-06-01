@@ -2,20 +2,22 @@
 
 .hero-section {
     padding-top: 65px;
-    height: calc(100vh - 65px);    
-    // height: 100vh;
-        &__main-text {
-            display: flex;
-            flex-direction: column;            
-        }
-        &__profession-text {
-            text-align: right;
-        }  
-        &__credits {
-            border: 1px solid $color-primary;
-            border-radius: 0 100px 100px 0;
-        }      
+    height: calc(100vh);  
+
+    &__main-text {
+        display: flex;
+        flex-direction: column; 
+        margin-top: $big-scale-unit-5;
+        margin-bottom: $big-scale-unit-6;      
+        gap: $default-scale-unit-2;  
+    }
+    &__profession-text {
+        text-align: right;
+        font-weight: $font-weight-regular;
+    }        
 }
+
+
 
 .skills-section {
     &__knowledges-container {

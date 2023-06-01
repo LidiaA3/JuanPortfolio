@@ -2,6 +2,7 @@
 @import './_mixins.scss';
 @import './_typography';
 @import './_images';
+@import './margins';
 
 
 
@@ -11,7 +12,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     color: $color-primary;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: $font-primary;
 }
+
+// .home-main {
+//     padding: 0 $horizontal-margins-mobile 0 $horizontal-margins-mobile;
+// }
