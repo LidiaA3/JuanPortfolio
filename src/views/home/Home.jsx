@@ -28,11 +28,13 @@ export default function Home() {
               React.js
             </span>
           </div>
-          <img
-            className="hero-section__floor"
-            src="/public/floor-mobile-optimized.svg"
-            alt="decorative image"
-          />
+          <div className="hero-section__floor-container">
+            <img
+              className="hero-section__floor"
+              src="/public/floor-mobile-optimized.svg"
+              alt="decorative image"
+            />
+          </div>
         </section>
         <section className="bio-section">
           <p>

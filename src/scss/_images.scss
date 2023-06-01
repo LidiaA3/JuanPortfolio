@@ -5,16 +5,23 @@
 //     // background-position: center bottom;
 //     // // background-image: url(https://placekeanu.com/200/100/);
 // }
+
+
 img {
     width: 100%;
 }
-.hero-section__floor {
-    position: absolute;
+.hero-section__floor-container {
     height: 105px;
+    width: 393px;
+    position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    overflow: hidden;
 
+}
+
+.hero-section__floor {
+object-fit: cover;
+height: 100%;
 }
 
 .hero-section {
