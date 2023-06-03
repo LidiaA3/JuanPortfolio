@@ -1,4 +1,6 @@
-@import './variables';
+@import './_variables';
+@import './_mixins';
+
 
 
 
@@ -8,6 +10,11 @@ img {
 
 .hero-section {
     background: linear-gradient(180deg, rgba(45, 0, 246, 0.25) 0%, rgba(45, 0, 246, 0) 55%, rgba(45, 0, 246, 0.25) 100%);   
+}
+.content-section {
+    padding-top: $default-scale-unit-2;
+    background: linear-gradient(180deg, rgba(45, 0, 246, 0.25) 0%, rgba(45, 0, 246, 0) 55%, rgba(45, 0, 246, 0.25) 100%);   
+
 }
 
 .hero-section__floor {
@@ -23,8 +30,7 @@ height: 100%;
     overflow: hidden;
     background-color: white;
     border-top: 0.05rem solid $color-primary;
-    border-bottom: 0.05rem solid $color-primary;
-
+    border-bottom: 0.1rem solid $color-primary;
     }
 }  
 
@@ -38,7 +44,7 @@ height: 100%;
     }
   }
   
-  @include dynamic-hero-section-floor(375px, 20%, scale(1, 1) translate(0px, 0px));
+  @include dynamic-hero-section-floor(375px, 25%, scale(1, 1) translate(0px, 0px));
   @include dynamic-hero-section-floor(450px, 31%, scale(1, 1) translate(0px, 0px));
   @include dynamic-hero-section-floor(525px, 42%, scale(1, 1) translate(0px, 0px));
   @include dynamic-hero-section-floor(600px, 53%, scale(1, 0.8) translate(0px, -20%));

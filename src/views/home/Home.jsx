@@ -35,56 +35,71 @@ export default function Home() {
             />
           </div>
         </section>
-        <section className="bio-section">
-          <p>
-            Soy una persona apasionada, amante del aprendizaje y del crecimiento
-            constante. Mi historial académico es bastante singular, me formé
-            como pianista de jazz antes de meterme de lleno en el diseño
-            gráfico, el diseño UX/UI y el desarrollo. Este bagaje me ha
-            permitido obtener valiosas habilidades como: capacidad de trabajo en
-            equipo, capacidad de escucha, creatividad, proactividad, o
-            pensamiento lateral, entre otras. Como diseñador y desarrollador,
-            estoy muy interesado en la usabilidad, puesto que es el factor
-            diferenciador entre un diseño “bonito” y un diseño realmente
-            valioso. Y en definitiva, es a esto a lo que quiero aspirar, a
-            aportar valor. Para ello, estoy deseoso de poder trabajar con un
-            buen equipo de creativos y/o desarrolladores, así que espero que te
-            guste mi trabajo y encajar en tu equipo. ¡Gracias por tu tiempo!
-          </p>
-        </section>
-        <section className="skills-section">
-          <div className="skills-section__knowledges-container">
-            <span className="h3">Conocimientos</span>
-            <div className="skills-section__skills-group--knowledge">
-              <Skill type="straight" text="Ejemplo texto largo" />
-              <Skill type="rounded" text="texto corto" />
-              <Skill type="straight" text="Ejemplo texto largo" />
-              <Skill type="rounded" text="texto corto" />
+        <section className="content-section">
+          <section className="bio-section">
+            <p>
+              Soy una persona <b>apasionada</b>, amante del <b>aprendizaje</b> y
+              del crecimiento constante. Mi historial académico es bastante
+              singular, me formé como pianista de jazz antes de meterme de lleno
+              en el diseño gráfico, el diseño UX/UI y el desarrollo.
+            </p>
+            <br />
+            <p>
+              Este bagaje me ha permitido obtener valiosas habilidades como:
+              capacidad de trabajo en <b>equipo</b>, capacidad de <b>escucha</b>
+              , <b>creatividad</b>, <b>proactividad</b>, o{" "}
+              <b>pensamiento lateral</b>, entre otras.
+            </p>
+            <br />
+            <p>
+              Como diseñador y desarrollador, estoy muy interesado en la{" "}
+              <b>usabilidad</b>, puesto que es el factor diferenciador entre un
+              diseño “bonito” y un diseño realmente valioso.
+            </p>
+            <br />
+            <p>
+              Y en definitiva, es a esto a lo que quiero aspirar, a aportar{" "}
+              <b>valor</b>. Para ello, estoy deseoso de poder trabajar con un
+              buen equipo de creativos y/o desarrolladores, así que espero que
+              te guste mi trabajo y encajar en tu equipo.
+            </p>
+            <br />
+            <p>¡Gracias por tu tiempo!</p>
+          </section>
+          <section className="skills-section">
+            <div className="skills-section__knowledges-container">
+              <span className="h3">Conocimientos</span>
+              <div className="skills-section__skills-group--knowledge">
+                <Skill type="straight" text="Ejemplo texto largo" />
+                <Skill type="rounded" text="texto corto" />
+                <Skill type="straight" text="Ejemplo texto largo" />
+                <Skill type="rounded" text="texto corto" />
+              </div>
             </div>
-          </div>
-          <div className="skills-section__tools-container">
-            <span className="h3">Herramientas</span>
-            <div className="skills-section__skills-group--knowledge">
-              <Skill type="straight" text="Ejemplo texto largo" />
-              <Skill type="rounded" text="texto corto" />
-              <Skill type="straight" text="Ejemplo texto largo" />
-              <Skill type="rounded" text="texto corto" />
+            <div className="skills-section__tools-container">
+              <span className="h3">Herramientas</span>
+              <div className="skills-section__skills-group--knowledge">
+                <Skill type="straight" text="Ejemplo texto largo" />
+                <Skill type="rounded" text="texto corto" />
+                <Skill type="straight" text="Ejemplo texto largo" />
+                <Skill type="rounded" text="texto corto" />
+              </div>
             </div>
-          </div>
-          <div className="skills-section__technologies-container">
-            <span className="h3">Tecnologías</span>
-            <div className="skills-section__skills-group--knowledge">
-              <Skill type="straight" text="Ejemplo texto largo" />
-              <Skill type="rounded" text="texto corto" />
-              <Skill type="straight" text="Ejemplo texto largo" />
-              <Skill type="rounded" text="texto corto" />
+            <div className="skills-section__technologies-container">
+              <span className="h3">Tecnologías</span>
+              <div className="skills-section__skills-group--knowledge">
+                <Skill type="straight" text="Ejemplo texto largo" />
+                <Skill type="rounded" text="texto corto" />
+                <Skill type="straight" text="Ejemplo texto largo" />
+                <Skill type="rounded" text="texto corto" />
+              </div>
             </div>
-          </div>
-        </section>
-        <section className="buttons-section">
-          <span className="text-default">¿Quieres saber más?</span>
-          <Button text="CV detallado" />
-          <Button url="/portafolio" text="Portafolio" />
+          </section>
+          <section className="buttons-section">
+            <span className="text-default">¿Quieres saber más?</span>
+            <Button text="CV detallado" />
+            <Button url="/portafolio" text="Portafolio" />
+          </section>
         </section>
         <Cube />
       </main>
