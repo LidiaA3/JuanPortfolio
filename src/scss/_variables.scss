@@ -71,7 +71,14 @@ $color-blue-fluor: hsl(251 % 360, 100%, 48%);
     $default-scale-unit-8: calc($default-scale-base-unit * 8); //128px
     $default-scale-unit-9: calc($default-scale-base-unit * 9); //144px
     $default-scale-unit-10: calc($default-scale-base-unit * 10); //160px
-
+    
+    //small-details-scale (scale of values)
+    $small-details-scale-base-unit: calc($base-unit / 2); //4px
+    $small-details-scale-unit-1: $small-details-scale-base-unit; //4px
+    $small-details-scale-unit-2: calc($small-details-scale-unit-1 + 0.4rem); //8px
+    $small-details-scale-unit-3: calc($small-details-scale-unit-2 + 0.4rem); //12px
+    $small-details-scale-unit-4: calc($small-details-scale-unit-3 + 0.4rem); //16px
+    $small-details-scale-unit-5: calc($small-details-scale-unit-4 + 0.4rem); //20px
 
 
 // $unit-lineheight-ratio: 1.3;

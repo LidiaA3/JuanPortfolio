@@ -35,10 +35,15 @@
         display: flex;
         flex-direction: column;
         gap: $big-scale-unit-5;
-               
+
         &__tools-container {
             text-align: right;
         }        
+
+        & span.h3 {
+            display: block;
+            margin-bottom: $big-scale-unit-2;
+        }
     }
 
     .buttons-section {
