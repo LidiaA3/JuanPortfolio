@@ -1,5 +1,8 @@
 .hero-section {
     &__main-text {
         padding: 0 $horizontal-margins-mobile;     
+        @include tablet {
+            padding: 0 $horizontal-margins-tablet;
+        }
     }
 }

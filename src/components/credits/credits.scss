@@ -1,4 +1,6 @@
-@import '../../scss/variables';
+@import '../../scss/_variables';
+@import '../../scss/_mixins';
+
 
 .credits {
     position: absolute;
@@ -10,6 +12,17 @@
     padding: 1.2rem 4rem 1.2rem 1.2rem;
     margin: 0 $horizontal-margins-mobile;
     background-color: white;
+    @include tablet {
+        display: inline-block;
+        text-align: right;
+        padding: 1.2rem 1.2rem 1.2rem 4rem;
+        border-radius: 100px 0 0 100px;
+        margin: 0 $horizontal-margins-tablet;
+        right: 0;
+
+        
+        
+    }
 
     span {
         display: block;

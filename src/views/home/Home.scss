@@ -1,4 +1,6 @@
-@import '../../scss/variables';
+@import '../../scss/_variables';
+@import '../../scss/_mixins';
+
 
 .hero-section {
     padding-top: 65px;
@@ -10,10 +12,16 @@
         margin-top: $default-scale-unit-8;
         margin-bottom: 22.56vh;      
         gap: 3.76vh;  
+        @include tablet {
+            max-width: 50%;
+        }
     }
     &__profession-text {
         text-align: right;
         font-weight: $font-weight-regular;
+        @include tablet {
+            text-align: left;
+        }
     }        
 }
 
