@@ -9,10 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^9.70.5",
+    "@react-three/fiber": "^8.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-three-fiber": "^6.0.13",
     "sass": "^1.62.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "three": "^0.153.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

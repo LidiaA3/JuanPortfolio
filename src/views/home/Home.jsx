@@ -4,6 +4,7 @@ import Button from "../../components/buttons/button";
 import "./Home.scss";
 import "../../scss/_images.scss";
 import Credits from "../../components/credits/Credits";
+import Cube from "../../components/Cube/Cube";
 
 export default function Home() {
   return (
@@ -85,6 +86,7 @@ export default function Home() {
           <Button text="CV detallado" />
           <Button url="/portafolio" text="Portafolio" />
         </section>
+        <Cube />
       </main>
     </>
   );

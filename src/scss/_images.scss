@@ -1,33 +1,70 @@
-// .hero-section {
-//     // // background-image: url(/public/floor-mobile-optimized.svg); 
-//     // background-size: 2000px;
-//     // background-repeat: no-repeat;
-//     // background-position: center bottom;
-//     // // background-image: url(https://placekeanu.com/200/100/);
-// }
+@import './variables';
+
 
 
 img {
     width: 100%;
 }
-.hero-section__floor-container {
-    height: 105px;
-    width: 393px;
-    position: absolute;
-    bottom: 0;
-    overflow: hidden;
+
+.hero-section {
+    background: linear-gradient(180deg, rgba(45, 0, 246, 0.25) 0%, rgba(45, 0, 246, 0) 55%, rgba(45, 0, 246, 0.25) 100%);   
 }
 
 .hero-section__floor {
 object-fit: cover;
 height: 100%;
-}
 
-.hero-section {
-    background: linear-gradient(180deg, rgba(45, 0, 246, 0.25) 0%, rgba(45, 0, 246, 0) 50%, rgba(45, 0, 246, 0.208015) 100%);   
-}
 
-// .body {
-//     background: linear-gradient(180deg, rgba(45, 0, 246, 0.25) 0%, rgba(45, 0, 246, 0) 50%, rgba(45, 0, 246, 0.208015) 100%);   
+    &-container {
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    background-color: white;
+    border-top: 0.05rem solid $color-primary;
+    border-bottom: 0.05rem solid $color-primary;
 
-// }
+    }
+}  
+
+@mixin dynamic-hero-section-floor($min-width, $height-increment, $transform-values: scale(1, 1) translate(0px, 0px)) {
+    @media screen and (min-width: $min-width) {
+      .hero-section__floor {
+        object-fit: cover;
+        height: calc(100% + #{$height-increment});
+        transform: $transform-values;
+      }
+    }
+  }
+  
+  @include dynamic-hero-section-floor(375px, 20%, scale(1, 1) translate(0px, 0px));
+  @include dynamic-hero-section-floor(450px, 31%, scale(1, 1) translate(0px, 0px));
+  @include dynamic-hero-section-floor(525px, 42%, scale(1, 1) translate(0px, 0px));
+  @include dynamic-hero-section-floor(600px, 53%, scale(1, 0.8) translate(0px, -20%));
+  @include dynamic-hero-section-floor(675px, 64%, scale(1, 0.8) translate(0px, -20%));
+  @include dynamic-hero-section-floor(750px, 75%, scale(1, 0.8) translate(0px, -20%));
+  @include dynamic-hero-section-floor(825px, 86%, scale(1, 0.7) translate(0px, -30%));
+  @include dynamic-hero-section-floor(900px, 97%, scale(1, 0.7) translate(0px, -30%));
+  @include dynamic-hero-section-floor(975px, 108%, scale(1, 0.7) translate(0px, -30%));
+  @include dynamic-hero-section-floor(1050px, 119%, scale(1, 0.7) translate(0px, -30%));
+  @include dynamic-hero-section-floor(1125px, 130%, scale(1, 0.7) translate(0px, -30%));
+  @include dynamic-hero-section-floor(1200px, 141%, scale(1, 0.7) translate(0px, -30%));
+  @include dynamic-hero-section-floor(1275px, 152%, scale(1, 0.7) translate(0px, -30%));
+  @include dynamic-hero-section-floor(1350px, 163%, scale(1, 0.6) translate(0px, -40%));
+  @include dynamic-hero-section-floor(1425px, 174%, scale(1, 0.6) translate(0px, -40%));
+  @include dynamic-hero-section-floor(1500px, 185%, scale(1, 0.6) translate(0px, -40%));
+  @include dynamic-hero-section-floor(1575px, 196%, scale(1, 0.6) translate(0px, -40%));
+  @include dynamic-hero-section-floor(1650px, 207%, scale(1, 0.6) translate(0px, -40%));
+  @include dynamic-hero-section-floor(1725px, 218%, scale(1, 0.6) translate(0px, -40%));
+  @include dynamic-hero-section-floor(1800px, 229%, scale(1, 0.6) translate(0px -40%));
+  @include dynamic-hero-section-floor(1875px, 240%, scale(1, 0.6) translate(0px, -40%));
+  
+
+
+
+ 
+  
+
+
+
