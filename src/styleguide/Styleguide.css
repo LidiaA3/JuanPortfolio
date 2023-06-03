@@ -1,0 +1,343 @@
+html {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "Anthony Regular";
+  src: url("../assets/fonts/Anthony.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+h1, .h1 {
+  font-family: "Anthony Regular", sans-serif;
+  font-size: 8.5rem;
+}
+@media screen and (min-width: 1194px) {
+  h1, .h1 {
+    font-size: 13.5rem;
+  }
+}
+
+h2, .h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 6.4rem;
+}
+
+h3, .h3 {
+  font-family: "Anthony Regular", sans-serif;
+  font-size: 4.8rem;
+}
+
+h4, .h4 {
+  font-size: 3.6rem;
+  font-family: "Anthony Regular", sans-serif;
+}
+
+h5, .h5 {
+  font-size: 2.7rem;
+}
+
+h6, .h6 {
+  font-size: 2.7rem;
+  font-family: "Anthony Regular", sans-serif;
+}
+
+p, .text-default {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2rem;
+}
+
+.text-small {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+}
+
+.home-main .h1 {
+  line-height: 0.9;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+}
+
+.hero-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 0, 246, 0.25)), color-stop(55%, rgba(45, 0, 246, 0)), to(rgba(45, 0, 246, 0.25)));
+  background: linear-gradient(180deg, rgba(45, 0, 246, 0.25) 0%, rgba(45, 0, 246, 0) 55%, rgba(45, 0, 246, 0.25) 100%);
+}
+
+.content-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 0, 246, 0.25)), color-stop(55%, rgba(45, 0, 246, 0)), to(rgba(45, 0, 246, 0.25)));
+  background: linear-gradient(180deg, rgba(45, 0, 246, 0.25) 0%, rgba(45, 0, 246, 0) 55%, rgba(45, 0, 246, 0.25) 100%);
+}
+
+.hero-section__floor {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.hero-section__floor-container {
+  height: 120px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  background-color: white;
+  border-top: 0.05rem solid hsl(251deg, 100%, 48%);
+  border-bottom: 0.1rem solid hsl(251deg, 100%, 48%);
+}
+
+@media screen and (min-width: 375px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 25%);
+    -webkit-transform: scale(1, 1) translate(0px, 0px);
+            transform: scale(1, 1) translate(0px, 0px);
+  }
+}
+@media screen and (min-width: 450px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 31%);
+    -webkit-transform: scale(1, 1) translate(0px, 0px);
+            transform: scale(1, 1) translate(0px, 0px);
+  }
+}
+@media screen and (min-width: 525px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 42%);
+    -webkit-transform: scale(1, 1) translate(0px, 0px);
+            transform: scale(1, 1) translate(0px, 0px);
+  }
+}
+@media screen and (min-width: 600px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 53%);
+    -webkit-transform: scale(1, 0.8) translate(0px, -20%);
+            transform: scale(1, 0.8) translate(0px, -20%);
+  }
+}
+@media screen and (min-width: 675px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 64%);
+    -webkit-transform: scale(1, 0.8) translate(0px, -20%);
+            transform: scale(1, 0.8) translate(0px, -20%);
+  }
+}
+@media screen and (min-width: 750px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 75%);
+    -webkit-transform: scale(1, 0.8) translate(0px, -20%);
+            transform: scale(1, 0.8) translate(0px, -20%);
+  }
+}
+@media screen and (min-width: 825px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 86%);
+    -webkit-transform: scale(1, 0.7) translate(0px, -30%);
+            transform: scale(1, 0.7) translate(0px, -30%);
+  }
+}
+@media screen and (min-width: 900px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 97%);
+    -webkit-transform: scale(1, 0.7) translate(0px, -30%);
+            transform: scale(1, 0.7) translate(0px, -30%);
+  }
+}
+@media screen and (min-width: 975px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 108%);
+    -webkit-transform: scale(1, 0.7) translate(0px, -30%);
+            transform: scale(1, 0.7) translate(0px, -30%);
+  }
+}
+@media screen and (min-width: 1050px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 119%);
+    -webkit-transform: scale(1, 0.7) translate(0px, -30%);
+            transform: scale(1, 0.7) translate(0px, -30%);
+  }
+}
+@media screen and (min-width: 1125px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 130%);
+    -webkit-transform: scale(1, 0.7) translate(0px, -30%);
+            transform: scale(1, 0.7) translate(0px, -30%);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 141%);
+    -webkit-transform: scale(1, 0.7) translate(0px, -30%);
+            transform: scale(1, 0.7) translate(0px, -30%);
+  }
+}
+@media screen and (min-width: 1275px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 152%);
+    -webkit-transform: scale(1, 0.7) translate(0px, -30%);
+            transform: scale(1, 0.7) translate(0px, -30%);
+  }
+}
+@media screen and (min-width: 1350px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 163%);
+    -webkit-transform: scale(1, 0.6) translate(0px, -40%);
+            transform: scale(1, 0.6) translate(0px, -40%);
+  }
+}
+@media screen and (min-width: 1425px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 174%);
+    -webkit-transform: scale(1, 0.6) translate(0px, -40%);
+            transform: scale(1, 0.6) translate(0px, -40%);
+  }
+}
+@media screen and (min-width: 1500px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 185%);
+    -webkit-transform: scale(1, 0.6) translate(0px, -40%);
+            transform: scale(1, 0.6) translate(0px, -40%);
+  }
+}
+@media screen and (min-width: 1575px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 196%);
+    -webkit-transform: scale(1, 0.6) translate(0px, -40%);
+            transform: scale(1, 0.6) translate(0px, -40%);
+  }
+}
+@media screen and (min-width: 1650px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 207%);
+    -webkit-transform: scale(1, 0.6) translate(0px, -40%);
+            transform: scale(1, 0.6) translate(0px, -40%);
+  }
+}
+@media screen and (min-width: 1725px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 218%);
+    -webkit-transform: scale(1, 0.6) translate(0px, -40%);
+            transform: scale(1, 0.6) translate(0px, -40%);
+  }
+}
+@media screen and (min-width: 1800px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 229%);
+    -webkit-transform: scale(1, 0.6) translate(0px -40%);
+            transform: scale(1, 0.6) translate(0px -40%);
+  }
+}
+@media screen and (min-width: 1875px) {
+  .hero-section__floor {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: calc(100% + 240%);
+    -webkit-transform: scale(1, 0.6) translate(0px, -40%);
+            transform: scale(1, 0.6) translate(0px, -40%);
+  }
+}
+.hero-section__main-text {
+  padding: 0 2.4rem;
+}
+@media screen and (min-width: 1194px) {
+  .hero-section__main-text {
+    padding: 0 16rem;
+  }
+}
+
+.bio-section, .skills-section, .buttons-section {
+  margin: 0 2.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: hsl(251deg, 100%, 48%);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.styleguide {
+  color: red;
+}
+
+.headers-section {
+  border: 1px solid blue;
+  padding: 0.5;
+}
+
+.colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.colors__grayscale, .colors__blue, .colors__green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}

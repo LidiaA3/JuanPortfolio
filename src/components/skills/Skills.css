@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+}
+
+.skill {
+  border: 1px solid hsl(251deg, 100%, 48%);
+  padding: 1.6rem;
+}
+
+.rounded {
+  border-radius: 100px;
+}
+
+.straight {
+  border-radius: 0;
+}

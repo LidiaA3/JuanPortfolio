@@ -69,7 +69,7 @@ export default function Home() {
           <section className="skills-section">
             <div className="skills-section__knowledges-container">
               <span className="h3">Conocimientos</span>
-              <div className="skills-section__skills-group--knowledge">
+              <div className="skills-section__skills-group--knowledges">
                 <Skill type="straight" text="Ejemplo texto largo" />
                 <Skill type="rounded" text="texto corto" />
                 <Skill type="straight" text="Ejemplo texto largo" />
@@ -78,7 +78,7 @@ export default function Home() {
             </div>
             <div className="skills-section__tools-container">
               <span className="h3">Herramientas</span>
-              <div className="skills-section__skills-group--knowledge">
+              <div className="skills-section__skills-group--tools">
                 <Skill type="straight" text="Ejemplo texto largo" />
                 <Skill type="rounded" text="texto corto" />
                 <Skill type="straight" text="Ejemplo texto largo" />
@@ -87,7 +87,7 @@ export default function Home() {
             </div>
             <div className="skills-section__technologies-container">
               <span className="h3">Tecnologías</span>
-              <div className="skills-section__skills-group--knowledge">
+              <div className="skills-section__skills-group--Technologies">
                 <Skill type="straight" text="Ejemplo texto largo" />
                 <Skill type="rounded" text="texto corto" />
                 <Skill type="straight" text="Ejemplo texto largo" />

@@ -25,26 +25,50 @@
     }        
 }
 
-
-
-.skills-section {
-    &__knowledges-container {
-        text-align: left;
+.content-section {
+    padding-top: $default-scale-unit-4; 
+    display: flex;
+    flex-direction: column;
+    gap: $big-scale-unit-6;
+    
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        gap: $big-scale-unit-5;
+               
+        &__tools-container {
+            text-align: right;
+        }        
     }
-    &__tools-container {
-        text-align: right;
-    }
-    &__technologies-container {
-         text-align: left;
-     }
-}
 
-.buttons-section {
-    span {
+    .buttons-section {
+        padding-bottom: $big-scale-unit-5;  
+
+        span {
         display: block;
-        text-align: center;    
+        text-align: center;  
+        padding-bottom: $big-scale-unit-3;
+        }
     }
 }
+
+[class^="skills-section__skills-group"] {
+    display: flex;
+    flex-wrap: wrap;    
+  }
+
+  .skills-section__skills-group--tools {
+        justify-content: right;    
+  }
+
+
+
+
+ 
+
+
+
+
 
 
 
