@@ -12,18 +12,6 @@ import Portfolio from "./views/portfolio/Portfolio";
 function App() {
   return (
     <>
-      <header>
-        {/* <Topbar /> */}
-        {/* <h1>
-          Project Gamma 
-          <div className="green">
-          <IconHead size="" className=""/>
-          </div>
-        </h1> */}
-        {/* <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/styleguide">Styleguide</Link> */}
-      </header>
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

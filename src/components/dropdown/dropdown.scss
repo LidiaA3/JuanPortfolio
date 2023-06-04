@@ -1,0 +1,27 @@
+@import '../../scss/variables.scss';
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dropdown {
+    &__container {
+        margin-bottom: $big-scale-unit-5;
+    }
+
+    &__accordion {
+        width: 100%;
+        margin: auto;
+    }
+    &__category {
+        position: relative;
+        padding: $default-scale-unit-2 $default-scale-unit-1;
+        background: #7e9c8c;
+        border-bottom: 1px solid $color-primary;
+        list-style: none;
+}
+}
+
