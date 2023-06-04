@@ -7,7 +7,6 @@ function Button(props) {
       <button className="btn h4">
         <Link to={props.url}>{props.text}</Link>
       </button>
-      ;
     </>
   );
 }

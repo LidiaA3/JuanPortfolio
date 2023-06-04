@@ -71,6 +71,18 @@ $color-blue-fluor: hsl(251 % 360, 100%, 48%);
     $default-scale-unit-8: calc($default-scale-base-unit * 8); //128px
     $default-scale-unit-9: calc($default-scale-base-unit * 9); //144px
     $default-scale-unit-10: calc($default-scale-base-unit * 10); //160px
+    $default-scale-unit-11: calc($default-scale-base-unit * 11); //176px
+    $default-scale-unit-12: calc($default-scale-base-unit * 12); //192px
+    $default-scale-unit-13: calc($default-scale-base-unit * 13); //208px
+    $default-scale-unit-14: calc($default-scale-base-unit * 14); //224px
+    $default-scale-unit-15: calc($default-scale-base-unit * 15); //240px
+    $default-scale-unit-16: calc($default-scale-base-unit * 16); //256px
+    $default-scale-unit-17: calc($default-scale-base-unit * 17); //272px
+    $default-scale-unit-18: calc($default-scale-base-unit * 18); //288px
+    $default-scale-unit-19: calc($default-scale-base-unit * 19); //304px
+    $default-scale-unit-20: calc($default-scale-base-unit * 20); //320px
+
+
     
     //small-details-scale (scale of values)
     $small-details-scale-base-unit: calc($base-unit / 2); //4px

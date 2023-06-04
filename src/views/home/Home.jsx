@@ -101,7 +101,7 @@ export default function Home() {
             <Button url="/portafolio" text="Portafolio" />
           </section>
         </section>
-        <Cube />
+        {/* <Cube /> */}
       </main>
     </>
   );
