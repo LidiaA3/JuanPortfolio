@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import $ from "jquery";
+import { Link } from "react-router-dom";
 
 import "./dropdown.scss";
 
@@ -43,10 +44,12 @@ function Dropdown() {
               Diseño UX/UI<span className="dropdown__icon"></span>
             </div>
             <ul className="text-default dropdown__projects-list">
-              <li>
-                <span>SubMenu01</span>
-                <span>Tipology</span>
-              </li>
+              <Link to="/project" className="link">
+                <li>
+                  <span>SubMenu01</span>
+                  <span>Tipology</span>
+                </li>
+              </Link>
               <li>
                 <span>SubMenu02</span>
                 <span>Tipology</span>
