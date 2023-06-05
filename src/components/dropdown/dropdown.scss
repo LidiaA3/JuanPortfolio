@@ -21,7 +21,51 @@ li {
         padding: $default-scale-unit-2 $default-scale-unit-1;
         background: #7e9c8c;
         border-bottom: 1px solid $color-primary;
-        list-style: none;
+        list-style: none;        
+    }
+    &__icon {
+        display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 20px;
+      width: 10px;
+      height: 2px;
+      margin: auto;
+      background: #fff;
+      content: "";
+      transition: all 0.3s;
+
+        &::before {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 2px;
+            height: 10px;
+            margin: auto;
+            background: #fff;
+            content: "";
+        }
+    }
 }
-}
+
+.active .dropdown__icon {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .dropdown__projects-list {
+    display: none;
+    background: #fff;
+    li {
+        display: flex;
+        justify-content: space-between;
+        padding: $default-scale-unit-2 $default-scale-unit-1;
+        border-bottom: 1px solid $color-primary;
+    }
+  }
+
 

@@ -1,48 +1,85 @@
 import "./dropdown.scss";
+import $ from "jquery";
 
 function Dropdown() {
   return (
     <>
-      <div class="dropdown__container">
-        <ul class="dropdown__accordion">
+      <div className="dropdown__container">
+        <ul className="dropdown__accordion">
           <li>
-            <div class="h5 dropdown__category">
-              Diseño UX/UI<span class="dropdown__icon"></span>
+            <div className="h5 dropdown__category">
+              Diseño UX/UI<span className="dropdown__icon"></span>
             </div>
-            <ul class="dropdown__projects-list">
-              <li>SubMenu01</li>
-              <li>SubMenu02</li>
-              <li>SubMenu03</li>
+            <ul className="text-default dropdown__projects-list">
+              <li>
+                <span>SubMenu01</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu02</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu03</span>
+                <span>Tipology</span>
+              </li>
             </ul>
           </li>
           <li>
-            <div class="h5 dropdown__category">
-              Diseño gráfico<span class="dropdown__icon"></span>
+            <div className="h5 dropdown__category">
+              Diseño gráfico<span className="dropdown__icon"></span>
             </div>
-            <ul class="dropdown__projects-list">
-              <li>SubMenu01</li>
-              <li>SubMenu02</li>
-              <li>SubMenu03</li>
+            <ul className="text-default dropdown__projects-list">
+              <li>
+                <span>SubMenu01</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu02</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu03</span>
+                <span>Tipology</span>
+              </li>
             </ul>
           </li>
           <li>
-            <div class="h5 dropdown__category">
-              Desarrollo web<span class="dropdown__icon"></span>
+            <div className="h5 dropdown__category">
+              Desarrollo web<span className="dropdown__icon"></span>
             </div>
-            <ul class="dropdown__projects-list">
-              <li>SubMenu01</li>
-              <li>SubMenu02</li>
-              <li>SubMenu03</li>
+            <ul className="text-default dropdown__projects-list">
+              <li>
+                <span>SubMenu01</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu02</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu03</span>
+                <span>Tipology</span>
+              </li>
             </ul>
           </li>
           <li>
-            <div class="h5 dropdown__category">
-              Otros proyectos<span class="dropdown__icon"></span>
+            <div className="h5 dropdown__category">
+              Otros proyectos<span className="dropdown__icon"></span>
             </div>
-            <ul class="dropdown__projects-list">
-              <li>SubMenu01</li>
-              <li>SubMenu02</li>
-              <li>SubMenu03</li>
+            <ul className="text-default dropdown__projects-list">
+              <li>
+                <span>SubMenu01</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu02</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu03</span>
+                <span>Tipology</span>
+              </li>
             </ul>
           </li>
         </ul>
@@ -50,5 +87,19 @@ function Dropdown() {
     </>
   );
 }
+
+$(function () {
+  $(".dropdown__accordion li").click(function () {
+    $(this).children(".dropdown__projects-list").slideToggle();
+
+    if ($(this).children(".dropdown__category").hasClass("active")) {
+      $(this).children(".dropdown__category").removeClass("active");
+    } else {
+      $(this).children(".dropdown__category").addClass("active");
+    }
+
+    return false;
+  });
+});
 
 export default Dropdown;
