@@ -1,8 +1,15 @@
 // COLORS
-$color-blue-fluor: hsl(251 % 360, 100%, 48%);
+$color-fluor-blue: hsl(251 % 360, 100%, 48%);
+$color-fluor-blue-light: hsl(251 % 360, 100%, 73%);
+$color-fluor-blue-lighter: hsl(251 % 360, 100%, 90%);
+$color-fluor-blue-lightest: hsl(251 % 360, 100%, 97%);
+
 
     //COLOR IMPLEMENTATION
-    $color-primary: $color-blue-fluor;
+    $color-primary: $color-fluor-blue;
+    $color-primary-light: $color-fluor-blue-light;
+    $color-primary-lightest: $color-fluor-blue-lightest;
+
 
 // FONTS
 

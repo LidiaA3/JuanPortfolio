@@ -19,9 +19,13 @@ li {
     &__category {
         position: relative;
         padding: $default-scale-unit-2 $default-scale-unit-1;
-        background: #7e9c8c;
+        background: $color-primary-lightest;
         border-bottom: 1px solid $color-primary;
         list-style: none;        
+    }
+    &__category:hover {
+        background: $color-fluor-blue-lighter;
+        transition: 0.5s;
     }
     &__icon {
         display: block;
@@ -32,7 +36,7 @@ li {
       width: 10px;
       height: 2px;
       margin: auto;
-      background: #fff;
+      background: $color-primary;
       content: "";
       transition: all 0.3s;
 
@@ -46,7 +50,7 @@ li {
             width: 2px;
             height: 10px;
             margin: auto;
-            background: #fff;
+            background: $color-primary;
             content: "";
         }
     }
