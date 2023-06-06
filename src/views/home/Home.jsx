@@ -5,6 +5,8 @@ import "./Home.scss";
 import "../../scss/_images.scss";
 import Credits from "../../components/credits/Credits";
 import Cube from "../../components/Cube/Cube";
+import Cubeb from "../../components/Cube copy/Cubeb";
+import Cubec from "../../components/Cube copy 2/Cubec";
 
 export default function Home() {
   return (
@@ -12,7 +14,10 @@ export default function Home() {
       <Topbar url="/portafolio" link="Portafolio" />
       <main className="home-main">
         <section className="hero-section">
-          <Cube />
+          {/* <Cube /> */}
+          {/* <Cubeb /> */}
+          <Cubec />
+
           <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
             <div>
