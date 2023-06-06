@@ -10,21 +10,63 @@
 // }
 
 .cube__container {
+
     position: absolute;
     top: 50px;
     right: 0px;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     overflow: hidden;
+    background: radial-gradient(circle at center, rgba(45, 0, 246, 0.25), rgba(45, 0, 246, 0) 100px);
+
 }
 
 model-viewer {
+    opacity: 80%;
     position: relative;
     top: 0px;
     right: -30px;
     background: radial-gradient(circle at center, rgba(45, 0, 246, 0), rgba(45, 0, 246, 0) 100px);
-    width: 200px;
-    height: 200px;
-
+    width: 210px;
+    height: 210px;
+    animation: blink 0.5s alternate infinite;
 }
 
+
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 0.4;
+    }
+    20% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0.8;
+    }
+    40% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1.1;
+    }
+    60% {
+      opacity: 0.8;
+    }
+    70% {
+      opacity: 1.2;
+    }
+    80% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
