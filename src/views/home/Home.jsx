@@ -12,6 +12,7 @@ export default function Home() {
       <Topbar url="/portafolio" link="Portafolio" />
       <main className="home-main">
         <section className="hero-section">
+          <Cube />
           <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
             <div>
@@ -101,7 +102,6 @@ export default function Home() {
             <Button url="/portafolio" text="Portafolio" />
           </section>
         </section>
-        {/* <Cube /> */}
       </main>
     </>
   );
