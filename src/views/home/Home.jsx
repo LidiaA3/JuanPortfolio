@@ -5,9 +5,7 @@ import "./Home.scss";
 import "../../scss/_images.scss";
 import Credits from "../../components/credits/Credits";
 import Cube from "../../components/Cube/Cube";
-import Cubeb from "../../components/Cube copy/Cubeb";
-import Cubec from "../../components/Cube copy 2/Cubec";
-
+import Sphere from "../../components/Sphere/Sphere";
 export default function Home() {
   return (
     <>
@@ -16,8 +14,8 @@ export default function Home() {
         <section className="hero-section">
           {/* <Cube /> */}
           {/* <Cubeb /> */}
-          <Cubec />
-
+          <Cube />
+          <Sphere />
           <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
             <div>

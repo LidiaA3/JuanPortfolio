@@ -1,0 +1,68 @@
+@import '../../scss/_variables';
+
+// .cube__container {
+//     width: 300px;
+//     height: 300px;
+//     left: 100px;
+//     width: 50px;
+//     background: radial-gradient(circle at center, #2d00f6, transparent 50px);
+
+// }
+
+.sphere__container {
+
+    position: absolute;
+    top: 375px;
+    left: -50px;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    // background: radial-gradient(circle at center, rgba(45, 0, 246, 0.25), rgba(45, 0, 246, 0) 100px);
+    opacity: 82.5%;
+    // background: red;
+    
+    model-viewer {
+        position: relative;
+        top: 0px;
+        left: -30px;
+        background: radial-gradient(circle at center, rgba(45, 0, 246, 0), rgba(45, 0, 246, 0) 100px);
+        width: 180px;
+        height: 180px;
+        animation: blink 0.5s alternate infinite;
+    }
+
+}
+
+
+
+
+@keyframes blink {
+    0% {
+      opacity: 0.9;
+    }
+   
+    25% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0.9;
+    }
+    50% {
+      opacity: 0.9;
+    }
+    55% {
+      opacity: 1.1;
+    }
+    70% {
+      opacity: 1.2;
+    }
+    
+    95% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  

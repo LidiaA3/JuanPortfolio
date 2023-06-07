@@ -1,27 +1,46 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./cube.scss";
 
 function Cube(props) {
+  const modelViewerRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY || window.pageYOffset;
+      const modelViewer = modelViewerRef.current;
+
+      if (modelViewer) {
+        const rotationAngle = scrollTop * -1;
+        modelViewer.cameraOrbit = `${rotationAngle}deg 0deg 0deg`;
+        modelViewer.style.animationPlayState = "running";
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <>
-      <div className="cube__container">
-        <model-viewer
-          src="src/components/Cube/cubo-asd.glb"
-          ar
-          ar-modes="webxr scene-viewer quick-look"
-          camera-controls
-          poster="poster.webp"
-          shadow-intensity="0"
-          exposure="2"
-          shadow-softness="1"
-        >
-          <div className="progress-bar hide" slot="progress-bar">
-            <div className="update-bar"></div>
-          </div>
-          <button slot="ar-button" id="ar-button"></button>
-        </model-viewer>
-      </div>
-    </>
+    <div id="model-container" className="cube__container">
+      <model-viewer
+        ref={modelViewerRef}
+        id="model-viewer"
+        src="src/components/Cube/cube.glb"
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        shadow-intensity="0"
+        auto-rotate
+        camera-orbit-controls-auto-rotate-delay="50"
+      >
+        <div className="progress-bar hide" slot="progress-bar">
+          <div className="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button"></button>
+      </model-viewer>
+    </div>
   );
 }
 
