@@ -6,6 +6,8 @@ import "../../scss/_images.scss";
 import Credits from "../../components/credits/Credits";
 import Cube from "../../components/Cube/Cube";
 import Sphere from "../../components/Sphere/Sphere";
+import Cone from "../../components/Cone/Cone";
+
 export default function Home() {
   return (
     <>
@@ -16,6 +18,7 @@ export default function Home() {
           {/* <Cubeb /> */}
           <Cube />
           <Sphere />
+          <Cone />
           <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
             <div>
