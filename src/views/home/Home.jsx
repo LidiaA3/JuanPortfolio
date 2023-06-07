@@ -36,7 +36,7 @@ export default function Home() {
           <div className="hero-section__floor-container">
             <img
               className="hero-section__floor"
-              src="/public/floor-mobile-optimized.svg"
+              src="/floor-mobile-optimized.svg"
               alt="decorative image"
             />
           </div>

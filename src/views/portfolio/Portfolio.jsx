@@ -22,7 +22,7 @@ function Portfolio() {
         <div className="portfolio__floor-container">
           <img
             className="portfolio__floor"
-            src="/public/floor-mobile-optimized.svg"
+            src="/floor-mobile-optimized.svg"
             alt="decorative image"
           />
         </div>
