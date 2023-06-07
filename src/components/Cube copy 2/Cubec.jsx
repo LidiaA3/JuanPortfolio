@@ -10,7 +10,7 @@ function Cubec(props) {
       const modelViewer = modelViewerRef.current;
 
       if (modelViewer) {
-        const rotationAngle = scrollTop * 0.5;
+        const rotationAngle = scrollTop * -1;
         modelViewer.cameraOrbit = `${rotationAngle}deg 0deg 0deg`;
         modelViewer.style.animationPlayState = "running";
       }
