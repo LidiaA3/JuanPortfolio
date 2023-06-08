@@ -7,6 +7,7 @@ import Credits from "../../components/credits/Credits";
 import Cube from "../../components/Cube/Cube";
 import Sphere from "../../components/Sphere/Sphere";
 import Cone from "../../components/Cone/Cone";
+import Cubeempty from "../../components/CubeEmpty/Cubeempty";
 
 export default function Home() {
   return (
@@ -74,6 +75,7 @@ export default function Home() {
             <p>¡Gracias por tu tiempo!</p>
           </section>
           <section className="skills-section">
+            <Cubeempty />
             <div className="skills-section__knowledges-container">
               <span className="h3">Conocimientos</span>
               <div className="skills-section__skills-group--knowledges">
