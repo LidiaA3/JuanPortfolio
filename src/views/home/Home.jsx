@@ -9,7 +9,7 @@ import Sphere from "../../components/Sphere/Sphere";
 import Cone from "../../components/Cone/Cone";
 import Cubeempty from "../../components/CubeEmpty/Cubeempty";
 import Coneempty from "../../components/ConeEmpty/Coneempty";
-
+import Sphereempty from "../../components/Sphereempty/Sphereempty";
 export default function Home() {
   return (
     <>
@@ -86,6 +86,7 @@ export default function Home() {
                 <Skill type="rounded" text="texto corto" />
               </div>
             </div>
+            <Sphereempty />
             <div className="skills-section__tools-container">
               <span className="h3">Herramientas</span>
               <div className="skills-section__skills-group--tools">
