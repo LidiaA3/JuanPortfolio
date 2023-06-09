@@ -21,16 +21,20 @@
     opacity: 0.8;
     // background: red;
     // transform: rotate(-25deg);    
+    animation: levitate-cone 3s infinite alternate ease-in-out;      
+
 
     model-viewer {
         position: relative;
-        top: 0px;
+        top: 10px;
         right: -20px;
         background: radial-gradient(circle at center, rgba(45, 0, 246, 0), rgba(45, 0, 246, 0) 100px);
-        width: 215px;
-        height: 265px;
+        width: 205px;
+        height: 255px;
         animation: blink 0.4s alternate infinite;
         transform: rotate(-25deg);
+        
+        
     }
 
 }
@@ -71,5 +75,15 @@
       opacity: 1;
     }
   }
+
+  @keyframes levitate-cone {
+    from {
+        transform: translateY(10px)
+    }
+    to {
+        transform: translateY(15px);
+    }
+  }
+  
   
   

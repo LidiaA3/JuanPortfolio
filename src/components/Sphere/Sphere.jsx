@@ -33,7 +33,7 @@ function Sphere(props) {
         ar
         ar-modes="webxr scene-viewer quick-look"
         shadow-intensity="0"
-        auto-rotate
+        // auto-rotate
         camera-orbit-controls-auto-rotate-delay="0"
       >
         <div className="progress-bar hide" slot="progress-bar">

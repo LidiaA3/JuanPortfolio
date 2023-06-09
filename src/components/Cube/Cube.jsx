@@ -41,7 +41,7 @@ function Cube(props) {
         ar
         ar-modes="webxr scene-viewer quick-look"
         shadow-intensity="0"
-        auto-rotate
+        // auto-rotate
         camera-orbit-controls-auto-rotate-delay="50"
       >
         <div className="progress-bar hide" slot="progress-bar">

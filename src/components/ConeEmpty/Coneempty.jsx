@@ -1,17 +1,17 @@
-import "./cube-empty.scss";
+import "./cone-empty.scss";
 
-function Cubeempty() {
+function Coneempty() {
   return (
-    <div className="cube-empty__position-container">
-      <div id="model-container" className="cube-empty__container">
+    <div className="cone-empty__position-container">
+      <div id="model-container" className="cone-empty__container">
         <model-viewer
           id="model-viewer"
-          src="src/components/CubeEmpty/cube-wireframe.glb"
+          src="src/components/ConeEmpty/cone-wireframe.glb"
           ar
           ar-modes="webxr scene-viewer quick-look"
           shadow-intensity="0"
+          //   camera-controls
           // auto-rotate
-          // camera-controls
           camera-orbit-controls-auto-rotate-delay="50"
         >
           <div className="progress-bar hide" slot="progress-bar">
@@ -24,4 +24,4 @@ function Cubeempty() {
   );
 }
 
-export default Cubeempty;
+export default Coneempty;

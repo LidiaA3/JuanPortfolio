@@ -8,6 +8,7 @@ import Cube from "../../components/Cube/Cube";
 import Sphere from "../../components/Sphere/Sphere";
 import Cone from "../../components/Cone/Cone";
 import Cubeempty from "../../components/CubeEmpty/Cubeempty";
+import Coneempty from "../../components/ConeEmpty/Coneempty";
 
 export default function Home() {
   return (
@@ -103,6 +104,7 @@ export default function Home() {
                 <Skill type="rounded" text="texto corto pero no" />
               </div>
             </div>
+            <Coneempty />
           </section>
           <section className="buttons-section">
             <span className="text-default">¿Quieres saber más?</span>

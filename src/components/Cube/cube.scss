@@ -14,15 +14,16 @@
     position: absolute;
     top: 5.88vh;
     right: 0px;
-    width: 210px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     // background: radial-gradient(circle at center, rgba(45, 0, 246, 0.5), rgba(45, 0, 246, 0) 100px);
     // background-position: -40px 0;
     // background-size: 175%;
     // background-blend-mode:color-burn;
     opacity: 85%;
-    // background: red;
+    animation: levitate-cube 3s infinite alternate ease-in-out;      
+
 
 
     model-viewer {
@@ -30,9 +31,10 @@
       top: 0px;
       right: -30px;
       background: radial-gradient(circle at center, rgba(45, 0, 246, 0), rgba(45, 0, 246, 0) 100px);
-      width: 210px;
-      height: 210px;
+      width: 200px;
+      height: 200px;
       animation: blink 0.4s alternate infinite;
+      transform: rotate(30deg);      
   }
 
 }
@@ -74,6 +76,15 @@
     }
     100% {
       opacity: 1;
+    }
+  }
+
+  @keyframes levitate-cube {
+    from {
+        transform: translateY(10px)
+    }
+    to {
+        transform: translateY(15px);
     }
   }
   

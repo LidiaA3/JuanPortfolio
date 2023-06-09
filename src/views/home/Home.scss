@@ -1,6 +1,10 @@
 @import '../../scss/_variables';
 @import '../../scss/_mixins';
 
+.home-main {
+    overflow: hidden;
+}
+
 
 .hero-section {
     padding-top: 65px;
@@ -34,10 +38,13 @@
     .skills-section {
         display: flex;
         flex-direction: column;
-        gap: $big-scale-unit-5;
-
+        
+        &__knowledges-container {
+            margin-bottom: $big-scale-unit-5;
+        }
         &__tools-container {
             text-align: right;
+            margin-bottom: $big-scale-unit-5;
         }        
 
         & span.h3 {

@@ -1,33 +1,30 @@
-.supercontainer {
+.cube-empty__position-container {
     position: relative;
-    height: 0px;
+    left: 250px;
+    // width: 10px;
+    // height: 10px;
+    // background: blue;
+
 }
 .cube-empty__container {
 
-    position: relative;
-    top: 0px;
-    left: calc(90vw - 210px);
-    right: 0px;
-    width: 210px;
-    height: 210px;
-    overflow: hidden;
-    // background: radial-gradient(circle at center, rgba(45, 0, 246, 0.5), rgba(45, 0, 246, 0) 100px);
-    // background-position: -40px 0;
-    // background-size: 175%;
-    // background-blend-mode:color-burn;
-    opacity: 85%;
-    background: red;
-
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;    
+    opacity: 60%;
+    // background-color: red;
 
     model-viewer {
-      position: relative;
-      top: 0px;
-      right: -30px;
       background: radial-gradient(circle at center, rgba(45, 0, 246, 0), rgba(45, 0, 246, 0) 100px);
       width: 210px;
       height: 210px;
-      animation: blink 0.4s alternate infinite;
+      // animation: blink 0.4s alternate infinite;
       transform: rotate(45deg);
+      animation: levitate 3s infinite alternate ease-in-out;      
+
   }
 
 }
