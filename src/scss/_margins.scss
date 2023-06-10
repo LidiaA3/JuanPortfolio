@@ -1,3 +1,8 @@
+.h2 {
+    padding-top: calc($default-scale-unit-4 + 105px); 
+    margin-bottom: $default-scale-unit-3;
+}
+
 .hero-section {
     &__main-text {
         padding: 0 $horizontal-margins-mobile;     
@@ -11,6 +16,6 @@
     margin: 0 $horizontal-margins-mobile;
 }
 
-.portfolio-main {
+.portfolio-main, .project-main {
     padding: 0 $big-scale-unit-3;
 }

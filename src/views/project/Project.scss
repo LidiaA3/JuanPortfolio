@@ -1,0 +1,11 @@
+@import '../../scss/_variables';
+
+.project-main .h2 {
+margin-bottom: $default-scale-unit-2;
+}
+
+.project__description {
+    display: flex; 
+    flex-direction: column;
+    gap: $big-scale-unit-4;
+}
