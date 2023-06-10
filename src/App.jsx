@@ -13,7 +13,7 @@ import Project from "./views/project/Project";
 function App() {
   return (
     <>
-      <main>
+      <main className="text-default">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
