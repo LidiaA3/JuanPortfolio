@@ -1,0 +1,53 @@
+@import '../../scss/_variables';
+
+.user {
+    &__category {
+        font-weight: $font-weight-medium;
+    }
+    &__data {
+        font-weight: $font-weight-light;
+    }
+    &__container {
+    background-color: $color-primary-lightest;
+    border: 1px solid $color-primary;
+    border-radius: $big-scale-unit-2;
+    padding: $big-scale-unit-3 $big-scale-unit-2;
+    display: flex;
+    flex-direction: column;
+    gap: $big-scale-unit-2;
+
+    &--basic-data {
+        display: grid;
+        grid-template-columns: repeat(2, calc(50% - ($big-scale-unit-2 / 2)));
+        grid-template-rows: repeat(3);
+        gap: $big-scale-unit-2;
+        }  
+
+    &--box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.02rem;
+    }    
+    img {
+        height: 200px;
+        object-fit: cover;
+        border: 1px solid $color-primary;
+    }
+    .h4 {
+    line-height: 1.1;
+    margin-bottom: $big-scale-unit-1;
+    }
+    &--descriptions {
+        display: flex;
+        flex-direction: column;
+        gap: $big-scale-unit-2;
+    }
+    &--descriptions .user__category {
+        text-align: center;
+    }
+    &--descriptions .user__container--box {
+        padding-top: $big-scale-unit-2;
+        border-top: 1px solid $color-primary;
+    }
+    }
+}

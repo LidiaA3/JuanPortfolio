@@ -1,6 +1,7 @@
 import "./Project.scss";
 import Topbar from "../../components/topbar/Topbar";
 import ProjectInfo from "../../components/ProjectInfo/ProjectInfo";
+import User from "../../components/User/user";
 
 function Project() {
   return (
@@ -48,7 +49,7 @@ function Project() {
               rhoncus tellus bibendum.
             </p>
           </div>
-
+          <User />
           <div class="project__description--conclusion">
             <span class="h5">Conclusiones</span>
             <p>
