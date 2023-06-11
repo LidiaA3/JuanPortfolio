@@ -22,6 +22,10 @@ function Project() {
             </p>
           </div>
 
+          <div className="project__image-container">
+            <img src="src/assets/img/maslow_logo.jpg" alt="" />
+          </div>
+
           <div class="project__description--goals">
             <span class="h5">Objetivos y requisitos</span>
             <p>
