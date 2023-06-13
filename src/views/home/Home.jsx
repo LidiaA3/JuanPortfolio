@@ -80,37 +80,45 @@ export default function Home() {
             <div className="skills-section__knowledges-container">
               <span className="h3">Conocimientos</span>
               <div className="skills-section__skills-group--knowledges">
-                <Skill type="straight" text="Ejemplo texto" />
-                <Skill type="rounded" text="texto corto" />
-                <Skill type="straight" text="Ejemplo texto largo" />
-                <Skill type="rounded" text="texto corto" />
+                <Skill type="straight" text="Diseño gráfico" />
+                <Skill type="rounded" text="UX/UI" />
+                <Skill type="rounded" text="Desarrollo web" />
+                <Skill type="straight" text="Identidad" />
+                <Skill type="straight" text="Wordpress" />
+                <Skill type="rounded" text="Marketing" />
+                <Skill type="rounded" text="Fotografía" />
+                <Skill type="Straight" text="Motion Graphics" />
+                <Skill type="straight" text="Diseño sonoro" />
+                <Skill type="rounded" text="Vídeo" />
               </div>
             </div>
             <Sphereempty />
             <div className="skills-section__tools-container">
               <span className="h3">Herramientas</span>
               <div className="skills-section__skills-group--tools">
-                <Skill type="straight" text="Ejemplo texto largo" />
-                <Skill type="rounded" text="texto corto" />
-                <Skill type="straight" text="Bla Bla" />
-                <Skill type="rounded" text="texto corto pero no" />
+                <Skill type="rounded" text="Adobe creative suite" />
+                <Skill type="straight" text="Figma" />
+                <Skill type="straight" text="Visual Studio Code" />
+                <Skill type="rounded" text="Git" />
+                <Skill type="rounded" text="Logic Pro" />
               </div>
             </div>
             <div className="skills-section__technologies-container">
               <span className="h3">Tecnologías</span>
               <div className="skills-section__skills-group--Technologies">
-                <Skill type="straight" text="Ejemplo" />
-                <Skill type="rounded" text="texto corto" />
-                <Skill type="straight" text="Ejemplo bla bla" />
-                <Skill type="rounded" text="texto corto pero no" />
+                <Skill type="straight" text="Html" />
+                <Skill type="rounded" text="Css" />
+                <Skill type="straight" text="Scss" />
+                <Skill type="rounded" text="Javascript" />
+                <Skill type="rounded" text="React.js" />
               </div>
             </div>
             <Coneempty />
           </section>
           <section className="buttons-section">
             <span className="text-default">¿Quieres saber más?</span>
-            <Button text="CV detallado" />
-            <Button url="/portafolio" text="Portafolio" />
+            <Button buttonType="secondary" text="CV detallado" />
+            <Button buttonType="primary" url="/portafolio" text="Portafolio" />
           </section>
         </section>
       </main>

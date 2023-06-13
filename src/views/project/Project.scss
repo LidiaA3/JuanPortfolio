@@ -3,13 +3,31 @@
 .project-main .h2 {
 margin-bottom: $default-scale-unit-2;
 }
-
-.project__description {
+.project {
+    
+    &__description {
     display: flex; 
     flex-direction: column;
     gap: $big-scale-unit-4;
 
-    .h5 {
-        font-weight: $font-weight-medium;
+        .h5 {
+            font-weight: $font-weight-medium;
+        }
+    
+    
+}
+}
+.project__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: $big-scale-unit-4;
+
+    a {
+        color: $color-primary;
     }
+}
+
+.buttons-section {
+    box-sizing: border-box;
 }

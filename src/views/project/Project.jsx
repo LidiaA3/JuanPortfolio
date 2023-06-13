@@ -2,11 +2,13 @@ import "./Project.scss";
 import Topbar from "../../components/topbar/Topbar";
 import ProjectInfo from "../../components/ProjectInfo/ProjectInfo";
 import User from "../../components/User/user";
+import { Link } from "react-router-dom";
+import Button from "../../components/buttons/button";
 
 function Project() {
   return (
     <>
-      <Topbar url="/portafolio" link="Portafolio" />
+      <Topbar url="/portafolio" link="Archivo" />
       <main className="project-main">
         <h2 className="h2">Website para Maslow</h2>
         <ProjectInfo />
@@ -60,6 +62,22 @@ function Project() {
               ultrices. Vestibulum ac risus risus.
             </p>
           </div>
+          <div class="project__nav">
+            <Link className="h6">
+              <span>←Anterior</span>
+            </Link>
+            <Link className="h6">
+              <span>Siguiente→</span>
+            </Link>
+          </div>
+          <section className="buttons-section">
+            <span className="text-default">¿Has visto suficiente?</span>
+            <Button buttonType="secondary" text="CV detallado" />
+            <Button buttonType="primary" url="/portafolio" text="Contactar" />
+            <Link to="/home" className="text-default">
+              ←Volver a la Home
+            </Link>
+          </section>
         </div>
       </main>
     </>

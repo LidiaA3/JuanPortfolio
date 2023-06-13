@@ -8,17 +8,35 @@
     border-radius: 100px; 
     padding: $big-scale-unit-1;
     margin-bottom: $big-scale-unit-2;
-    width: $default-scale-unit-20;
+    // width: $default-scale-unit-20;
+    width: 100%;
+
     height: $default-scale-unit-5;
     padding-top: 0px; //ajuste manual para centrar el texto del botón
 
     & a {
         text-decoration: none;
-        color: $color-primary
-    }
-    
+        color: $color-primary;
+    }    
     // box-sizing: border-box;
     // transition: all 0.1s ease-in-out;
+
+//     &.primary:active, &.primary:hover {
+//     background: white;
+//     color: $color-primary;
+//     transition: 0.5s;
+//     border-color: 1px solid white;
+//   }
+}
+
+.secondary {
+    background: white;
+}
+.primary {
+    background: $color-primary-light;
+    & a {
+        color: white;
+    }
 }
 
 
