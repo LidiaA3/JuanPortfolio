@@ -12,11 +12,15 @@ margin-bottom: $default-scale-unit-2;
 
         .h5 {
             font-weight: $font-weight-medium;
-        }
-    
-    
+        }     
 }
 }
+// }
+
+.project__home-link {
+color: $color-primary;
+}
+
 .project__nav {
     display: flex;
     flex-direction: row;

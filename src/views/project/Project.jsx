@@ -74,7 +74,7 @@ function Project() {
             <span className="text-default">¿Has visto suficiente?</span>
             <Button buttonType="secondary" text="CV detallado" />
             <Button buttonType="primary" url="/portafolio" text="Contactar" />
-            <Link to="/home" className="text-default">
+            <Link to="/home" className="text-default project__home-link">
               ←Volver a la Home
             </Link>
           </section>

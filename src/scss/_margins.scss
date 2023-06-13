@@ -19,3 +19,8 @@
 .portfolio-main, .project-main {
     padding: 0 $big-scale-unit-3;
 }
+
+.buttons-section button + button {
+    color: red;
+    margin-bottom: $big-scale-unit-3;
+}
