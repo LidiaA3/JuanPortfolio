@@ -8,7 +8,7 @@ import Button from "../../components/buttons/button";
 function Project() {
   return (
     <>
-      <Topbar url="/portafolio" link="Archivo" />
+      <Topbar url="/portafolio" link="←Archivo" />
       <main className="project-main">
         <h2 className="h2">Website para Maslow</h2>
         <ProjectInfo />

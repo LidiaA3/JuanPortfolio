@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 function Portfolio() {
   return (
     <>
-      <Topbar url="/home" link="Home" />
+      <Topbar url="/home" link="←Home" />
       <main className="portfolio-main">
         <h2 className="h2">Portafolio</h2>
 
         <Dropdown />
         <section className="buttons-section">
-          <span className="text-default">¿Quieres saber más?</span>
+          <span className="text-default">¿Has visto suficiente?</span>
           <Button buttonType="secondary" text="CV detallado" />
           <Button buttonType="primary" url="/portafolio" text="Contactar" />
         </section>

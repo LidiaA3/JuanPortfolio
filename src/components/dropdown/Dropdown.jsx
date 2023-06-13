@@ -46,17 +46,17 @@ function Dropdown() {
             <ul className="text-default dropdown__projects-list">
               <Link to="/project" className="link">
                 <li>
-                  <span>SubMenu01</span>
-                  <span>Tipology</span>
+                  <span>Maslow</span>
+                  <span>Web</span>
                 </li>
               </Link>
               <li>
-                <span>SubMenu02</span>
-                <span>Tipology</span>
+                <span>Tutum</span>
+                <span>Web</span>
               </li>
               <li>
-                <span>SubMenu03</span>
-                <span>Tipology</span>
+                <span>Transportes Ray</span>
+                <span>Aplicación</span>
               </li>
             </ul>
           </li>
@@ -70,16 +70,16 @@ function Dropdown() {
             </div>
             <ul className="text-default dropdown__projects-list">
               <li>
-                <span>SubMenu01</span>
-                <span>Tipology</span>
+                <span>Festival Jazzing '23</span>
+                <span>Cartelería</span>
               </li>
               <li>
-                <span>SubMenu02</span>
-                <span>Tipology</span>
+                <span>Revista Focus</span>
+                <span>Editorial</span>
               </li>
               <li>
-                <span>SubMenu03</span>
-                <span>Tipology</span>
+                <span>Èlia Bastida</span>
+                <span>Marca personal</span>
               </li>
             </ul>
           </li>
@@ -93,16 +93,16 @@ function Dropdown() {
             </div>
             <ul className="text-default dropdown__projects-list">
               <li>
-                <span>SubMenu01</span>
-                <span>Tipology</span>
+                <span>Todo App</span>
+                <span>Desarrollo</span>
               </li>
               <li>
-                <span>SubMenu02</span>
-                <span>Tipology</span>
+                <span>Maslow</span>
+                <span>Desarrollo</span>
               </li>
               <li>
-                <span>SubMenu03</span>
-                <span>Tipology</span>
+                <span>Babel</span>
+                <span>Maquetación</span>
               </li>
             </ul>
           </li>
@@ -116,16 +116,16 @@ function Dropdown() {
             </div>
             <ul className="text-default dropdown__projects-list">
               <li>
-                <span>SubMenu01</span>
-                <span>Tipology</span>
+                <span>3.00 pm in NY</span>
+                <span>Diseño sonoro</span>
               </li>
               <li>
-                <span>SubMenu02</span>
-                <span>Tipology</span>
+                <span>Slow light</span>
+                <span>Diseño sonoro</span>
               </li>
               <li>
-                <span>SubMenu03</span>
-                <span>Tipology</span>
+                <span>Paisajes</span>
+                <span>Fotografía</span>
               </li>
             </ul>
           </li>

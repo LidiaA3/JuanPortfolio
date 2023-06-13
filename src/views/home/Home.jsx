@@ -13,7 +13,7 @@ import Sphereempty from "../../components/Sphereempty/Sphereempty";
 export default function Home() {
   return (
     <>
-      <Topbar url="/portafolio" link="Portafolio" />
+      <Topbar url="/portafolio" link="→Portafolio" />
       <main className="home-main">
         <section className="hero-section">
           {/* <Cube /> */}
@@ -118,7 +118,11 @@ export default function Home() {
           <section className="buttons-section">
             <span className="text-default">¿Quieres saber más?</span>
             <Button buttonType="secondary" text="CV detallado" />
-            <Button buttonType="primary" url="/portafolio" text="Portafolio" />
+            <Button
+              buttonType="primary"
+              url="/portafolio"
+              text="↗ Portafolio"
+            />
           </section>
         </section>
       </main>
