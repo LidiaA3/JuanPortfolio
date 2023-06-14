@@ -15,7 +15,12 @@ function Portfolio() {
         <section className="buttons-section">
           <span className="text-default">¿Has visto suficiente?</span>
           <Button buttonType="secondary" text="CV detallado" />
-          <Button buttonType="primary" url="/portafolio" text="Contactar" />
+          <Button
+            showIcon="show-icon"
+            buttonType="primary"
+            url="/portafolio"
+            text="Contactar"
+          />
         </section>
       </main>
       <footer>

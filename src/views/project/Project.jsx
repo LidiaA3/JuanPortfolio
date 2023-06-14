@@ -73,7 +73,12 @@ function Project() {
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <Button buttonType="secondary" text="CV detallado" />
-            <Button buttonType="primary" url="/portafolio" text="Contactar" />
+            <Button
+              buttonType="primary"
+              url="/portafolio"
+              text="Contactar"
+              showIcon="show-icon"
+            />
             <Link to="/home" className="text-default project__home-link">
               ←Volver a la Home
             </Link>

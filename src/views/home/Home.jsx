@@ -16,8 +16,6 @@ export default function Home() {
       <Topbar url="/portafolio" link="→Portafolio" />
       <main className="home-main">
         <section className="hero-section">
-          {/* <Cube /> */}
-          {/* <Cubeb /> */}
           <Cube />
           <Sphere />
           <Cone />

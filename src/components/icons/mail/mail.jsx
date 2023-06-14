@@ -1,9 +1,13 @@
 import React from "react";
 import "./mail.scss";
 
-function Mail() {
+function Mail(props) {
+  const { showIcon } = props;
+
   return (
     <svg
+      className={showIcon}
+      id={showIcon}
       id="Capa_1"
       data-name="Capa 1"
       xmlns="http://www.w3.org/2000/svg"
