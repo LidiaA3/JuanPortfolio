@@ -1,9 +1,8 @@
 import "./buttons.scss";
 import { Link } from "react-router-dom";
-import Mail from "../icons/mail/mail";
+import Download from "../icons/download/download";
 
 function Button(props) {
-  const { showIcon } = props;
   const { buttonType } = props;
 
   const btn = "btn";
@@ -14,8 +13,10 @@ function Button(props) {
   return (
     <>
       <button className={combinedClasses}>
-        <Mail showIcon={showIcon} />
-        <Link to={props.url}>{props.text}</Link>
+        <Link to={props.url}>
+          {props.icon}
+          {props.text}
+        </Link>
       </button>
     </>
   );

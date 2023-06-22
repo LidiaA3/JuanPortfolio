@@ -19,7 +19,11 @@
         color: $color-primary;
     }    
     & svg {
-        display: none;
+        width: 32px;
+        margin-right: 12px;
+        position: relative;
+        transform: translateY(-50%);
+        top: 25%;
     }
 
     // box-sizing: border-box;

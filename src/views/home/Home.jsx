@@ -10,6 +10,8 @@ import Cone from "../../components/Cone/Cone";
 import Cubeempty from "../../components/CubeEmpty/Cubeempty";
 import Coneempty from "../../components/ConeEmpty/Coneempty";
 import Sphereempty from "../../components/Sphereempty/Sphereempty";
+import Download from "../../components/icons/download/download";
+
 export default function Home() {
   return (
     <>
@@ -115,7 +117,11 @@ export default function Home() {
           </section>
           <section className="buttons-section">
             <span className="text-default">¿Quieres saber más?</span>
-            <Button buttonType="secondary" text="CV detallado" />
+            <Button
+              buttonType="secondary"
+              icon={<Download />}
+              text="CV detallado"
+            />
             <Button
               buttonType="primary"
               url="/portafolio"
