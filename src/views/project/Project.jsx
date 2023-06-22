@@ -4,6 +4,8 @@ import ProjectInfo from "../../components/ProjectInfo/ProjectInfo";
 import User from "../../components/User/user";
 import { Link } from "react-router-dom";
 import Button from "../../components/buttons/button";
+import Download from "../../components/icons/download/download";
+import Mail from "../../components/icons/mail/mail";
 
 function Project() {
   return (
@@ -72,10 +74,15 @@ function Project() {
           </div>
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
-            <Button buttonType="secondary" text="CV detallado" />
+            <Button
+              icon={<Download />}
+              buttonType="secondary"
+              text="CV detallado"
+            />
             <Button
               buttonType="primary"
               url="/portafolio"
+              icon={<Mail />}
               text="Contactar"
               showIcon="show-icon"
             />

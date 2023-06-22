@@ -18,12 +18,21 @@
         text-decoration: none;
         color: $color-primary;
     }    
-    & svg {
+    & svg.download-icon {
         width: 32px;
         margin-right: 12px;
         position: relative;
         transform: translateY(-50%);
         top: 25%;
+    }
+
+    & svg.mail-icon {
+        width: 36px;
+        margin-right: 14px;
+        position: relative;
+        // transform: translateY(-50%);
+        // top: 25%;
+        fill: white;
     }
 
     // box-sizing: border-box;
