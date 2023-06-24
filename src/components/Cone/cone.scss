@@ -1,4 +1,6 @@
 @import '../../scss/_variables';
+@import '../../scss/_mixins';
+
 
 // .cube__container {
 //     width: 300px;
@@ -22,6 +24,10 @@
     // background: red;
     // transform: rotate(-25deg);    
     animation: levitate-cone 3s infinite alternate ease-in-out;      
+    @include tablet {
+      width: 245px;
+      height: 295px;
+    }
 
 
     model-viewer {
@@ -33,6 +39,14 @@
         height: 255px;
         animation: blink 0.4s alternate infinite;
         transform: rotate(-25deg);
+        @include tablet {
+          width: 225px;
+          height: 275px;
+          transform: rotate(-40deg);
+          top: 0px;
+        right: -45px;
+
+        }
         
         
     }

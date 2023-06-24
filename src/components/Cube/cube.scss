@@ -1,4 +1,5 @@
 @import '../../scss/_variables';
+@import '../../scss/_mixins';
 
 // .cube__container {
 //     width: 300px;
@@ -22,7 +23,14 @@
     // background-size: 175%;
     // background-blend-mode:color-burn;
     opacity: 85%;
-    animation: levitate-cube 3s infinite alternate ease-in-out;      
+    animation: levitate-cube 3s infinite alternate ease-in-out;     
+    @include tablet {
+      top: 
+      1vh;
+      right: 325px;
+      width: 220px;
+      height: 220px;
+    } 
 
 
 
@@ -34,7 +42,14 @@
       width: 200px;
       height: 200px;
       animation: blink 0.4s alternate infinite;
-      transform: rotate(30deg);      
+      transform: rotate(30deg);    
+      @include tablet {
+        top: 0px;
+        right: 0px; 
+        transform: rotate(60deg);   
+        width: 220px;
+        height: 220px;
+      }  
   }
 
 }
