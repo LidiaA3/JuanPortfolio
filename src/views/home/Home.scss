@@ -11,6 +11,7 @@
 .hero-section {
     padding-top: 65px;
     height: calc(100vh);  
+    
 
     &__main-text {
         display: flex;
@@ -36,6 +37,10 @@
     display: flex;
     flex-direction: column;
     gap: $big-scale-unit-6;
+    @include tablet {
+        padding-top: $default-scale-unit-8; 
+
+    }
     
     .skills-section {
         display: flex;
@@ -43,11 +48,23 @@
         
         &__knowledges-container {
             margin-bottom: $big-scale-unit-5;
-        }
+            @include tablet {
+                max-width: 60%;
+            }
+        }        
         &__tools-container {
             text-align: right;
             margin-bottom: $big-scale-unit-5;
-        }        
+            align-self: flex-end;
+            @include tablet {
+                max-width: 50%;
+            }            
+        }    
+        &__technologies-container {
+            @include tablet {
+                max-width: 50%;
+            }            
+        }      
 
         & span.h3 {
             display: block;
