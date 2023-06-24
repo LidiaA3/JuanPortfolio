@@ -1,3 +1,5 @@
+@import '../../scss/_mixins';
+
 .cone-empty__position-container {
     position: relative;
     left: 45%;
@@ -17,6 +19,13 @@
     overflow: hidden;    
     opacity: 85%;
     // background: red;
+    @include tablet {
+        width: 250px;
+        height: 260px;  
+        transform: rotate(-30deg);
+        top: -175px;
+        left: 100px;
+      }  
 
 
     model-viewer {
@@ -28,7 +37,12 @@
       height: 230px;
       // animation: blink 0.4s alternate infinite;
       transform: rotate(45deg);
-      animation: levitate 3s infinite alternate ease-in-out;      
+      animation: levitate 3s infinite alternate ease-in-out;    
+      @include tablet {
+        width: 250px;
+        height: 250px;    
+
+      }  
   }
 
 }

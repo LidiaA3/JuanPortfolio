@@ -1,9 +1,11 @@
+@import '../../scss/_mixins';
+
 .cube-empty__position-container {
     position: relative;
     left: 250px;
     // width: 10px;
     // height: 10px;
-    // background: blue;
+    background: blue;
 
 }
 .cube-empty__container {
@@ -16,6 +18,10 @@
     overflow: hidden;    
     opacity: 60%;
     // background-color: red;
+    @include tablet {
+      bottom: -150px;
+      left: 500px; 
+    }
 
     model-viewer {
       background: radial-gradient(circle at center, rgba(45, 0, 246, 0), rgba(45, 0, 246, 0) 100px);
@@ -23,8 +29,12 @@
       height: 80%;
       // animation: blink 0.4s alternate infinite;
       transform: rotate(45deg);
-      animation: levitate 3s infinite alternate ease-in-out;      
+      animation: levitate 3s infinite alternate ease-in-out;   
+      @include tablet {
+        width: 95%;
+        height: 95%;
+       }
+      
 
-  }
-
+}
 }

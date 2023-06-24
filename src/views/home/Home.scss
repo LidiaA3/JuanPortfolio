@@ -63,6 +63,7 @@
         &__technologies-container {
             @include tablet {
                 max-width: 50%;
+                margin-bottom: $big-scale-unit-4;
             }            
         }      
 

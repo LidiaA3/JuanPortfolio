@@ -13,12 +13,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    &::selection {
+        background-color: white;
+    }
 }
 
 body {
     color: $color-primary;
-    font-family: $font-primary;
+    font-family: $font-primary;    
 }
+
 
 // .home-main {
 //     padding: 0 $horizontal-margins-mobile 0 $horizontal-margins-mobile;

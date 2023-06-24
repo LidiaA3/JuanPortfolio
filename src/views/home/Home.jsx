@@ -82,12 +82,12 @@ export default function Home() {
               <div className="skills-section__skills-group--knowledges">
                 <Skill type="straight" text="Diseño gráfico" />
                 <Skill type="rounded" text="UX/UI" />
-                <Skill type="rounded" text="Desarrollo web" />
-                <Skill type="straight" text="Identidad" />
+                <Skill type="straight" text="Desarrollo web" />
+                <Skill type="rounded" text="Identidad" />
                 <Skill type="straight" text="Wordpress" />
                 <Skill type="rounded" text="Marketing" />
-                <Skill type="rounded" text="Fotografía" />
-                <Skill type="Straight" text="Motion Graphics" />
+                <Skill type="straight" text="Fotografía" />
+                <Skill type="rounded" text="Motion Graphics" />
                 <Skill type="straight" text="Diseño sonoro" />
                 <Skill type="rounded" text="Vídeo" />
               </div>
@@ -98,8 +98,8 @@ export default function Home() {
               <div className="skills-section__skills-group--tools">
                 <Skill type="rounded" text="Adobe creative suite" />
                 <Skill type="straight" text="Figma" />
-                <Skill type="straight" text="Visual Studio Code" />
-                <Skill type="rounded" text="Git" />
+                <Skill type="rounded" text="Visual Studio Code" />
+                <Skill type="straight" text="Git" />
                 <Skill type="rounded" text="Logic Pro" />
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
                 <Skill type="rounded" text="Css" />
                 <Skill type="straight" text="Scss" />
                 <Skill type="rounded" text="Javascript" />
-                <Skill type="rounded" text="React.js" />
+                <Skill type="straight" text="React.js" />
               </div>
             </div>
             <Coneempty />

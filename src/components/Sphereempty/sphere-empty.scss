@@ -1,3 +1,5 @@
+@import '../../scss/_mixins';
+
 .sphere-empty__position-container {
     position: relative;
     left: 0px;
@@ -16,13 +18,21 @@
     opacity: 60%;
     // background-color: red;
     transform: rotate(-30deg);
+    @include tablet {
+    top: -50px;
+    left: -50px;
+    }
 
     model-viewer {
       background: radial-gradient(circle at center, rgba(45, 0, 246, 0), rgba(45, 0, 246, 0) 100px);
       width: 70%;
       height: 70%;
       // animation: blink 0.4s alternate infinite;
-      animation: levitate-sphere 3s infinite alternate ease-in-out;      
+      animation: levitate-sphere 3s infinite alternate ease-in-out;     
+      @include tablet {
+      width: 75%;
+      height: 75%;
+      } 
   }
 
 }
