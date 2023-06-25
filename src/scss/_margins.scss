@@ -21,6 +21,9 @@
 
 .portfolio-main, .project-main {
     padding: 0 $big-scale-unit-3;
+    @include tablet {
+        padding: 0 $horizontal-margins-tablet;
+    }
 }
 
 .buttons-section button + button {

@@ -27,6 +27,7 @@ li {
     &__category:hover {
         background: $color-fluor-blue-lighter;
         transition: 0.5s;
+        cursor: pointer;
     }
     &__icon {
         display: block;
