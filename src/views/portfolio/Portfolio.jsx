@@ -16,18 +16,20 @@ function Portfolio() {
         <Dropdown />
         <section className="buttons-section">
           <span className="text-default">¿Has visto suficiente?</span>
-          <Button
-            buttonType="secondary"
-            icon={<Download />}
-            text="CV detallado"
-          />
-          <Button
-            showIcon="show-icon"
-            buttonType="primary"
-            url="/portafolio"
-            icon={<Mail color="" />}
-            text="Contactar"
-          />
+          <div className="buttons">
+            <Button
+              buttonType="secondary"
+              icon={<Download />}
+              text="CV detallado"
+            />
+            <Button
+              showIcon="show-icon"
+              buttonType="primary"
+              url="/portafolio"
+              icon={<Mail color="" />}
+              text="Contactar"
+            />
+          </div>
         </section>
       </main>
       <footer>

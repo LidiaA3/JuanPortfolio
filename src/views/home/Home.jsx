@@ -117,16 +117,18 @@ export default function Home() {
           </section>
           <section className="buttons-section">
             <span className="text-default">¿Quieres saber más?</span>
-            <Button
-              buttonType="secondary"
-              icon={<Download />}
-              text="CV detallado"
-            />
-            <Button
-              buttonType="primary"
-              url="/portafolio"
-              text="↗ Portafolio"
-            />
+            <div className="buttons">
+              <Button
+                buttonType="secondary"
+                icon={<Download />}
+                text="CV detallado"
+              />
+              <Button
+                buttonType="primary"
+                url="/portafolio"
+                text="↗ Portafolio"
+              />
+            </div>
           </section>
         </section>
       </main>

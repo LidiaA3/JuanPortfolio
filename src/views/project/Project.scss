@@ -1,4 +1,6 @@
 @import '../../scss/_variables';
+@import '../../scss/_mixins';
+
 
 .project-main .h2 {
 margin-bottom: $default-scale-unit-2;
@@ -34,4 +36,11 @@ color: $color-primary;
 
 .buttons-section {
     box-sizing: border-box;
+    .buttons {
+        @include tablet {
+            display: flex;
+            gap: $big-scale-unit-2;
+            justify-content: center;
+        }
+    }
 }

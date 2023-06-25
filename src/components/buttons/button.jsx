@@ -12,12 +12,13 @@ function Button(props) {
 
   return (
     <>
-      <button className={combinedClasses}>
-        <Link to={props.url}>
+      {" "}
+      <Link to={props.url}>
+        <button className={combinedClasses}>
           {props.icon}
           {props.text}
-        </Link>
-      </button>
+        </button>
+      </Link>
     </>
   );
 }

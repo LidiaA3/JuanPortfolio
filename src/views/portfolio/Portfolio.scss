@@ -1,4 +1,6 @@
 @import '../../scss/_variables';
+@import '../../scss/_mixins';
+
 
 .buttons-section {
     text-align: center;
@@ -9,6 +11,14 @@
     text-align: center;  
     padding-bottom: $big-scale-unit-3;
     }    
+    
+    .buttons {
+        @include tablet {
+            display: flex;
+            gap: $big-scale-unit-2;
+            justify-content: center;
+        }
+    }
 
     
 }

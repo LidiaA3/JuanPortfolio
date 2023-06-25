@@ -1,4 +1,6 @@
 @import '../../scss/_variables';
+@import '../../scss/_mixins';
+
 
 .btn {
     font-weight: var(--weight-light);
@@ -10,9 +12,37 @@
     margin-bottom: $big-scale-unit-2;
     // width: $default-scale-unit-20;
     width: 100%;
-
     height: $default-scale-unit-5;
     padding-top: 0px; //ajuste manual para centrar el texto del botón
+
+    @include tablet {
+        width: $default-scale-unit-20;
+    }
+
+    &.primary {
+        background: $color-primary-light;
+        & a {
+            color: white;
+        }
+    }
+    &.primary.h4 {
+        color: white;
+    } 
+    &.primary:hover, &.primary:active {
+        background-color: hsl(251 % 360, 100%, 68%);
+        border: solid 1.5px $color-primary;
+        cursor: pointer;
+    }
+    
+    &.secondary {
+            background: white;
+        }       
+        
+     &.secondary:hover, &.secondary:active {
+        border: solid 1.5px $color-primary;
+        cursor: pointer;
+        }
+    
 
     & a {
         text-decoration: none;
@@ -25,7 +55,6 @@
         transform: translateY(-50%);
         top: 25%;
     }
-
     & svg.mail-icon {
         width: 36px;
         margin-right: 14px;
@@ -34,7 +63,6 @@
         // top: 25%;
         fill: white;
     }
-
     // box-sizing: border-box;
     // transition: all 0.1s ease-in-out;
 
@@ -46,21 +74,9 @@
 //   }
 }
 
-.secondary {
-    background: white;
-}
-.primary {
-    background: $color-primary-light;
-    & a {
-        color: white;
-    }
-}
 
 
 
-// .btn:hover, .btn:active {
-//     color: var(--color-red);
-//     background-color: $color-primary;
-//     border: solid 1px var(--color-red);
-//     cursor: pointer;
-// }
+
+
+

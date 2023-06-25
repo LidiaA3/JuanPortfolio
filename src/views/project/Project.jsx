@@ -74,18 +74,20 @@ function Project() {
           </div>
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
-            <Button
-              icon={<Download />}
-              buttonType="secondary"
-              text="CV detallado"
-            />
-            <Button
-              buttonType="primary"
-              url="/portafolio"
-              icon={<Mail />}
-              text="Contactar"
-              showIcon="show-icon"
-            />
+            <div className="buttons">
+              <Button
+                icon={<Download />}
+                buttonType="secondary"
+                text="CV detallado"
+              />
+              <Button
+                buttonType="primary"
+                url="/portafolio"
+                icon={<Mail />}
+                text="Contactar"
+                showIcon="show-icon"
+              />
+            </div>
             <Link to="/home" className="text-default project__home-link">
               ←Volver a la Home
             </Link>
