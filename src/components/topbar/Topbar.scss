@@ -17,6 +17,7 @@
    a {
       text-decoration: none;
       color: $color-primary;
+      // transition: 0.25s;
    }   
 
    a:hover, a:active {
@@ -25,6 +26,7 @@
       // transition: all 0.3s ease;
       // font-weight: bold;
       border-bottom: 1px solid $color-primary; /* Muestra un borde sólido negro */
+      // transition: 0.25s;
 
    }   
    

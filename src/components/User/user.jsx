@@ -33,27 +33,31 @@ function User() {
           </div>
         </div>
         <div className="user__container--descriptions">
-          <div className="user__container--box">
-            <span className="user__category">Biografía</span>
-            <span className="user__data">
-              Phasellus tristique risus a purus tincidunt, vel commodo justo
-              feugiat. Aenean luctus ipsum vitae velit feugiat, ut lacinia velit
-              tincidunt.
-            </span>
+          <div className="user__container--descriptions-1">
+            <div className="user__container--box">
+              <span className="user__category">Biografía</span>
+              <span className="user__data">
+                Phasellus tristique risus a purus tincidunt, vel commodo justo
+                feugiat. Aenean luctus ipsum vitae velit feugiat, ut lacinia
+                velit tincidunt.
+              </span>
+            </div>
           </div>
-          <div className="user__container--box">
-            <span className="user__category">Motivación</span>
-            <span className="user__data">
-              Curabitur mattis elit et ultrices vehicula. Praesent tempus purus
-              ac sapien dictum, eget dignissim orci finibus.
-            </span>
-          </div>
-          <div className="user__container--box">
-            <span className="user__category">Objetivos y frustraciones</span>
-            <span className="user__data">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              vestibulum velit vitae sapien rutrum.
-            </span>
+          <div className="user__container--descriptions-2">
+            <div className="user__container--box">
+              <span className="user__category">Motivación</span>
+              <span className="user__data">
+                Curabitur mattis elit et ultrices vehicula. Praesent tempus
+                purus ac sapien dictum, eget dignissim orci finibus.
+              </span>
+            </div>
+            <div className="user__container--box">
+              <span className="user__category">Objetivos y frustraciones</span>
+              <span className="user__data">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                vestibulum velit vitae sapien rutrum.
+              </span>
+            </div>
           </div>
         </div>
       </div>

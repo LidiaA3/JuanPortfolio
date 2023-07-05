@@ -21,6 +21,8 @@
 
     &.primary {
         background: $color-primary-light;
+        transition: 0.25s;
+
         & a {
             color: white;
         }
@@ -30,16 +32,18 @@
     } 
     &.primary:hover, &.primary:active {
         background-color: hsl(251 % 360, 100%, 70%);
-        border: solid 1.5px $color-primary;
         cursor: pointer;
+        transition: 0.25s;
     }
     
     &.secondary {
             background: white;
+            transition: 0.25s;
+
         }       
         
      &.secondary:hover, &.secondary:active {
-        border: solid 1.5px $color-primary;
+        background-color: $color-primary-lightest;
         cursor: pointer;
         }
     
