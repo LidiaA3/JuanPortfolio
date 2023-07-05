@@ -17,7 +17,8 @@
    a {
       text-decoration: none;
       color: $color-primary;
-      // transition: 0.25s;
+      background: radial-gradient(ellipse 80px 15px at center, rgba(255, 255, 255, 0), transparent);
+      transition: 1s;
    }   
 
    a:hover, a:active {
@@ -25,10 +26,51 @@
       // text-decoration: underline solid 1px;
       // transition: all 0.3s ease;
       // font-weight: bold;
-      border-bottom: 1px solid $color-primary; /* Muestra un borde sólido negro */
-      // transition: 0.25s;
-
+      // border-bottom: 1px solid $color-primary; /* Muestra un borde sólido negro */
+      transition: 1s;
+      background: radial-gradient(ellipse 80px 15px at center, rgba(255, 255, 255, 0.5), transparent);
+      animation: appearance 0.25s forwards;      
    }   
+
+   a:not(:hover) {
+      animation: disappearance 0.25s forwards;
+    }
+
+   @keyframes appearance {
+      0% {
+        background: radial-gradient(ellipse 0 0 at center, rgba($color-primary-lightest, 0), transparent);
+      }
+      25% {
+         background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.25), transparent);
+       }
+      50% {
+         background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.5), transparent);
+       }
+       75% {
+         background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.75), transparent);
+       }
+      100% {
+        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 1), transparent);
+      }
+    }
+
+    @keyframes disappearance {
+      0% {
+        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 1), transparent);
+      }
+      25% {
+        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.75), transparent);
+      }
+      50% {
+        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.5), transparent);
+      }
+      75% {
+        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.25), transparent);
+      }
+      100% {
+        background: radial-gradient(ellipse 0 0 at center, rgba($color-primary-lightest, 0), transparent);
+      }
+    }
    
    svg {
       width: 24px;

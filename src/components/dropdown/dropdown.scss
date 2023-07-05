@@ -22,7 +22,9 @@ li {
         padding: $default-scale-unit-2 $default-scale-unit-1;
         background: $color-primary-lightest;
         border-bottom: 1px solid $color-primary;
-        list-style: none;        
+        list-style: none;   
+        transition: 0.5s;
+     
     }
     &__category:hover {
         background: $color-fluor-blue-lighter;
@@ -72,6 +74,7 @@ li {
         justify-content: space-between;
         padding: $default-scale-unit-2 $default-scale-unit-1;
         border-bottom: 1px solid $color-primary;
+
     }
     li:hover {
         font-weight: $font-weight-medium;
