@@ -12,9 +12,9 @@ function Project() {
     <>
       <Topbar url="/portafolio" link="←Archivo" />
       <main className="project-main">
-        <h2 className="h2">Website para Maslow</h2>
-        <ProjectInfo />
-        <div class="project__description">
+        <div className="project__content">
+          <h2 className="h2">Website para Maslow</h2>
+          <ProjectInfo />
           <div class="project__description--intro">
             <span class="h5">Introducción</span>
             <p>
@@ -26,7 +26,8 @@ function Project() {
               lacus a ante.
             </p>
           </div>
-
+        </div>
+        <div class="project__description">
           <div className="project__image-container">
             <img src="src/assets/img/maslow_logo.jpg" alt="" />
           </div>
