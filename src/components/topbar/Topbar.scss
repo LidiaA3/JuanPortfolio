@@ -28,7 +28,7 @@
       // font-weight: bold;
       // border-bottom: 1px solid $color-primary; /* Muestra un borde sólido negro */
       transition: 1s;
-      background: radial-gradient(ellipse 80px 15px at center, rgba(255, 255, 255, 0.5), transparent);
+      background: radial-gradient(ellipse 60px 15px at center, rgba(255, 255, 255, 0.5), transparent);
       animation: appearance 0.25s forwards;      
    }   
 
@@ -38,37 +38,37 @@
 
    @keyframes appearance {
       0% {
-        background: radial-gradient(ellipse 0 0 at center, rgba($color-primary-lightest, 0), transparent);
+        background: radial-gradient(ellipse 0 0 at center, rgba($color-primary, 0), transparent);
       }
       25% {
-         background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.25), transparent);
+         background: radial-gradient(ellipse 60px 15px at center, rgba($color-primary, 0.05), transparent);
        }
       50% {
-         background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.5), transparent);
+         background: radial-gradient(ellipse 60px 15px at center, rgba($color-primary, 0.1), transparent);
        }
        75% {
-         background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.75), transparent);
+         background: radial-gradient(ellipse 60px 15px at center, rgba($color-primary, 0.15), transparent);
        }
       100% {
-        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 1), transparent);
+        background: radial-gradient(ellipse 60px 15px at center, rgba($color-primary, 0.2), transparent);
       }
     }
 
     @keyframes disappearance {
       0% {
-        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 1), transparent);
+        background: radial-gradient(ellipse 60px 15px at center, rgba($color-primary, 0.2), transparent);
       }
       25% {
-        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.75), transparent);
+        background: radial-gradient(ellipse 60px 15px at center, rgba($color-primary, 0.15), transparent);
       }
       50% {
-        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.5), transparent);
+        background: radial-gradient(ellipse 60px 15px at center, rgba($color-primary, 0.1), transparent);
       }
       75% {
-        background: radial-gradient(ellipse 80px 15px at center, rgba($color-primary-lightest, 0.25), transparent);
+        background: radial-gradient(ellipse 60px 15px at center, rgba($color-primary, 0.05), transparent);
       }
       100% {
-        background: radial-gradient(ellipse 0 0 at center, rgba($color-primary-lightest, 0), transparent);
+        background: radial-gradient(ellipse 0 0 at center, rgba($color-primary, 0), transparent);
       }
     }
    

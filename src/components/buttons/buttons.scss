@@ -31,9 +31,11 @@
         color: white;
     } 
     &.primary:hover, &.primary:active {
-        background-color: hsl(251 % 360, 100%, 70%);
+        // background-color: hsl(251 % 360, 100%, 70%);
         cursor: pointer;
         transition: 0.25s;
+        transform: translateY(5px); 
+
     }
     
     &.secondary {
@@ -43,9 +45,10 @@
         }       
         
      &.secondary:hover, &.secondary:active {
-        background-color: $color-primary-lightest;
+        // background-color: $color-primary-lightest;
         cursor: pointer;
-        }
+        transform: translateY(5px); 
+    }
     
 
     & a {
