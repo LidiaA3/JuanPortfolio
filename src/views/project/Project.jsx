@@ -12,10 +12,10 @@ function Project() {
     <>
       <Topbar url="/portafolio" link="←Archivo" />
       <main className="project-main">
-        <div className="project__content">
+        <div className="project__header">
           <h2 className="h2">Website para Maslow</h2>
           <ProjectInfo />
-          <div class="project__description--intro">
+          <div class="project__header--intro">
             <span class="h5">Introducción</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -27,12 +27,12 @@ function Project() {
             </p>
           </div>
         </div>
-        <div class="project__description">
+        <div class="project__content">
           <div className="project__image-container">
             <img src="src/assets/img/maslow_logo.jpg" alt="" />
           </div>
 
-          <div class="project__description--goals">
+          <div class="project__content--goals">
             <span class="h5">Objetivos y requisitos</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -43,7 +43,7 @@ function Project() {
             </p>
           </div>
 
-          <div class="project__description--target">
+          <div class="project__content--target">
             <span class="h5">Público objetivo</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
@@ -55,7 +55,7 @@ function Project() {
             </p>
           </div>
           <User />
-          <div class="project__description--conclusion">
+          <div class="project__content--conclusion">
             <span class="h5">Conclusiones</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas

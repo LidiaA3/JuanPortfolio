@@ -15,16 +15,13 @@
     padding: $big-scale-unit-3 $big-scale-unit-2;
     margin-bottom: $default-scale-unit-3;
     grid-row: span 2; 
-    // max-width: 393px;
     width: fit-content;
-    max-height:fit-content;
+    height: fit-content;
+
     @include tablet {
         margin-top: calc($default-scale-unit-4 + 105px); 
-
+        margin-bottom: 0;
     }
-
-
-
         &--box {
             display: flex;
             flex-direction: column;
