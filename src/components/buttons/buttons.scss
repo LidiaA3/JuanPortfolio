@@ -34,7 +34,7 @@
         // background-color: hsl(251 % 360, 100%, 70%);
         cursor: pointer;
         transition: 0.25s;
-        transform: translateY(5px); 
+        transform: translateY(3px); 
 
     }
     
@@ -47,7 +47,7 @@
      &.secondary:hover, &.secondary:active {
         // background-color: $color-primary-lightest;
         cursor: pointer;
-        transform: translateY(5px); 
+        transform: translateY(3px); 
     }
     
 
