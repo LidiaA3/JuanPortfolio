@@ -90,7 +90,8 @@ function Project() {
               />
             </div>
             <Link to="/home" className="text-default project__home-link">
-              ←Volver a la Home
+              <span className="project__home-link-arrow">←</span>Volver a la
+              Home
             </Link>
           </section>
         </div>

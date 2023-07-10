@@ -31,11 +31,27 @@ color: $color-primary;
 
     a {
         color: $color-primary;
+        text-decoration: none;
+        border-bottom: 1.5px solid $color-primary;
+    }
+    a:hover, a:active {
+        border-bottom: none;
     }
 }
 
 .buttons-section {
     box-sizing: border-box;
+    .project__home-link{
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        &-arrow {
+            display: inline;
+            font-family: $font-secundary;
+        }
+    }
+    .project__home-link:hover, .project__home-link:active{
+        border-bottom: none;
+    }
     .buttons {
         @include tablet {
             display: flex;

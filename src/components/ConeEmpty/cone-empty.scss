@@ -37,7 +37,7 @@
       height: 230px;
       // animation: blink 0.4s alternate infinite;
       transform: rotate(45deg);
-      animation: levitate 3s infinite alternate ease-in-out;    
+      animation: levitate 1.5s infinite alternate ease-in-out;    
       @include tablet {
         width: 250px;
         height: 250px;    
@@ -49,9 +49,9 @@
 
 @keyframes levitate {
     from {
-        transform: rotate(45deg) translateY(10px)
+        transform: rotate(45deg) translateY(20px)
     }
     to {
-        transform: rotate(45deg) translateY(15px);
+        transform: rotate(45deg) translateY(25px);
     }
   }
