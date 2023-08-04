@@ -1,4 +1,5 @@
 import "./Personalportfolio.scss";
+import "./Projects.scss";
 import Topbar from "../../components/topbar/Topbar";
 import ProjectInfo from "../../components/ProjectInfo/ProjectInfo";
 import User from "../../components/User/user";
@@ -18,7 +19,7 @@ function Personalportfolio() {
             role="Diseñador UI, Desarrollador"
             typology="Web"
             technologies="React.js"
-            tools="Vs Code"
+            tools="Figma, Illustrator, Blender, Vs Code, Git"
             agency="Proyecto personal"
             client="Proyecto personal"
             year="2023"
@@ -40,35 +41,71 @@ function Personalportfolio() {
           </div>
         </div>
         <div class="project__content">
-          <div className="project__image-container">
+          {/* <div className="project__image-container">
             <img src="src/assets/img/maslow_logo.jpg" alt="" />
-          </div>
+          </div> */}
 
           <div class="project__content--goals">
-            <span class="h5">Objetivos y requisitos</span>
+            <span class="h5">Entendiendo el problema</span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              sit amet leo sed arcu rhoncus commodo. Donec ac semper libero, sit
-              amet vestibulum dui. Quisque euismod sem at ligula suscipit, eget
-              hendrerit ipsum convallis. Etiam non interdum ex. Maecenas sed
-              velit ut enim tempus ultricies sed id elit.
+              Este proyecto nace de la problemática o la necesidad de tener una
+              plataforma que sirva para darme a conocer profesionalmente y poder
+              exponer y explicar mis trabajos. A su vez, aprovechando la
+              oportunidad, se busca que la plataforma en sí misma sirva de
+              ejemplo de trabajo bien realizado. Parte del problema, sería
+              diferenciarse de algún modo y transmitir una propuesta de valor
+              única, dado el alto nivel de competencia del sector.
             </p>
           </div>
 
           <div class="project__content--target">
-            <span class="h5">Público objetivo</span>
+            <span class="h5">Elaborando una hipótesis o solución</span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
-              augue luctus, rhoncus urna sed, ultrices mi. Ut pulvinar convallis
-              eros a sagittis. Suspendisse quis dui vitae ante tristique
-              tincidunt vel at massa. Ut pretium aliquet consectetur. Quisque a
-              scelerisque mauris. Phasellus tristique felis ut elit iaculis, vel
-              rhoncus tellus bibendum.
+              La mejor solución encontrada consiste en la creación de una página
+              web a modo de portafolio, que permita explicar procesos de diseño
+              completos, y que tenga una calidad notable a nivel de UX y UI. A
+              su vez, se buscará un toque llamativo y original que llame la
+              atención, y que transmita la capacidad de plantear soluciones de
+              diseño particularizadas para cada caso. Si bien se pueden utilizar
+              las tendencias estéticas para diseñar, en esta ocasión, se
+              considera mejor optar por una estética en cierto modo atemporal.
             </p>
           </div>
           <User />
           <div class="project__content--conclusion">
-            <span class="h5">Conclusiones</span>
+            <span class="h5">Definiendo la estructura básica</span>
+            <p>
+              Una vez sentadas las bases del proyecto, es momento de empezar a
+              materializarlo. Para ello realizamos los siguientes pasos:
+            </p>
+            <p>
+              1. Obtener el contenido
+              <p>
+                Es necesario listar el contenido de la web, independientemente
+                de si lo realizamos nosotros o proviene de un compañero o
+                compañera que se encarguen de él. Esto nos permitirá empezar a
+                organizarlo y empezar a definir una AI (Arquitectura de
+                información), que elaboraremos a posteriori ayudados de esquemas
+                o diferentes técnicas, como por ejemplo la de card sorting. El
+                sitemap, es el resultado de este proceso de organización. Para
+                este caso, nuestro sitemap sería muy sencillo. Esencialmente, el
+                core de nuestro proyecto se podría resumir en el siguiente
+                esquema de páginas.
+              </p>
+            </p>
+          </div>
+          <div class="">
+            <span class="h5">Diseñando una solución</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              eleifend, urna eu pellentesque blandit, nisl purus facilisis nisi,
+              non rutrum nulla velit a orci. Mauris nec tortor at tellus dapibus
+              eleifend vel ut velit. Donec vitae risus eget quam mollis
+              ultrices. Vestibulum ac risus risus.
+            </p>
+          </div>
+          <div class="">
+            <span class="h5">Fase de desarrollo y comprobación</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
               eleifend, urna eu pellentesque blandit, nisl purus facilisis nisi,
