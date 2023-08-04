@@ -9,6 +9,7 @@ import Topbar from "./components/topbar/Topbar";
 import IconHead from "./components/icons/IconHead";
 import Portfolio from "./views/portfolio/Portfolio";
 import Project from "./views/project/Project";
+import Personalportfolio from "./views/projects/personalportfolio";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/styleguide" element={<Styleguide />} />
           <Route path="/portafolio" element={<Portfolio />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/personalportfolio" element={<Personalportfolio />} />
         </Routes>
       </main>
     </>
