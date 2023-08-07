@@ -28,15 +28,17 @@ function Personalportfolio() {
           <div class="project__header--intro">
             <span class="h5">Introducción</span>
             <p>
-              Este portafolio se diseñó con el objetivo de mostrar mi trabajo
-              como diseñador y desarrollador. A nivel estético se buscó la
-              originalidad esquivando las tendencias, y con la diferenciación
-              como objetivo, y para ello me inspiré ligeramente en la ciencia
+              Este portafolio se diseñó con el{" "}
+              <b>
+                objetivo de mostrar mi trabajo como diseñador y desarrollador
+              </b>
+              . Se buscó la originalidad esquivando las tendencias, y con la
+              diferenciación como objetivo, y para ello me inspiré en la ciencia
               ficción y el retrofuturismo. No obstante, el objetivo principal
-              fue propiciar una buena usabilidad y experiencia al usuario. A
+              fue propiciar una buena usabilidad y experiencia de usuario. A
               continuación, se muestra el proceso que ha dado lugar a esta
               interfaz, el cual ejemplifica, a grandes rasgos, mi proceso de
-              diseño en general, con el que abordaría cualquier proyecto.
+              diseño en general.
             </p>
           </div>
         </div>
@@ -46,39 +48,52 @@ function Personalportfolio() {
           </div> */}
 
           <div class="project__content--goals">
-            <span class="h5">Entendiendo el problema</span>
+            <span class="h5">
+              Fase 1<span class="vertical-bar"> | </span>Entendiendo el problema
+            </span>
             <p>
-              Este proyecto nace de la problemática o la necesidad de tener una
-              plataforma que sirva para darme a conocer profesionalmente y poder
-              exponer y explicar mis trabajos. A su vez, aprovechando la
-              oportunidad, se busca que la plataforma en sí misma sirva de
-              ejemplo de trabajo bien realizado. Parte del problema, sería
-              diferenciarse de algún modo y transmitir una propuesta de valor
-              única, dado el alto nivel de competencia del sector.
+              Partimos de la{" "}
+              <b>
+                necesidad de tener una plataforma que sirva para darme a conocer
+              </b>{" "}
+              profesionalmente y poder exponer y explicar mis trabajos. A su
+              vez, aprovechando la oportunidad, se busca que la plataforma en sí
+              misma sirva de ejemplo de trabajo bien realizado. Parte del
+              problema, sería diferenciarse de algún modo y transmitir una
+              propuesta de valor única, dado el alto nivel de competencia del
+              sector.
             </p>
           </div>
 
           <div class="project__content--target">
-            <span class="h5">Elaborando una hipótesis o solución</span>
+            <span class="h5">
+              Fase 2<span class="vertical-bar"> | </span>Elaborando una
+              hipótesis o solución
+            </span>
             <p>
-              La mejor solución encontrada consiste en la creación de una página
-              web a modo de portafolio, que permita explicar procesos de diseño
+              <b>
+                La mejor solución encontrada consiste en crear una página web
+              </b>{" "}
+              a modo de portafolio, que permita explicar procesos de diseño
               completos, y que tenga una calidad notable a nivel de UX y UI. A
-              su vez, se buscará un toque llamativo y original que llame la
-              atención, y que transmita la capacidad de plantear soluciones de
-              diseño particularizadas para cada caso. Si bien se pueden utilizar
-              las tendencias estéticas para diseñar, en esta ocasión, se
-              considera mejor optar por una estética en cierto modo atemporal.
+              su vez, se buscará un toque llamativo y <b>original</b>{" "}
+              representando también la capacidad de plantear soluciones de
+              diseño particularizadas para cada caso.
             </p>
           </div>
-          <User />
+          {/* <User /> */}
           <div class="project__content--conclusion">
-            <span class="h5">Definiendo la estructura básica</span>
+            <span class="h5">
+              Fase 3<span class="vertical-bar"> | </span>Definiendo la
+              estructura básica
+            </span>
             <p>
               Una vez sentadas las bases del proyecto, es momento de empezar a
-              materializarlo. Para ello realizamos los siguientes pasos:
+              materializarlo. <br></br>Para ello realizamos los siguientes
+              pasos:
             </p>
             <p>
+              <br></br>
               1. Obtener el contenido
               <p>
                 Es necesario listar el contenido de la web, independientemente
@@ -86,12 +101,20 @@ function Personalportfolio() {
                 compañera que se encarguen de él. Esto nos permitirá empezar a
                 organizarlo y empezar a definir una AI (Arquitectura de
                 información), que elaboraremos a posteriori ayudados de esquemas
-                o diferentes técnicas, como por ejemplo la de card sorting. El
-                sitemap, es el resultado de este proceso de organización. Para
-                este caso, nuestro sitemap sería muy sencillo. Esencialmente, el
-                core de nuestro proyecto se podría resumir en el siguiente
-                esquema de páginas.
+                o diferentes técnicas, como por ejemplo la de card sorting.
               </p>
+            </p>
+            <div class="project__img-container">
+              <img src="src/assets/img/content-list.png" alt="" />
+              <span class="project__img-container--caption">
+                Lista del contenido
+              </span>
+            </div>
+            <p>
+              El sitemap, es el resultado de este proceso de organización. Para
+              este caso, nuestro sitemap sería muy sencillo. Esencialmente, el
+              core de nuestro proyecto se podría resumir en el siguiente esquema
+              de páginas.
             </p>
           </div>
           <div class="">
