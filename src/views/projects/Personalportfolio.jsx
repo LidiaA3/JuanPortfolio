@@ -144,7 +144,10 @@ function Personalportfolio() {
               En base a nuestra investigación inicial y un estudio gráfico de
               referentes y competencia pasamos a diseñar, sabiendo, después de
               haber investigado, que se busca un diseño que sea estéticamente
-              llamativo, original o creativo y tecnológico.
+              llamativo, original y tecnológico. Antes de pasar a desarrollo,
+              también sería interesante, realizar un prototipo que validase el
+              funcionamiento del diseño o dicho de otro modo, la solución
+              planteada al problema.
             </p>
             <div class="project__img-container">
               <img src="src/assets/img/Figma-screenshot.png" alt="" />
@@ -156,23 +159,37 @@ function Personalportfolio() {
             </div>
           </div>
           <div class="">
-            <span class="h5">Fase de desarrollo y comprobación</span>
+            <span class="h5">
+              Fase 5<span class="vertical-bar"> | </span>Fase de desarrollo y
+              comprobación
+            </span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eleifend, urna eu pellentesque blandit, nisl purus facilisis nisi,
-              non rutrum nulla velit a orci. Mauris nec tortor at tellus dapibus
-              eleifend vel ut velit. Donec vitae risus eget quam mollis
-              ultrices. Vestibulum ac risus risus.
+              En este punto es donde entregaríamos el diseño al equipo de
+              desarrollo. Aunque en este caso nos hemos encargado nosotros
+              mismos de este. Una vez desarrollado y lanzado el producto final,
+              utilizaríamos diferentes recursos para monitorizar y comprobar el
+              cumplimiento de los objetivos planteados.
             </p>
           </div>
-          <div class="project__nav">
+          <div>
+            <span class="h5">Conclusión</span>
+            <p>
+              De manera muy sintetizada, este el proceso que aplicaría a
+              cualquier producto digital. Teniendo en cuenta que hemos obviado
+              en este resumen partes del proceso de investigación que tendrían
+              lugar si se tratara de proyectos más ambiciosos o en los que
+              estuviera implicado un equipo de trabajo mayor. El resultado se
+              puede visualizar navegando por esta misma web.
+            </p>
+          </div>
+          {/* <div class="project__nav">
             <Link className="h6">
               <span>←Anterior</span>
             </Link>
             <Link className="h6">
               <span>Siguiente→</span>
             </Link>
-          </div>
+          </div> */}
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
