@@ -28,17 +28,11 @@ function Personalportfolio() {
           <div class="project__header--intro">
             <span class="h5">Introducción</span>
             <p>
-              Este portafolio se diseñó con el{" "}
-              <b>
-                objetivo de mostrar mi trabajo como diseñador y desarrollador
-              </b>
-              . Se buscó la originalidad esquivando las tendencias, y con la
-              diferenciación como objetivo, y para ello me inspiré en la ciencia
-              ficción y el retrofuturismo. No obstante, el objetivo principal
-              fue propiciar una buena usabilidad y experiencia de usuario. A
-              continuación, se muestra el proceso que ha dado lugar a esta
-              interfaz, el cual ejemplifica, a grandes rasgos, mi proceso de
-              diseño en general.
+              Este proyecto se inició con el objetivo de mostrar mi trabajo. Se
+              buscaba la originalidad y no tanto seguir las tendencias, para
+              ello me inspiré en las interfaces de las películas de ciencia
+              ficción. A continuación, se muestra el proceso que realicé, el
+              cual ejemplifica, a grandes rasgos, mi proceso de diseño.
             </p>
           </div>
         </div>
@@ -52,16 +46,10 @@ function Personalportfolio() {
               Fase 1<span class="vertical-bar"> | </span>Entendiendo el problema
             </span>
             <p>
-              Partimos de la{" "}
-              <b>
-                necesidad de tener una plataforma que sirva para darme a conocer
-              </b>{" "}
-              profesionalmente y poder exponer y explicar mis trabajos. A su
-              vez, aprovechando la oportunidad, se busca que la plataforma en sí
-              misma sirva de ejemplo de trabajo bien realizado. Parte del
-              problema, sería diferenciarse de algún modo y transmitir una
-              propuesta de valor única, dado el alto nivel de competencia del
-              sector.
+              La necesidad inicial consiste en tener una plataforma donde
+              exponer y explicar mis proyectos. Parte del problema, sería
+              conseguir llamar la atención dentro de un mercado laboral con
+              bastante competencia.
             </p>
           </div>
 
@@ -71,14 +59,10 @@ function Personalportfolio() {
               hipótesis o solución
             </span>
             <p>
-              <b>
-                La mejor solución encontrada consiste en crear una página web
-              </b>{" "}
-              a modo de portafolio, que permita explicar procesos de diseño
-              completos, y que tenga una calidad notable a nivel de UX y UI. A
-              su vez, se buscará un toque llamativo y <b>original</b>{" "}
-              representando también la capacidad de plantear soluciones de
-              diseño particularizadas para cada caso.
+              La solución es crear una página web a modo de portafolio, buscando
+              un toque llamativo y original, lo cual transmite también la
+              capacidad de plantear soluciones de diseño particularizadas, que
+              puedan o no, seguir las tendencias estéticas del momento.
             </p>
           </div>
           {/* <User /> */}
@@ -88,34 +72,69 @@ function Personalportfolio() {
               estructura básica
             </span>
             <p>
-              Una vez sentadas las bases del proyecto, es momento de empezar a
-              materializarlo. <br></br>Para ello realizamos los siguientes
-              pasos:
+              Llega el momento de dar forma al proyecto. Para ello, seguimos los
+              siguientes pasos:
             </p>
             <p>
               <br></br>
-              1. Obtener el contenido
+              <b>3.1 Obtener y organizar el contenido</b>
               <p>
-                Es necesario listar el contenido de la web, independientemente
-                de si lo realizamos nosotros o proviene de un compañero o
-                compañera que se encarguen de él. Esto nos permitirá empezar a
-                organizarlo y empezar a definir una AI (Arquitectura de
-                información), que elaboraremos a posteriori ayudados de esquemas
-                o diferentes técnicas, como por ejemplo la de card sorting.
+                Es necesario hacer un inventario del contenido. Esto nos
+                permitirá empezar definir una AI (Arquitectura de información),
+                que iremos construyendo ayudados de diferentes técnicas, como
+                por ejemplo la de card sorting.
               </p>
             </p>
             <div class="project__img-container">
               <img src="src/assets/img/content-list.png" alt="" />
               <span class="project__img-container--caption">
-                Lista del contenido
+                Utilizo las hojas de cálculo para visualizar todo el contenido
+                que tendremos que organizar.
               </span>
             </div>
             <p>
-              El sitemap, es el resultado de este proceso de organización. Para
-              este caso, nuestro sitemap sería muy sencillo. Esencialmente, el
-              core de nuestro proyecto se podría resumir en el siguiente esquema
-              de páginas.
+              El sitemap, es uno de los resultados de este proceso de
+              organización. Muestra la arquitectura que tendrá nuestro sitio.
+              Para este caso, nuestro sitemap sería muy sencillo. El core de
+              nuestro portafolio se podría resumir en el siguiente esquema:
             </p>
+            <div class="project__img-container">
+              <img src="src/assets/img/sitemap.png" alt="" />
+              <span class="project__img-container--caption">
+                Tendremos una página principal, una página, "Portafolio", donde
+                se podrán ver categorizados todos los proyectos según la
+                disciplina, y una subpágina por cada proyecto en particular.
+              </span>
+            </div>
+            <p>
+              Otra herramienta útil en este punto son los userflows, que nos
+              permiten seguir puliendo la AI y sentar los cimientos de nuestro
+              futuro diseño según unos objetivos predefinidos. Son muy
+              importantes dado que nos ponen en la piel del usuario y nos
+              permiten crear productos para que tanto este como nosotros, como
+              diseñadores o negocios, alcancemos nuestros objetivos de la manera
+              más fácil y rápida posible.
+            </p>
+            <div class="project__img-container">
+              <img src="src/assets/img/userflow-bn.png" alt="" />
+              <span class="project__img-container--caption">
+                Diagrama de flujo que nos permite visualizar o crear el
+                recorrido de un usuario desde que accede a nuestra web hasta que
+                realiza la acción que buscamos.
+              </span>
+            </div>
+            <b>3.2 Definir el esqueleto de nuestra web</b>
+            <br></br>
+            Se pasa a definir el "esqueleto" del portafolio una vez estructurado
+            el contenido. En este punto se realizan wireframes como base para la
+            maquetación de nuestro diseño.
+            <div class="project__img-container" id="wireframes-img">
+              <img src="src/assets/img/wireframes.jpg" alt="" />
+              <span class="project__img-container--caption">
+                Esbozos o wireframes iniciales de la estructura de la página
+                principal.
+              </span>
+            </div>
           </div>
           <div class="">
             <span class="h5">Diseñando una solución</span>

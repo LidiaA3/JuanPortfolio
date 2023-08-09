@@ -26,6 +26,13 @@
     }
 }
 
+.project-main {
+    .h5 {
+        margin-bottom: 4px;
+        display: block;
+    }
+}
+
 .buttons-section button + button {
     color: red;
     margin-bottom: $big-scale-unit-3;

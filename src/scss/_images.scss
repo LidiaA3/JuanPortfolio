@@ -44,6 +44,13 @@ img {
       margin: auto;
      }
 }
+
+  &#wireframes-img {
+    margin: $big-scale-unit-4 auto $big-scale-unit-4 auto;
+    width: 50%;
+    // img {
+    // width: 50%;}
+  }
 }
 
 // .project__image-container {

@@ -47,30 +47,29 @@ export default function Home() {
         <section className="content-section">
           <section className="bio-section">
             <p>
-              Soy una persona <b>apasionada</b>, amante del <b>aprendizaje</b> y
-              del crecimiento constante. Mi historial académico es bastante
+              Soy una persona apasionada, amante del aprendizaje y del
+              crecimiento constante. Mi historial académico es bastante
               singular, me formé como pianista de jazz antes de meterme de lleno
               en el diseño gráfico, el diseño UX/UI y el desarrollo.
             </p>
             <br />
             <p>
               Este bagaje me ha permitido obtener valiosas habilidades como:
-              capacidad de trabajo en <b>equipo</b>, capacidad de <b>escucha</b>
-              , <b>creatividad</b>, <b>proactividad</b>, o{" "}
-              <b>pensamiento lateral</b>, entre otras.
+              capacidad de trabajo en equipo, capacidad de escucha, creatividad,
+              proactividad, o pensamiento lateral, entre otras.
             </p>
             <br />
             <p>
-              Como diseñador y desarrollador, estoy muy interesado en la{" "}
-              <b>usabilidad</b>, puesto que es el factor diferenciador entre un
-              diseño “bonito” y un diseño realmente valioso.
+              Como diseñador y desarrollador, estoy muy interesado en la
+              usabilidad, puesto que es el factor diferenciador entre un diseño
+              “bonito” y un diseño realmente valioso.
             </p>
             <br />
             <p>
-              Y en definitiva, es a esto a lo que quiero aspirar, a aportar{" "}
-              <b>valor</b>. Para ello, estoy deseoso de poder trabajar con un
-              buen equipo de creativos y/o desarrolladores, así que espero que
-              te guste mi trabajo y encajar en tu equipo.
+              Y en definitiva, es a esto a lo que quiero aspirar, a aportar
+              valor. Para ello, estoy deseoso de poder trabajar con un buen
+              equipo de creativos y/o desarrolladores, así que espero que te
+              guste mi trabajo y encajar en tu equipo.
             </p>
             <br />
             <p>¡Gracias por tu tiempo!</p>
