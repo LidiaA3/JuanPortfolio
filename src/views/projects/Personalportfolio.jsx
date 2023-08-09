@@ -137,14 +137,23 @@ function Personalportfolio() {
             </div>
           </div>
           <div class="">
-            <span class="h5">Diseñando una solución</span>
+            <span class="h5">
+              Fase 4<span class="vertical-bar"> | </span>Diseñando una solución
+            </span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              eleifend, urna eu pellentesque blandit, nisl purus facilisis nisi,
-              non rutrum nulla velit a orci. Mauris nec tortor at tellus dapibus
-              eleifend vel ut velit. Donec vitae risus eget quam mollis
-              ultrices. Vestibulum ac risus risus.
+              En base a nuestra investigación inicial y un estudio gráfico de
+              referentes y competencia pasamos a diseñar, sabiendo, después de
+              haber investigado, que se busca un diseño que sea estéticamente
+              llamativo, original o creativo y tecnológico.
             </p>
+            <div class="project__img-container">
+              <img src="src/assets/img/Figma-screenshot.png" alt="" />
+              <span class="project__img-container--caption">
+                Diseño final realizado en Figma, donde se observa un Design
+                System conformado por botones, desplegables y otros componentes
+                estandarizados.
+              </span>
+            </div>
           </div>
           <div class="">
             <span class="h5">Fase de desarrollo y comprobación</span>
