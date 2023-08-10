@@ -1,4 +1,4 @@
-import "./Project.scss";
+import "./Maslow.scss";
 import Topbar from "../../components/topbar/Topbar";
 import ProjectInfo from "../../components/ProjectInfo/ProjectInfo";
 import User from "../../components/User/user";
@@ -7,7 +7,7 @@ import Button from "../../components/buttons/button";
 import Download from "../../components/icons/download/download";
 import Mail from "../../components/icons/mail/mail";
 
-function Project() {
+function Maslow() {
   return (
     <>
       <Topbar url="/portafolio" link="←Archivo" />
@@ -100,4 +100,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Maslow;

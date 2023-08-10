@@ -54,6 +54,18 @@ p, .text-default {
     font-size: $font-size-small;
 }
 
+.text-medium {
+    font-weight: $font-weight-medium;
+}
+
+.text-semibold {
+    font-weight: $font-weight-semibold;
+}
+
+.text-bold {
+    font-weight: $font-weight-bold;
+}
+
 .home-main .h1 {
     line-height: 0.9;
 }

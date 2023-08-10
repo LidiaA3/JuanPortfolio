@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         </section>
         <section className="content-section">
-          <section className="bio-section">
+          <section className="bio-section text-medium">
             <p>
               Soy una persona apasionada, amante del aprendizaje y del
               crecimiento constante. Mi historial académico es bastante

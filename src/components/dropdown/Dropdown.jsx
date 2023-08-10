@@ -56,14 +56,6 @@ function Dropdown() {
                   <span>Web</span>
                 </li>
               </Link>
-              <li>
-                <span>Tutum</span>
-                <span>Web</span>
-              </li>
-              <li>
-                <span>Transportes Ray</span>
-                <span>Aplicación</span>
-              </li>
             </ul>
           </li>
           <li>
@@ -76,16 +68,8 @@ function Dropdown() {
             </div>
             <ul className="text-default dropdown__projects-list">
               <li>
-                <span>Festival Jazzing '23</span>
-                <span>Cartelería</span>
-              </li>
-              <li>
-                <span>Revista Focus</span>
-                <span>Editorial</span>
-              </li>
-              <li>
-                <span>Èlia Bastida</span>
-                <span>Marca personal</span>
+                <span>Sección en construcción</span>
+                <span></span>
               </li>
             </ul>
           </li>
@@ -99,16 +83,8 @@ function Dropdown() {
             </div>
             <ul className="text-default dropdown__projects-list">
               <li>
-                <span>Todo App</span>
-                <span>Desarrollo</span>
-              </li>
-              <li>
-                <span>Maslow</span>
-                <span>Desarrollo</span>
-              </li>
-              <li>
-                <span>Babel</span>
-                <span>Maquetación</span>
+                <span>Sección en construcción</span>
+                <span></span>
               </li>
             </ul>
           </li>
@@ -122,16 +98,8 @@ function Dropdown() {
             </div>
             <ul className="text-default dropdown__projects-list">
               <li>
-                <span>3.00 pm in NY</span>
-                <span>Diseño sonoro</span>
-              </li>
-              <li>
-                <span>Slow light</span>
-                <span>Diseño sonoro</span>
-              </li>
-              <li>
-                <span>Paisajes</span>
-                <span>Fotografía</span>
+                <span>Sección en construcción</span>
+                <span></span>
               </li>
             </ul>
           </li>

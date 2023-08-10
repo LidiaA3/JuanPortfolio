@@ -9,14 +9,17 @@ import Download from "../../components/icons/download/download";
 import Mail from "../../components/icons/mail/mail";
 
 function Personalportfolio() {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
-      <Topbar url="/portafolio" link="←Archivo" />
+      <Topbar url="/portafolio" link="←Proyectos" />
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">Portafolio personal</h2>
           <ProjectInfo
-            role="Diseñador UI, Desarrollador"
+            role="Diseñador UX/UI, Desarrollador"
             typology="Web"
             technologies="React.js"
             tools="Figma, Illustrator, Blender, Vs Code, Git"
@@ -28,45 +31,43 @@ function Personalportfolio() {
           <div class="project__header--intro">
             <span class="h5">Introducción</span>
             <p>
-              Este proyecto se inició con el objetivo de mostrar mi trabajo. Se
-              buscaba la originalidad y no tanto seguir las tendencias, para
-              ello me inspiré en las interfaces de las películas de ciencia
-              ficción. A continuación, se muestra el proceso que realicé, el
-              cual ejemplifica, a grandes rasgos, mi proceso de diseño.
+              Este proyecto se inició con el objetivo de mostrar mi trabajo,
+              buscando la originalidad y no tanto seguir las tendencias a nivel
+              de diseño. Para ello, me inspiré en las interfaces de las
+              películas de ciencia ficción. A continuación, se muestra el
+              proceso que realicé, el cual ejemplifica, a grandes rasgos, mi
+              proceso de diseño de productos digitales.
             </p>
           </div>
         </div>
         <div class="project__content">
-          {/* <div className="project__image-container">
-            <img src="src/assets/img/maslow_logo.jpg" alt="" />
-          </div> */}
-
-          <div class="project__content--goals">
+          <div class="project__content--problem">
             <span class="h5">
               Fase 1<span class="vertical-bar"> | </span>Entendiendo el problema
             </span>
             <p>
               La necesidad inicial consiste en tener una plataforma donde
               exponer y explicar mis proyectos. Parte del problema, sería
-              conseguir llamar la atención dentro de un mercado laboral con
-              bastante competencia.
+              conseguir llamar la atención en un mercado laboral donde ya hay
+              muchos profesionales.
             </p>
           </div>
 
-          <div class="project__content--target">
+          <div class="project__content--solution">
             <span class="h5">
               Fase 2<span class="vertical-bar"> | </span>Elaborando una
               hipótesis o solución
             </span>
             <p>
-              La solución es crear una página web a modo de portafolio, buscando
-              un toque llamativo y original, lo cual transmite también la
-              capacidad de plantear soluciones de diseño particularizadas, que
-              puedan o no, seguir las tendencias estéticas del momento.
+              La solución planteada es crear una página web a modo de
+              portafolio, buscando un toque llamativo y original, lo cual
+              transmitiría también la capacidad de plantear soluciones de diseño
+              particularizadas, que puedan o no, seguir las tendencias estéticas
+              del momento.
             </p>
           </div>
           {/* <User /> */}
-          <div class="project__content--conclusion">
+          <div class="project__content--ia">
             <span class="h5">
               Fase 3<span class="vertical-bar"> | </span>Definiendo la
               estructura básica
@@ -80,9 +81,9 @@ function Personalportfolio() {
               <b>3.1 Obtener y organizar el contenido</b>
               <p>
                 Es necesario hacer un inventario del contenido. Esto nos
-                permitirá empezar definir una AI (Arquitectura de información),
-                que iremos construyendo ayudados de diferentes técnicas, como
-                por ejemplo la de card sorting.
+                permitirá empezar a definir una AI (Arquitectura de
+                Información), que iremos construyendo ayudados de diferentes
+                técnicas, como por ejemplo la de card sorting.
               </p>
             </p>
             <div class="project__img-container">
@@ -93,10 +94,11 @@ function Personalportfolio() {
               </span>
             </div>
             <p>
-              El sitemap, es uno de los resultados de este proceso de
-              organización. Muestra la arquitectura que tendrá nuestro sitio.
-              Para este caso, nuestro sitemap sería muy sencillo. El core de
-              nuestro portafolio se podría resumir en el siguiente esquema:
+              El <span class="text-bold">sitemap</span>, es uno de los
+              resultados de este proceso de organización. Muestra la
+              arquitectura que tendrá nuestro sitio. Para este caso, nuestro
+              sitemap sería muy sencillo. El core de nuestro portafolio se
+              podría resumir en el siguiente esquema:
             </p>
             <div class="project__img-container">
               <img src="src/assets/img/sitemap.png" alt="" />
@@ -107,13 +109,14 @@ function Personalportfolio() {
               </span>
             </div>
             <p>
-              Otra herramienta útil en este punto son los userflows, que nos
-              permiten seguir puliendo la AI y sentar los cimientos de nuestro
-              futuro diseño según unos objetivos predefinidos. Son muy
-              importantes dado que nos ponen en la piel del usuario y nos
-              permiten crear productos para que tanto este como nosotros, como
-              diseñadores o negocios, alcancemos nuestros objetivos de la manera
-              más fácil y rápida posible.
+              Otra herramienta útil en este punto son los{" "}
+              <span class="text-bold">userflows</span>, que nos permiten seguir
+              puliendo la AI y sentar los cimientos de nuestro futuro diseño
+              según unos objetivos predefinidos. Son muy importantes, dado que
+              nos ponen en la piel del usuario y nos permiten crear productos
+              para que tanto el usuario como nosotros, como diseñadores o
+              negocios, alcancemos nuestros objetivos de la manera más fácil y
+              rápida posible.
             </p>
             <div class="project__img-container">
               <img src="src/assets/img/userflow-bn.png" alt="" />
@@ -131,36 +134,40 @@ function Personalportfolio() {
             <div class="project__img-container" id="wireframes-img">
               <img src="src/assets/img/wireframes.jpg" alt="" />
               <span class="project__img-container--caption">
-                Esbozos o wireframes iniciales de la estructura de la página
-                principal.
+                Ejemplo de parte de los wireframes realizados para obtener la
+                estructura de la página principal.
               </span>
             </div>
           </div>
-          <div class="">
+          <div class="project__content--design">
             <span class="h5">
               Fase 4<span class="vertical-bar"> | </span>Diseñando una solución
             </span>
             <p>
               En base a nuestra investigación inicial y un estudio gráfico de
-              referentes y competencia pasamos a diseñar, sabiendo, después de
+              referentes y competencia pasamos a diseñar. Sabiendo, después de
               haber investigado, que se busca un diseño que sea estéticamente
               llamativo, original y tecnológico. Antes de pasar a desarrollo,
               también sería interesante, realizar un prototipo que validase el
-              funcionamiento del diseño o dicho de otro modo, la solución
-              planteada al problema.
+              funcionamiento del diseño, o dicho de otro modo, la solución
+              planteada al problema. Aunque en este caso, dada la escasez de
+              tiempo y recursos, ya que solo se cuenta con una persona encargada
+              de diseñar y desarrollar, se realiza un diseño final en base a
+              estándares y principios de UX, que nos aporten una garantía de
+              éxito.
             </p>
             <div class="project__img-container">
               <img src="src/assets/img/Figma-screenshot.png" alt="" />
               <span class="project__img-container--caption">
-                Diseño final realizado en Figma, donde se observa un Design
-                System conformado por botones, desplegables y otros componentes
-                estandarizados.
+                Diseño final realizado en Figma, donde se observa la aplicación
+                de un Design System conformado por botones, desplegables y otros
+                componentes estandarizados.
               </span>
             </div>
           </div>
-          <div class="">
+          <div class="project__content--development">
             <span class="h5">
-              Fase 5<span class="vertical-bar"> | </span>Fase de desarrollo y
+              Fase 5<span class="vertical-bar"> | </span>Desarrollo y
               comprobación
             </span>
             <p>
@@ -171,25 +178,30 @@ function Personalportfolio() {
               cumplimiento de los objetivos planteados.
             </p>
           </div>
-          <div>
+          <div class="project__content--conclusion">
             <span class="h5">Conclusión</span>
             <p>
               De manera muy sintetizada, este el proceso que aplicaría a
               cualquier producto digital. Teniendo en cuenta que hemos obviado
               en este resumen partes del proceso de investigación que tendrían
               lugar si se tratara de proyectos más ambiciosos o en los que
-              estuviera implicado un equipo de trabajo mayor. El resultado se
-              puede visualizar navegando por esta misma web.
+              estuviera implicado un equipo de trabajo mayor. <br></br>
+              <br></br>
+              <p class="text-semibold">
+                ¡Navega por esta página web para experimentar en primera persona
+                el resultado de este proyecto!
+              </p>
             </p>
           </div>
-          {/* <div class="project__nav">
-            <Link className="h6">
+          {/* BOTONES DE NAVEGACIÓN ENTRE PROYECTOS */}
+          <div class="project__nav">
+            <Link to="/portafolio" className="h6">
               <span>←Anterior</span>
             </Link>
-            <Link className="h6">
+            <Link to="/maslow" onClick={scrollToTop} className="h6">
               <span>Siguiente→</span>
             </Link>
-          </div> */}
+          </div>
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">

@@ -8,8 +8,9 @@ import Styleguide from "./styleguide/Styleguide";
 import Topbar from "./components/topbar/Topbar";
 import IconHead from "./components/icons/IconHead";
 import Portfolio from "./views/portfolio/Portfolio";
-import Project from "./views/project/Project";
+import Project from "./views/projects/Maslow";
 import Personalportfolio from "./views/projects/personalportfolio";
+import Maslow from "./views/projects/Maslow";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/portafolio" element={<Portfolio />} />
           <Route path="/project" element={<Project />} />
           <Route path="/personalportfolio" element={<Personalportfolio />} />
+          <Route path="/maslow" element={<Maslow />} />
         </Routes>
       </main>
     </>
