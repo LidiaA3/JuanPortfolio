@@ -14,16 +14,28 @@ function Maslow() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">Website para Maslow</h2>
-          <ProjectInfo />
+          <ProjectInfo
+            role="Diseñador gráfico, UI, Desarrollador"
+            typology="Web, Identidad Corporativa"
+            technologies="Wordpress, Php"
+            tools="Figma, Vs Code, Mamp, Git"
+            agency="Profesional independiente"
+            client="Maslow"
+            year="2023"
+            link="No disponible"
+          />
           <div class="project__header--intro">
             <span class="h5">Introducción</span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              vehicula varius convallis. Integer vitae turpis quam. Vestibulum
-              condimentum, ipsum sed lacinia fermentum, est eros consequat urna,
-              sed congue libero enim sed odio. Maecenas accumsan, velit id
-              hendrerit bibendum, erat diam eleifend elit, eu convallis dui
-              lacus a ante.
+              Este proyecto consistió en la realización de una plataforma a
+              medio camino entre blog divulgativo y comercio electrónico, para
+              la marca de moda urbana Maslow, de la cual también se realizó la
+              identidad corporativa. Por una serie de condicionantes temporales
+              y económicos, los esfuerzos se concentraron en realizar un buen
+              diseño de identidad, de interfaz web y en el correcto
+              funcionamiento de esta para que fuese funcional y autogestionable
+              por el cliente, para lo cual creamos una plantilla de wordpress
+              desde cero.
             </p>
           </div>
         </div>
