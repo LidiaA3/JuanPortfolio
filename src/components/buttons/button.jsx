@@ -10,10 +10,14 @@ function Button(props) {
 
   const combinedClasses = `${btn} ${h4} ${buttonType}`;
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       {" "}
-      <Link to={props.url}>
+      <Link to={props.url} onClick={scrollToTop}>
         <button className={combinedClasses}>
           {props.icon}
           {props.text}

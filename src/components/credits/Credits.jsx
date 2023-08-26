@@ -4,10 +4,11 @@ function Credits() {
   return (
     <>
       <div className="credits text-small">
-        <span>Diseño y desarrollo:</span>
-        <span>Juan Tamarit</span>
-        <span>Framework:</span>
-        <span>React.js</span>
+        <span>DISEÑO Y DESARROLLO:</span>
+        <span>JUAN TAMARIT</span>
+        <span>FRAMEWORK:</span>
+        <span>REACT.JS</span>
+        <span>VERSIÓN 2.0</span>
       </div>
     </>
   );

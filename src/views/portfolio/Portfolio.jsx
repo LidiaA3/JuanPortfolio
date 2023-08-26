@@ -32,7 +32,7 @@ function Portfolio() {
           </div>
         </section>
       </main>
-      <footer>
+      {/* <footer>
         <div className="portfolio__floor-container">
           <img
             className="portfolio__floor"
@@ -40,7 +40,7 @@ function Portfolio() {
             alt="decorative image"
           />
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }

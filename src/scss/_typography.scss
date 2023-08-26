@@ -9,6 +9,13 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: "VG5000";
+    src: url("../assets/fonts/VG5000-Regular_web.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
 h1, .h1 {
     font-family: $font-secundary;
  font-size: $font-size-h1;

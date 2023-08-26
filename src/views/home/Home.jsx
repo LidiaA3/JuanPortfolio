@@ -18,31 +18,31 @@ export default function Home() {
       <Topbar url="/portafolio" link="→Portafolio" />
       <main className="home-main">
         <section className="hero-section">
-          <Cube />
+          {/* <Cube />
           <Sphere />
-          <Cone />
+          <Cone /> */}
           <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
             <div>
               <h2 className="text-default hero-section__profession-text">
-                diseñador UX/UI
+                DISEÑADOR UX/UI
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                diseñador gráfico
+                DISEÑADOR GRÁFICO
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                desarrollador web
+                DESARROLLADOR WEB
               </h2>
             </div>
           </div>
           <Credits />
-          <div className="hero-section__floor-container">
+          {/* <div className="hero-section__floor-container">
             <img
               className="hero-section__floor"
               src="/floor-mobile-optimized.svg"
               alt="decorative image"
             />
-          </div>
+          </div> */}
         </section>
         <section className="content-section">
           <section className="bio-section text-regular">
@@ -75,44 +75,44 @@ export default function Home() {
             <p>¡Gracias por tu tiempo!</p>
           </section>
           <section className="skills-section">
-            <Cubeempty />
+            {/* <Cubeempty /> */}
             <div className="skills-section__knowledges-container">
               <span className="h3">Conocimientos</span>
               <div className="skills-section__skills-group--knowledges">
-                <Skill type="straight" text="Diseño gráfico" />
+                <Skill type="rounded" text="Diseño gráfico" />
                 <Skill type="rounded" text="UX/UI" />
-                <Skill type="straight" text="Desarrollo web" />
+                <Skill type="rounded" text="Desarrollo web" />
                 <Skill type="rounded" text="Identidad" />
-                <Skill type="straight" text="Wordpress" />
+                <Skill type="rounded" text="Wordpress" />
                 <Skill type="rounded" text="Marketing" />
-                <Skill type="straight" text="Fotografía" />
+                <Skill type="rounded" text="Fotografía" />
                 <Skill type="rounded" text="Motion Graphics" />
-                <Skill type="straight" text="Diseño sonoro" />
+                <Skill type="rounded" text="Diseño sonoro" />
                 <Skill type="rounded" text="Vídeo" />
               </div>
             </div>
-            <Sphereempty />
+            {/* <Sphereempty /> */}
             <div className="skills-section__tools-container">
               <span className="h3">Herramientas</span>
               <div className="skills-section__skills-group--tools">
                 <Skill type="rounded" text="Adobe creative suite" />
-                <Skill type="straight" text="Figma" />
+                <Skill type="rounded" text="Figma" />
                 <Skill type="rounded" text="Visual Studio Code" />
-                <Skill type="straight" text="Git" />
+                <Skill type="rounded" text="Git" />
                 <Skill type="rounded" text="Logic Pro" />
               </div>
             </div>
             <div className="skills-section__technologies-container">
               <span className="h3">Tecnologías</span>
               <div className="skills-section__skills-group--Technologies">
-                <Skill type="straight" text="Html" />
+                <Skill type="rounded" text="Html" />
                 <Skill type="rounded" text="Css" />
-                <Skill type="straight" text="Scss" />
+                <Skill type="rounded" text="Scss" />
                 <Skill type="rounded" text="Javascript" />
-                <Skill type="straight" text="React.js" />
+                <Skill type="rounded" text="React.js" />
               </div>
             </div>
-            <Coneempty />
+            {/* <Coneempty /> */}
           </section>
           <section className="buttons-section">
             <span className="text-default">¿Quieres saber más?</span>

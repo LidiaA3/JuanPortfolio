@@ -6,7 +6,7 @@ $color-fluor-blue-lightest: hsl(251 % 360, 100%, 97%);
 
 
     //COLOR IMPLEMENTATION
-    $color-primary: $color-fluor-blue;
+    $color-primary: black;
     $color-primary-light: $color-fluor-blue-light;
     $color-primary-lighter: $color-fluor-blue-lighter;
     $color-primary-lightest: $color-fluor-blue-lightest;
@@ -18,6 +18,8 @@ $color-fluor-blue-lightest: hsl(251 % 360, 100%, 97%);
     // FONT FAMILIES
     $font-primary: 'Space Grotesk', sans-serif;
     $font-secundary: 'Anthony Regular', sans-serif;
+    $font-secundary: 'VG5000', sans-serif;
+
 
     // FONT FAMILIES IMPLEMENTATION
     $font-headers: $font-secundary;
