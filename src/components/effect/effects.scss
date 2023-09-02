@@ -1,11 +1,11 @@
 .smoke {
-    position: fixed;
+    position: absolute;
     z-index: -999;
 }
 .fig-1 {
     width: 400px;
     position: relative;
-    top: 50px;
+    top: 300px;
     left: 50px;
     animation: moveUp 27s linear infinite, fading 27s linear infinite;
       transform-origin: center;
