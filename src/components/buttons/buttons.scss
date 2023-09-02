@@ -4,8 +4,8 @@
 
 .btn {
     font-weight: var(--weight-light);
-    color: var(--color-gray);
-    background-color: var(--color-red);
+    // color: var(--color-gray);
+    // background-color: var(--color-red);
     border: 1px solid $color-primary;  
     border-radius: 100px; 
     padding: $big-scale-unit-1;
@@ -20,15 +20,15 @@
     }
 
     &.primary {
-        background: $color-primary-light;
+        // background: $color-primary-light;
         transition: 0.25s;
 
         & a {
-            color: white;
+            // color: white;
         }
     }
     &.primary.h4 {
-        color: white;
+        // color: white;
     } 
     &.primary:hover, &.primary:active {
         // background-color: hsl(251 % 360, 100%, 70%);

@@ -1,0 +1,111 @@
+.smoke {
+    position: fixed;
+    z-index: -999;
+}
+.fig-1 {
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    animation: moveUp 27s linear infinite, fading 27s linear infinite;
+      transform-origin: center;
+    //   background-color: red;
+  
+  
+  }
+  .fig-1_mask {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    filter: blur(10px);
+    animation: moveRight 27s linear infinite; 
+  }
+  
+  .fig-1_mask-2 {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    filter: blur(10px);
+    animation: moveRight2 27s linear infinite; 
+  }
+  
+  
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateX(-20%); 
+    }
+    
+    60% {
+      transform: translateX(100%);
+    }
+    75% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(100%); /* Termina fuera del .fig-1 */
+    }  
+  }
+  
+  @keyframes moveRight2 {
+    0% {
+      transform: translateX(-200%); 
+    }
+    
+    60% {
+      transform: translateX(-70%);
+    }
+    100% {
+      transform: translateX(0%); /* Termina fuera del .fig-1 */
+    }  
+  }
+  
+  @keyframes moveUp {
+    0% {
+      transform: translateY(0%); 
+    }
+    15% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-35%);
+    }
+  }
+  
+  @keyframes fading {
+    0% {
+      opacity: 0%; 
+    }
+    15% {
+      opacity: 100%; 
+    }
+    40% {
+      opacity: 100%;
+    }
+    0% {
+      opacity: 0%;
+    }  
+    100% {
+      opacity: 0%; 
+    }
+  }
+  
+  @keyframes wiggle {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(2deg);
+    }
+    50% {
+      transform: rotate(-2deg);
+    }
+    75% {
+      transform: rotate(2deg);
+    }
+  }
+    

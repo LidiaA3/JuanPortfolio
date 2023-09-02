@@ -11,12 +11,13 @@ import Cubeempty from "../../components/CubeEmpty/Cubeempty";
 import Coneempty from "../../components/ConeEmpty/Coneempty";
 import Sphereempty from "../../components/Sphereempty/Sphereempty";
 import Download from "../../components/icons/download/download";
-
+import Effect from "../../components/effect/effect";
 export default function Home() {
   return (
     <>
       <Topbar url="/portafolio" link="→Portafolio" />
       <main className="home-main">
+        <Effect />
         <section className="hero-section">
           {/* <Cube />
           <Sphere />
@@ -80,13 +81,13 @@ export default function Home() {
               <span className="h3">Conocimientos</span>
               <div className="skills-section__skills-group--knowledges">
                 <Skill type="rounded" text="Diseño gráfico" />
-                <Skill type="rounded" text="UX/UI" />
+                <Skill type="straight" text="UX/UI" />
                 <Skill type="rounded" text="Desarrollo web" />
-                <Skill type="rounded" text="Identidad" />
+                <Skill type="straight" text="Identidad" />
                 <Skill type="rounded" text="Wordpress" />
-                <Skill type="rounded" text="Marketing" />
+                <Skill type="straight" text="Marketing" />
                 <Skill type="rounded" text="Fotografía" />
-                <Skill type="rounded" text="Motion Graphics" />
+                <Skill type="straight" text="Motion Graphics" />
                 <Skill type="rounded" text="Diseño sonoro" />
                 <Skill type="rounded" text="Vídeo" />
               </div>
@@ -96,9 +97,9 @@ export default function Home() {
               <span className="h3">Herramientas</span>
               <div className="skills-section__skills-group--tools">
                 <Skill type="rounded" text="Adobe creative suite" />
-                <Skill type="rounded" text="Figma" />
+                <Skill type="straight" text="Figma" />
                 <Skill type="rounded" text="Visual Studio Code" />
-                <Skill type="rounded" text="Git" />
+                <Skill type="straight" text="Git" />
                 <Skill type="rounded" text="Logic Pro" />
               </div>
             </div>
@@ -106,9 +107,9 @@ export default function Home() {
               <span className="h3">Tecnologías</span>
               <div className="skills-section__skills-group--Technologies">
                 <Skill type="rounded" text="Html" />
-                <Skill type="rounded" text="Css" />
+                <Skill type="straight" text="Css" />
                 <Skill type="rounded" text="Scss" />
-                <Skill type="rounded" text="Javascript" />
+                <Skill type="straight" text="Javascript" />
                 <Skill type="rounded" text="React.js" />
               </div>
             </div>
