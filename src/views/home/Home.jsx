@@ -26,13 +26,13 @@ export default function Home() {
             <span className="h1">Juan Tamarit</span>
             <div>
               <h2 className="text-default hero-section__profession-text">
-                DISEÑADOR UX/UI
+                Diseñador UX/UI
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                DISEÑADOR GRÁFICO
+                Diseñador Gráfico
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                DESARROLLADOR WEB
+                Desarrollador Web
               </h2>
             </div>
           </div>
