@@ -1,4 +1,5 @@
-import "./Personalportfolio.scss";
+import "./Modelproject.scss";
+import "./Projects.scss";
 import Topbar from "../../components/topbar/Topbar";
 import ProjectInfo from "../../components/ProjectInfo/ProjectInfo";
 import User from "../../components/User/user";
@@ -7,7 +8,7 @@ import Button from "../../components/buttons/button";
 import Download from "../../components/icons/download/download";
 import Mail from "../../components/icons/mail/mail";
 
-function Personalportfolio() {
+function Modelproject() {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -38,6 +39,10 @@ function Personalportfolio() {
               proceso de diseño de productos digitales.
             </p>
           </div>
+        </div>
+        <div class="project-info">
+          <div class="project-info__titles">a</div>
+          <div class="project-info__description">a</div>
         </div>
         <div class="project__content">
           <div class="project__content--problem">
@@ -228,4 +233,4 @@ function Personalportfolio() {
   );
 }
 
-export default Personalportfolio;
+export default Modelproject;

@@ -50,10 +50,16 @@ function Dropdown() {
                   <span>Web, UX/UI</span>
                 </li>
               </Link>
-              <Link to="/project" className="link">
+              <Link to="/maslow" className="link">
                 <li>
                   <span>Maslow</span>
                   <span>Web, UI</span>
+                </li>
+              </Link>
+              <Link to="/modelproject" className="link">
+                <li>
+                  <span>Model Project</span>
+                  <span>UX</span>
                 </li>
               </Link>
             </ul>

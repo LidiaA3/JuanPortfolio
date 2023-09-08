@@ -1,0 +1,24 @@
+@import 'src/scss/_mixins.scss';
+
+.project-info {
+    display: flex;
+    background-color: red;
+    flex-direction: column;        
+
+    @include tablet {
+        flex-direction: row;        
+
+  }
+}
+  
+  .project-info__titles {
+    flex: 1; 
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .project-info__description {
+    flex: 2; 
+    padding: 10px;
+    text-align: left;
+  }

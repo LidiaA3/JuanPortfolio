@@ -11,6 +11,7 @@ import Portfolio from "./views/portfolio/Portfolio";
 import Project from "./views/projects/Maslow";
 import Personalportfolio from "./views/projects/personalportfolio";
 import Maslow from "./views/projects/Maslow";
+import Modelproject from "./views/projects/Modelproject";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/styleguide" element={<Styleguide />} />
           <Route path="/portafolio" element={<Portfolio />} />
+          <Route path="/modelproject" element={<Modelproject />} />
           <Route path="/project" element={<Project />} />
           <Route path="/personalportfolio" element={<Personalportfolio />} />
           <Route path="/maslow" element={<Maslow />} />
