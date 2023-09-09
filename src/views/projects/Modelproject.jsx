@@ -1,5 +1,4 @@
 import "./Modelproject.scss";
-import "./Projects.scss";
 import Topbar from "../../components/topbar/Topbar";
 import ProjectInfo from "../../components/ProjectInfo/ProjectInfo";
 import User from "../../components/User/user";
@@ -40,11 +39,30 @@ function Modelproject() {
             </p>
           </div>
         </div>
-        <div class="project-info">
-          <div class="project-info__titles">a</div>
-          <div class="project-info__description">a</div>
-        </div>
+
         <div class="project__content">
+          <div class="project-info">
+            <div class="project-info__titles">
+              <div class="project-info__title">> Fase 03</div>
+              <div class="project-info__subtitle">
+                Definiendo una estructura
+              </div>
+            </div>
+            <div class="project-info__description">
+              De manera muy sintetizada, este es el proceso que aplicaría a
+              cualquier producto digital. Teniendo en cuenta que hemos obviado
+              en este resumen partes del proceso de investigación que tendrían
+              lugar si se tratara de proyectos más ambiciosos o en los que
+              estuviera implicado un equipo de trabajo mayor.
+            </div>
+          </div>
+          <div class="project__img-container">
+            <img src="src/assets/img/content-list.png" alt="" />
+            <span class="project__img-container--caption">
+              Utilizo las hojas de cálculo para visualizar todo el contenido que
+              tendremos que organizar.
+            </span>
+          </div>
           <div class="project__content--problem">
             <span class="h5">
               Fase 1<span class="vertical-bar"> | </span>Entendiendo el problema

@@ -1,8 +1,97 @@
 @import 'src/scss/_mixins.scss';
+@import '../../scss/_variables';
+@import '../../scss/_mixins';
+
+
+.project-main .h2 {
+margin-bottom: $default-scale-unit-2;
+}
+.project {
+    
+    &__content {
+    display: flex; 
+    flex-direction: column;
+    gap: $big-scale-unit-4;
+
+        .h5 {
+            font-weight: $font-weight-medium;
+        }        
+    }
+    &__header--intro {
+        .h5 {
+            font-weight: $font-weight-medium;
+        }
+    }
+}
+// }
+
+.project__home-link {
+color: $color-primary;
+}
+
+.project__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: $big-scale-unit-4;
+
+    a {
+        color: $color-primary;
+        text-decoration: none;
+        border-bottom: 1.5px solid $color-primary;
+    }
+    a:hover, a:active {
+        border-bottom: none;
+    }
+}
+
+.buttons-section {
+    box-sizing: border-box;
+    .project__home-link{
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        &-arrow {
+            display: inline;
+            font-family: $font-secundary;
+        }
+    }
+    .project__home-link:hover, .project__home-link:active{
+        border-bottom: none;
+    }
+    .buttons {
+        @include tablet {
+            display: flex;
+            gap: $big-scale-unit-2;
+            justify-content: center;
+        }
+    }
+}
+
+.project__header {
+    margin-bottom: $big-scale-unit-4;
+
+    @include tablet {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Dos columnas de igual ancho */
+    grid-template-rows: 1fr 1fr; /* Dos filas de igual altura */
+    column-gap: $big-scale-unit-4; /* Espacio entre las celdas del grid */
+    
+
+    }
+}
+
+.project__content--conclusion {
+    margin-bottom: $big-scale-unit-5;
+}
+
+.vertical-bar {
+font-weight: $font-weight-light;
+}
 
 .project-info {
     display: flex;
-    background-color: red;
+    // background-color: red;
     flex-direction: column;        
 
     @include tablet {
@@ -19,6 +108,14 @@
   
   .project-info__description {
     flex: 2; 
-    padding: 10px;
+    // padding: 10px;
     text-align: left;
+  }
+
+  .project__content--solution {
+    // background-color: red;
+
+  }
+  .project__content {
+    // background-color: blue;
   }
