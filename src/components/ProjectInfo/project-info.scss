@@ -10,9 +10,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4);
     gap: $big-scale-unit-2;
-    background-color: $color-primary-lightest;
-    border: 1px solid $color-primary;
-    border-radius: $big-scale-unit-2;
+    // background-color: $color-primary-lightest;
+    // border: 1px solid $color-primary;
+    // border-radius: $big-scale-unit-2;
     padding: $big-scale-unit-3 $big-scale-unit-2;
     margin-bottom: $default-scale-unit-3;
     grid-row: span 2; 

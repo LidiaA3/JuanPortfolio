@@ -16,7 +16,9 @@ function Modelproject() {
       <Topbar url="/portafolio" link="←Proyectos" />
       <main className="project-main">
         <div className="project__header">
-          <h2 className="h2">Portafolio personal</h2>
+          <h2 className="h2">
+            <span class="project-number">01 </span>Portafolio personal
+          </h2>
           <ProjectInfo
             role="Diseñador UX/UI, Desarrollador"
             typology="Web"

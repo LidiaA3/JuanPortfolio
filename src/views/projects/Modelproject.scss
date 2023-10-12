@@ -7,6 +7,14 @@
 margin-bottom: $default-scale-unit-2;
 }
 .project {
+    &-number {
+        // vertical-align: super;
+        // font-size: 60%;
+        // font-variant-numeric: diagonal-fractions;
+        font-feature-settings: "aalt";
+        // font-feature-settings: "abvf";
+
+    }
     
     &__content {
     display: flex; 
