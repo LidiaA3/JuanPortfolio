@@ -11,14 +11,12 @@ import Cubeempty from "../../components/CubeEmpty/Cubeempty";
 import Coneempty from "../../components/ConeEmpty/Coneempty";
 import Sphereempty from "../../components/Sphereempty/Sphereempty";
 import Download from "../../components/icons/download/download";
-import Effect from "../../components/effect/effect";
 import Cv from "../../components/icons/cv/cv";
 export default function Home() {
   return (
     <>
       <Topbar url="/portafolio" link="→Portafolio" />
       <main className="home-main">
-        <Effect />
         <section className="hero-section">
           {/* <Cube />
           <Sphere />

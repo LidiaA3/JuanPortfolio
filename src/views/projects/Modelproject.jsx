@@ -218,14 +218,14 @@ function Modelproject() {
             </p>
           </div>
           {/* BOTONES DE NAVEGACIÓN ENTRE PROYECTOS */}
-          <div class="project__nav">
+          {/* <div class="project__nav">
             <Link to="/portafolio" className="h6">
               <span>←Anterior</span>
             </Link>
             <Link to="/maslow" onClick={scrollToTop} className="h6">
               <span>Siguiente→</span>
             </Link>
-          </div>
+          </div> */}
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
