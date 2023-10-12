@@ -12,6 +12,7 @@ import Coneempty from "../../components/ConeEmpty/Coneempty";
 import Sphereempty from "../../components/Sphereempty/Sphereempty";
 import Download from "../../components/icons/download/download";
 import Effect from "../../components/effect/effect";
+import Cv from "../../components/icons/cv/cv";
 export default function Home() {
   return (
     <>
@@ -120,8 +121,8 @@ export default function Home() {
             <div className="buttons">
               <Button
                 buttonType="secondary"
-                icon={<Download />}
-                text="CV detallado"
+                icon={<Cv />}
+                text="Descargar CV"
               />
               <Button
                 buttonType="primary"

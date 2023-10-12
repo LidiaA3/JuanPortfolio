@@ -1,4 +1,6 @@
 @import '../../scss/variables.scss';
+@import "src/scss/_mixins.scss";
+
 
 
 
@@ -79,6 +81,13 @@ li {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
+
+  .dropdown__projects-list li span:first-child {
+    margin-left: $big-scale-unit-3;
+    @include tablet {
+margin-left: $big-scale-unit-4;}
+  }
+  
 
 
   

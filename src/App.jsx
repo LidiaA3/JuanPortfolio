@@ -12,11 +12,13 @@ import Project from "./views/projects/Maslow";
 import Personalportfolio from "./views/projects/personalportfolio";
 import Maslow from "./views/projects/Maslow";
 import Modelproject from "./views/projects/Modelproject";
+import Effect from "./components/effect/effect";
 
 function App() {
   return (
     <>
       <main className="text-default">
+        <Effect />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
