@@ -30,7 +30,7 @@ function Modelproject() {
             link="juantamarit.com"
           />
           <div class="project__header--intro">
-            <span class="h5">Introducción</span>
+            {/* <span class="h5">Introducción</span> */}
             <p>
               Este proyecto se inició con el objetivo de mostrar mi trabajo,
               buscando la originalidad y no tanto seguir las tendencias a nivel
@@ -45,7 +45,7 @@ function Modelproject() {
         <div class="project__content">
           <div class="project-info">
             <div class="project-info__titles">
-              <div class="project-info__title">> Fase 03</div>
+              <div class="project-info__title"> > Fase 03</div>
               <div class="project-info__subtitle">
                 Definiendo una estructura
               </div>
