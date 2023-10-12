@@ -33,7 +33,7 @@
         // color: white;
     } 
     &.primary:hover, &.primary:active {
-        background: radial-gradient(ellipse 20px 20px at center, rgba($color-secondary, 0.5), transparent);
+        background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.3), transparent);
         animation: appearance-button 0.25s forwards;  
         cursor: pointer;
         transition: 0.25s;
@@ -50,7 +50,7 @@
         }       
         
      &.secondary:hover, &.secondary:active {
-        background: radial-gradient(ellipse 20px 20px at center, rgba($color-secondary, 0.5), transparent);
+        background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.3), transparent);
         animation: appearance-button 0.25s forwards;  
         cursor: pointer;
         transition: 0.25s;
@@ -90,34 +90,34 @@
 
 @keyframes appearance-button {
     0% {
-      background: radial-gradient(100pxse0 0 at center, rgba($color-secondary, 0), transparent);
+      background: radial-gradient(ellipse 0 0 at center, rgba($color-secondary, 0), transparent);
     }
     25% {
-       background: radial-gradient(ellipse 100px 60px at center, rgba($color-secondary, 0.125), transparent);
+       background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.1), transparent);
      }
     50% {
-       background: radial-gradient(ellipse 100px 60px at center, rgba($color-secondary, 0.25), transparent);
+       background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.2), transparent);
      }
      75% {
-       background: radial-gradient(ellipse 100px 60px at center, rgba($color-secondary, 0.375), transparent);
+       background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.3), transparent);
      }
     100% {
-      background: radial-gradient(ellipse 100px 60px at center, rgba($color-secondary, 0.5), transparent);
+      background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.3), transparent);
     }
   }
 
   @keyframes disappearance-button {
     0% {
-      background: radial-gradient(ellipse 100px 60px at center, rgba($color-secondary, 0.5), transparent);
+      background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.3), transparent);
     }
     25% {
-      background: radial-gradient(ellipse 100px 60px at center, rgba($color-secondary, 0.375), transparent);
+      background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.2), transparent);
     }
     50% {
-      background: radial-gradient(ellipse 100px 60px at center, rgba($color-secondary, 0.25), transparent);
+      background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.1), transparent);
     }
     75% {
-      background: radial-gradient(ellipse 100px 60px at center, rgba($color-secondary, 0.125), transparent);
+      background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0), transparent);
     }
     100% {
       background: radial-gradient(ellipse 0 0 at center, rgba($color-secondary, 0), transparent);

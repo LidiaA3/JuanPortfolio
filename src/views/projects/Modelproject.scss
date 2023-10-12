@@ -22,7 +22,7 @@ margin-bottom: $default-scale-unit-2;
     }
     &__header--intro {
         .h5 {
-            font-weight: $font-weight-medium;
+            font-weight: $font-weight-regular;
         }
     }
 }
@@ -109,6 +109,10 @@ font-weight: $font-weight-light;
   .project-info__titles {
     flex: 1; 
     text-align: left;
+  }
+
+  .project-info__subtitle.h5 {
+    font-weight: $font-weight-regular;
   }
   
   .project-info__description {

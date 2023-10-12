@@ -60,6 +60,9 @@ p, .text-default {
     font-family: $font-primary;
     font-size: $font-size-small;
 }
+.text-regular {
+    font-weight: $font-weight-regular;
+}
 
 .text-medium {
     font-weight: $font-weight-medium;

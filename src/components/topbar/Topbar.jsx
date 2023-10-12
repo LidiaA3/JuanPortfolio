@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Topbar.scss";
 import Mail from "../icons/mail/mail";
+import PortafolioIcon from "../icons/portafolio/portafolioIcon";
 // import "src/scss/_variables.scss";
 
 function Topbar(props) {

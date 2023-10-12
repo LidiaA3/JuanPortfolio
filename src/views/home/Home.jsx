@@ -12,6 +12,7 @@ import Coneempty from "../../components/ConeEmpty/Coneempty";
 import Sphereempty from "../../components/Sphereempty/Sphereempty";
 import Download from "../../components/icons/download/download";
 import Cv from "../../components/icons/cv/cv";
+import PortafolioIcon from "../../components/icons/portafolio/portafolioIcon";
 export default function Home() {
   return (
     <>
@@ -125,7 +126,8 @@ export default function Home() {
               <Button
                 buttonType="primary"
                 url="/portafolio"
-                text="↗ Portafolio"
+                icon={<PortafolioIcon />}
+                text="Portafolio"
               />
             </div>
           </section>
