@@ -1,5 +1,7 @@
 @import '../../scss/variables.scss';
 
+
+
 ul,
 li {
   margin: 0;
@@ -78,6 +80,9 @@ li {
     transform: rotate(-45deg);
   }
 
+
+  
+
   .dropdown__projects-list {
     display: none;
     background: #fff;
@@ -111,6 +116,8 @@ li {
       background: radial-gradient(ellipse 100vw 600px at left, rgba($color-secondary, 0.5), transparent);
     }
   }
+
+
 
   
 
