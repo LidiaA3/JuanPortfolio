@@ -27,26 +27,28 @@ li {
         // background: $color-primary-lightest;
         border-bottom: 1px solid $color-primary;
         list-style: none;   
-        transition: 0.5s;
+        // transition: 0.5s;
      
     }
     &__category:hover {
-        background: $color-fluor-blue-lighter;
-        transition: 1s;
-        background: radial-gradient(ellipse 300px 15px at left, rgba($color-secondary, 0.5), transparent);
-        transition: 0.5s;
-        animation: appearance-dropdown 0.25s forwards;   
+        // background: $color-fluor-blue-lighter;
+        // transition: 1s;
+        // background: radial-gradient(ellipse 300px 15px at left, rgba($color-secondary, 0.5), transparent);
+        // transition: 0.5s;
+        // animation: appearance-dropdown 0.25s forwards;   
+        font-weight: $font-weight-medium;
+
         cursor: pointer;
     }
 
-    &__category:active {
-        background: $color-fluor-blue-lighter;
-        transition: 1s;
-        background: radial-gradient(ellipse 300px 15px at left, rgba($color-secondary, 0.5), transparent);
-        transition: 0.5s;
-        animation: appearance-dropdown 0.25s forwards;   
-        cursor: pointer;
-    }
+    // &__category:active {
+    //     background: $color-fluor-blue-lighter;
+    //     transition: 1s;
+    //     background: radial-gradient(ellipse 300px 15px at left, rgba($color-secondary, 0.5), transparent);
+    //     transition: 0.5s;
+    //     animation: appearance-dropdown 0.25s forwards;   
+    //     cursor: pointer;
+    // }
     
     &__icon {
         display: block;
@@ -94,7 +96,7 @@ margin-left: $big-scale-unit-4;}
 
   .dropdown__projects-list {
     display: none;
-    background: #fff;
+    // background: #fff;
 
     li {
         display: flex;
