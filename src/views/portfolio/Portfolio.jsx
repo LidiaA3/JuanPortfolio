@@ -5,6 +5,7 @@ import "./Portfolio.scss";
 import Download from "../../components/icons/download/download";
 import Mail from "../../components/icons/mail/mail";
 import { Link } from "react-router-dom";
+import Cv from "../../components/icons/cv/cv";
 
 function Portfolio() {
   return (
@@ -17,11 +18,7 @@ function Portfolio() {
         <section className="buttons-section">
           <span className="text-default">¿Has visto suficiente?</span>
           <div className="buttons">
-            <Button
-              buttonType="secondary"
-              icon={<Download />}
-              text="CV detallado"
-            />
+            <Button buttonType="secondary" icon={<Cv />} text="Descargar CV" />
             <Button
               showIcon="show-icon"
               buttonType="primary"

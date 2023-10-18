@@ -23,7 +23,7 @@ function Modelproject() {
             role="Diseñador UX/UI, Desarrollador"
             typology="Web"
             technologies="React.js"
-            tools="Figma, Illustrator, Blender, Vs Code, Git"
+            tools="Figma, Blender, Vs Code, Git"
             agency="Proyecto personal"
             client="Proyecto personal"
             year="2023"
@@ -45,7 +45,7 @@ function Modelproject() {
         <div class="project__content">
           <div class="project-info">
             <div class="project-info__titles">
-              <div class="h4 project-info__title"> > Fase 03</div>
+              <div class="h4 project-info__title"> > Fase 01</div>
               <div class="h5 project-info__subtitle">
                 Definiendo una estructura
               </div>
@@ -64,6 +64,21 @@ function Modelproject() {
               Utilizo las hojas de cálculo para visualizar todo el contenido que
               tendremos que organizar.
             </span>
+          </div>
+          <div class="project-info">
+            <div class="project-info__titles">
+              <div class="h4 project-info__title"> > Fase 03</div>
+              <div class="h5 project-info__subtitle">
+                Definiendo una estructura
+              </div>
+            </div>
+            <div class="project-info__description">
+              De manera muy sintetizada, este es el proceso que aplicaría a
+              cualquier producto digital. Teniendo en cuenta que hemos obviado
+              en este resumen partes del proceso de investigación que tendrían
+              lugar si se tratara de proyectos más ambiciosos o en los que
+              estuviera implicado un equipo de trabajo mayor.
+            </div>
           </div>
           <div class="project__content--problem">
             <span class="h5">

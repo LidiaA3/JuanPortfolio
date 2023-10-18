@@ -9,6 +9,14 @@ margin-bottom: $default-scale-unit-2;
 .project {
     &-number {
         font-feature-settings: "aalt";
+        position: absolute;
+
+        top: calc(8*13px);        
+        @include tablet  {
+            font-feature-settings: "aalt";
+            position: static;
+
+        }
     }
     
     &__content {
@@ -71,11 +79,14 @@ color: $color-primary;
 }
 
 .project__header {
+
     margin-bottom: $big-scale-unit-4;
 
     @include tablet {
 
-    display: grid;
+        margin-bottom: $big-scale-unit-6;
+
+        display: grid;
     grid-template-columns: 2fr 1fr; /* Dos columnas de igual ancho */
     grid-template-rows: 1fr 1fr; /* Dos filas de igual altura */
     column-gap: $big-scale-unit-4; /* Espacio entre las celdas del grid */
@@ -109,6 +120,12 @@ font-weight: $font-weight-light;
   .project-info__titles {
     flex: 1; 
     text-align: left;
+    margin-bottom: $big-scale-unit-1;
+    @include tablet {
+        margin-bottom: 0px;
+  }
+    
+
   }
 
   .project-info__subtitle.h5 {

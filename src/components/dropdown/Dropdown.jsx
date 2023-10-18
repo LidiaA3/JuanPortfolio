@@ -47,7 +47,7 @@ function Dropdown() {
               <Link to="/personalportfolio" className="link">
                 <li>
                   <span>Portafolio personal</span>
-                  <span>Web, UX/UI</span>
+                  <span>UX/UI</span>
                 </li>
               </Link>
               <Link to="/maslow" className="link">
