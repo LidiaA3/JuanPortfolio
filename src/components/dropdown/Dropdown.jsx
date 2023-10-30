@@ -44,18 +44,6 @@ function Dropdown() {
               Diseño UX/UI<span className="dropdown__icon"></span>
             </div>
             <ul className="text-default dropdown__projects-list">
-              <Link to="/personalportfolio" className="link">
-                <li>
-                  <span>Portafolio personal</span>
-                  <span>UX/UI</span>
-                </li>
-              </Link>
-              <Link to="/maslow" className="link">
-                <li>
-                  <span>Maslow</span>
-                  <span>Web, UI</span>
-                </li>
-              </Link>
               <Link to="/modelproject" className="link">
                 <li>
                   <span>Model Project</span>

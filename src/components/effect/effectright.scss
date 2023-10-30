@@ -1,0 +1,116 @@
+.smoker {
+width: 50%;
+height: 50%;
+  position: fixed;
+  top: 250px;
+  right: -160px;
+  z-index: -999;
+}
+
+.fig-1r {
+width: 800px;
+position: relative;
+top: 200px;
+right: 0px;
+animation: moveUpr 27s linear infinite, fadingr 27s linear infinite;
+  transform-origin: center;
+
+
+}
+.fig-1_maskr {
+position: absolute;
+background-color: white;
+opacity: 50%;
+width: 100%;
+height: 100%;
+opacity: 100%;
+filter: blur(10px);
+animation: moveRightr 27s linear infinite; 
+}
+
+.fig-1_mask-2r {
+position: absolute;
+background-color: white;
+opacity: 50%;
+width: 100%;
+height: 100%;
+opacity: 100%;
+filter: blur(10px);
+animation: moveRight2r 27s linear infinite; 
+}
+
+
+
+@keyframes moveRightr {
+0% {
+  transform: translateX(20%); 
+}
+
+60% {
+  transform: translateX(-100%);
+}
+75% {
+  transform: translateX(-100%);
+}
+100% {
+  transform: translateX(-100%); /* Termina fuera del .fig-1 */
+}  
+}
+
+@keyframes moveRight2r {
+0% {
+  transform: translateX(250%); 
+}
+
+60% {
+  transform: translateX(120%);
+}
+100% {
+  transform: translateX(50%); /* Termina fuera del .fig-1 */
+}  
+}
+
+@keyframes moveUpr {
+0% {
+  transform: translateY(0%); 
+}
+30% {
+  transform: translateY(0%);
+}
+100% {
+  transform: translateY(-20%);
+}
+}
+
+@keyframes fadingr {
+0% {
+  opacity: 0%; 
+}
+15% {
+  opacity: 100%; 
+}
+40% {
+  opacity: 100%;
+}
+0% {
+  opacity: 0%;
+}  
+100% {
+  opacity: 0%; 
+}
+}
+
+@keyframes wiggle {
+0%, 100% {
+  transform: rotate(0deg);
+}
+25% {
+  transform: rotate(2deg);
+}
+50% {
+  transform: rotate(-2deg);
+}
+75% {
+  transform: rotate(2deg);
+}
+}
