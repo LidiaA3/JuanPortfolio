@@ -9,13 +9,21 @@ import Mail from '../../components/icons/mail/mail';
 import { getDoc } from 'firebase/firestore';
 import { doc } from 'firebase/firestore';
 import db from '../../firebase';
+import { useEffect } from 'react';
 
-async function Modelproject() {
+function Modelproject() {
 	const scrollToTop = () => {
 		window.scrollTo(0, 0);
 	};
-	const maslowTitle = await getDoc(doc(db, 'proyectos/maslow'));
-	console.log(maslowTitle.data());
+
+	const testFunction = async () => {
+		const maslowTitle = await getDoc(doc(db, 'proyectos/maslow'));
+		console.log(maslowTitle.data());
+	};
+
+	useEffect(() => {
+		testFunction();
+	});
 	return (
 		<>
 			<Topbar url="/portafolio" link="←Proyectos" />
@@ -65,7 +73,7 @@ async function Modelproject() {
 					</div>
 					<div className="project-info">
 						<div className="project-info__titles">
-							<div className="h4 project-info__title"> > Fase 03</div>
+							<div className="h4 project-info__title"> Fase 03</div>
 							<div className="h5 project-info__subtitle">Definiendo una estructura</div>
 						</div>
 						<div className="project-info__description">
