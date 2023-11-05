@@ -118,11 +118,11 @@ function Modelproject() {
 						<p>
 							<br></br>
 							<b>3.1 Obtener y organizar el contenido</b>
-							<p>
-								Es necesario hacer un inventario del contenido. Esto nos permitirá empezar a definir una AI
-								(Arquitectura de Información), que iremos construyendo ayudados de diferentes técnicas, como por ejemplo
-								la de card sorting.
-							</p>
+						</p>
+						<p>
+							Es necesario hacer un inventario del contenido. Esto nos permitirá empezar a definir una AI (Arquitectura
+							de Información), que iremos construyendo ayudados de diferentes técnicas, como por ejemplo la de card
+							sorting.
 						</p>
 						<div className="project__img-container">
 							<img src="src/assets/img/content-list.png" alt="" />
@@ -205,9 +205,9 @@ function Modelproject() {
 							que hemos obviado en este resumen partes del proceso de investigación que tendrían lugar si se tratara de
 							proyectos más ambiciosos o en los que estuviera implicado un equipo de trabajo mayor. <br></br>
 							<br></br>
-							<p className="text-semibold">
-								¡Navega por esta página web para experimentar en primera persona el resultado de este proyecto!
-							</p>
+						</p>
+						<p className="text-semibold">
+							¡Navega por esta página web para experimentar en primera persona el resultado de este proyecto!
 						</p>
 					</div>
 					{/* BOTONES DE NAVEGACIÓN ENTRE PROYECTOS */}
