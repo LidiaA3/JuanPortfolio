@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Button from '../../components/buttons/button';
 import Download from '../../components/icons/download/download';
 import Mail from '../../components/icons/mail/mail';
-import { getDoc } from 'firebase/firestore';
+import { collection, getDoc, getDocs } from 'firebase/firestore';
 import { doc } from 'firebase/firestore';
 import db from '../../firebase';
 import { useEffect } from 'react';
@@ -17,8 +17,15 @@ function Modelproject() {
 	};
 
 	const testFunction = async () => {
+		//Recoger un documento
 		const maslowTitle = await getDoc(doc(db, 'proyectos/maslow'));
-		console.log(maslowTitle.data());
+		console.log('doc -> ', maslowTitle.data());
+
+		// Recoger una coleccion (array de documentos)
+		const col = await getDocs(collection(db, 'proyectos'));
+		col.forEach((doc) => {
+			console.log(`collection ${doc.id} -> `, doc.data());
+		});
 	};
 
 	useEffect(() => {
