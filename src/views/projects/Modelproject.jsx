@@ -6,18 +6,23 @@ import { Link } from "react-router-dom";
 import Button from "../../components/buttons/button";
 import Download from "../../components/icons/download/download";
 import Mail from "../../components/icons/mail/mail";
+import { getDoc } from "firebase/firestore";
+import { doc } from "firebase/firestore";
+import db from "../../firebase";
 
-function Modelproject() {
+function async Modelproject() {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
+  const maslowTitle = await getDoc(doc(db, 'proyectos/maslow'));
+  console.log(maslowTitle.data());
   return (
     <>
       <Topbar url="/portafolio" link="←Proyectos" />
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span class="project-number">01 </span>Portafolio personal
+            <span class="project-number">01 </span>blaonal
           </h2>
           <ProjectInfo
             role="Diseñador UX/UI, Desarrollador"
