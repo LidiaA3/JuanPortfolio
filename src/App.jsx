@@ -8,9 +8,9 @@ import Styleguide from "./styleguide/Styleguide";
 import Topbar from "./components/topbar/Topbar";
 import IconHead from "./components/icons/IconHead";
 import Portfolio from "./views/portfolio/Portfolio";
-import Project from "./views/projects/Maslow";
-import Personalportfolio from "./views/projects/personalportfolio";
-import Maslow from "./views/projects/Maslow";
+// import Project from "./views/projects/Maslow";
+// import Personalportfolio from "./views/projects/personalportfolio";
+// import Maslow from "./views/projects/Maslow";
 import Modelproject from "./views/projects/Modelproject";
 import Effect from "./components/effect/effect";
 import Effectright from "./components/effect/Effectright";
@@ -27,9 +27,9 @@ function App() {
           <Route path="/styleguide" element={<Styleguide />} />
           <Route path="/portafolio" element={<Portfolio />} />
           <Route path="/modelproject" element={<Modelproject />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/personalportfolio" element={<Personalportfolio />} />
-          <Route path="/maslow" element={<Maslow />} />
+          {/* <Route path="/project" element={<Project />} /> */}
+          {/* <Route path="/personalportfolio" element={<Personalportfolio />} /> */}
+          {/* <Route path="/maslow" element={<Maslow />} /> */}
         </Routes>
       </main>
     </>
