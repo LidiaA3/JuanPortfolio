@@ -46,52 +46,72 @@ function Maslow() {
 
         <div className="project__content">
           <div className="project__img-container">
-            <img src="src/assets/img/jazzing1.jpg" alt="" />
+            <img src="src/assets/img/maslow/maslow1.jpg" alt="" />
             <span className="project__img-container--caption">
-              Logotipo creado a partir de la tipografía Poppins, emulando
-              bloques de construcción
+              Identificador completo, con un isotipo que puede funcionar por
+              separado
             </span>
           </div>
           <div className="project-info">
             <div className="project-info__titles">
-              <div className="h4 project-info__title">Concepto</div>
+              <div className="h4 project-info__title">El proyecto</div>
+              <div className="h5 project-info__subtitle">
+                Una marca con trasfondo social
+              </div>
+            </div>
+            <div className="project-info__description">
+              Este proyecto, ubicado dentro de la moda urbana, no es una marca
+              de camisetas al uso. Es más bien un soporte de expresión para
+              artistas, un soporte en el que reivindicar sus principios, y a su
+              vez, por su puesto, una medio de expresión también, a través de la
+              identificación, para un determinado grupo de jóvenes con unas
+              inquietudes y valores determinados.
+            </div>
+          </div>
+          <div className="project__img-container">
+            <img src="src/assets/img/maslow/maslow2.jpg" alt="" />
+            <span className="project__img-container--caption">
+              Diferentes versiones del identificador
+            </span>
+          </div>
+          <div className="project-info">
+            <div className="project-info__titles">
+              <div className="h4 project-info__title">El público</div>
               <div className="h5 project-info__subtitle">
                 La música como juego
               </div>
             </div>
             <div className="project-info__description">
-              Aprovechando que este es un festival caracterizado por dar cabida
-              a un público infantil, me serví de la connotación que tiene en
-              inglés el verbo “play”, de "play music” (tocar música). En esta
-              lengua, cuando se refieren a tocar o interpretar música, utilizan
-              esta expresión, se mantiene la connotación añadida de “jugar” que
-              en castellano no existe. Sirviéndome de este concepto y simulando
-              el típico juego de construcción, creé las letras del logotipo, y
-              así pude expresar el carácter cercano y divertido que se quería
-              transmitir. A su vez, esto permitió que estuvieran representadas
-              en el logo, las tres vertientes del festival a través de los
-              colores; la vertiente pedagógica (representada por el azul), la
-              vertiente de festival al uso, donde se programan conciertos
-              (representada por el rojo) y la vertiente de las jam sessions
-              (representada por el verde). Este código de colores dio pie a
-              posteriori a crear tres vías comunicativas en función del tipo de
-              evento que se quisiese anunciar.
+              Se trata de jóvenes urbanitas, aunque, muy conectados con la
+              naturaleza, y que reivindican el retorno a este vínculo natural.
+              Esta reivindicación, va de la mano de su necesidad por una
+              sociedad que frene un poco el ritmo, y que vuelva a tener el
+              bienestar emocional entre sus prioridades. De ahí el juego de
+              palabras utilizando el nombre del célebre psicólogo Abraham
+              Maslow, que a su vez contiene dentro del propio nombre las letras
+              del adjetivo "lento", ("slow") en inglés.
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/jazzing2.jpg" alt="" />
-            <span className="project__img-container--caption">
-              Diferentes versiones del identificador
-            </span>
-          </div>
-          <div className="project__img-container">
-            <img src="src/assets/img/jazzing3.jpg" alt="" />
+            <img src="src/assets/img/maslow/maslow3.jpg" alt="" />
             <span className="project__img-container--caption">
               Aplicación de la identidad en un producto de papelería
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/jazzing4.jpg" alt="" />
+            <img src="src/assets/img/maslow/maslow4.jpg" alt="" />
+            <span className="project__img-container--caption">
+              Aplicación de la identidad en un producto de Merchandising
+            </span>
+          </div>
+          <div className="project__img-container">
+            <img src="src/assets/img/maslow/maslow5.jpg" alt="" />
+            <span className="project__img-container--caption">
+              Aplicación de la identidad en un producto de Merchandising
+            </span>
+          </div>
+          <div className="project__img-container">
+            <img src="src/assets/img/maslow/maslow6.jpg" alt="" />
             <span className="project__img-container--caption">
               Aplicación de la identidad en un producto de Merchandising
             </span>

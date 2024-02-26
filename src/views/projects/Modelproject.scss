@@ -118,6 +118,7 @@ font-weight: $font-weight-light;
 }
   
   .project-info__titles {
+    padding-right: 24px;
     flex: 1; 
     text-align: left;
     margin-bottom: $big-scale-unit-1;

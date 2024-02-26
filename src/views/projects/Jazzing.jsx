@@ -10,6 +10,7 @@ import { collection, getDoc, getDocs } from "firebase/firestore";
 import { doc } from "firebase/firestore";
 import db from "../../firebase";
 import { useEffect } from "react";
+import Cv from "../../components/icons/cv/cv";
 
 function Jazzing() {
   const scrollToTop = () => {
@@ -59,14 +60,15 @@ function Jazzing() {
               </div>
             </div>
             <div className="project-info__description">
-              A su vez, esto permitió que estuvieran representadas en el logo,
-              las tres vertientes del festival a través de los colores; la
-              vertiente pedagógica (representada por el azul), la vertiente de
-              festival al uso, donde se programan conciertos (representada por
-              el rojo) y la vertiente de las jam sessions (representada por el
-              verde). Este código de colores dio pie a posteriori a crear tres
-              vías comunicativas en función del tipo de evento que se quisiese
-              anunciar.
+              Aprovechando que este es un festival caracterizado por dar cabida
+              a un público infantil, me serví de la connotación que tiene en
+              inglés el verbo “play”, de "play music” (tocar música). En el
+              idioma anglosajón, cuando se refieren a tocar o interpretar
+              música, utilizan esta expresión, es decir, se mantiene la
+              connotación añadida de “jugar” que en castellano no existe.
+              Sirviéndome de este concepto y simulando el típico juego de
+              construcción, creé las letras del logotipo, y así pude expresar el
+              carácter cercano y divertido que quería transmitir el festival.
             </div>
           </div>
           <div className="project__img-container">
@@ -120,7 +122,7 @@ function Jazzing() {
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
               <Button
-                icon={<Download />}
+                icon={<Cv />}
                 buttonType="secondary"
                 text="CV detallado"
               />
