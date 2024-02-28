@@ -73,6 +73,12 @@ function Dropdown() {
                   <span>Identidad</span>
                 </li>
               </Link>
+              <Link to="/infografia" className="link">
+                <li>
+                  <span>Cartel pedagógico</span>
+                  <span>Infografía</span>
+                </li>
+              </Link>
             </ul>
           </li>
           <li>
@@ -81,16 +87,16 @@ function Dropdown() {
                 dropdownActive ? "active" : ""
               }`}
             >
-              Desarrollo web<span className="dropdown__icon"></span>
+              Diseño sonoro<span className="dropdown__icon"></span>
             </div>
             <ul className="text-default dropdown__projects-list">
               <li>
-                <span>Sección en construcción</span>
+                <span>Piezas</span>
                 <span></span>
               </li>
             </ul>
           </li>
-          <li>
+          {/* <li>
             <div
               className={`h5 dropdown__category ${
                 dropdownActive ? "active" : ""
@@ -104,7 +110,7 @@ function Dropdown() {
                 <span></span>
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>

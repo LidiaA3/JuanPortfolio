@@ -27,12 +27,12 @@ function Maslow() {
           <ProjectInfo
             role="Diseñador gráfico"
             typology="Identidad, Naming"
-            technologies="<Empty>"
+            technologies="</Empty>"
             tools="Illustrator, Photoshop"
             agency="Proyecto Personal"
             client="Proyecto Personal"
             year="2023"
-            link="<Empty>"
+            link="</Empty>"
           />
           <div className="project__header--intro">
             {/* <span className="h5">Introducción</span> */}

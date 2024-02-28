@@ -16,6 +16,7 @@ import Maslow from "./views/projects/Maslow";
 import Jazzing from "./views/projects/Jazzing";
 import Effect from "./components/effect/effect";
 import Effectright from "./components/effect/Effectright";
+import Infografia from "./views/projects/Infografia";
 function App() {
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
           <Route path="/modelproject" element={<Modelproject />} />
           <Route path="/jazzing" element={<Jazzing />} />
           <Route path="/maslow" element={<Maslow />} />
+          <Route path="/infografia" element={<Infografia />} />
 
           {/* <Route path="/project" element={<Project />} /> */}
           {/* <Route path="/personalportfolio" element={<Personalportfolio />} /> */}
