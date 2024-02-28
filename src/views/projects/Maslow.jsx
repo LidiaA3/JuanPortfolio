@@ -37,9 +37,9 @@ function Maslow() {
           <div className="project__header--intro">
             {/* <span className="h5">Introducción</span> */}
             <p className="h5">
-              Amplio proyecto de identidad para esta marca de moda urbana que
-              incluyó la creación del nombre, el manual de marca e inclusive una
-              pequeña campaña publicitaria.
+              Pequeña muestra de este amplio proyecto de identidad para esta
+              marca de moda urbana que incluyó la creación del nombre, el manual
+              de marca e inclusive una pequeña campaña publicitaria.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ function Maslow() {
               Este proyecto, ubicado dentro de la moda urbana, no es una marca
               de camisetas al uso. Es más bien un soporte de expresión para
               artistas, un soporte en el que reivindicar sus principios, y a su
-              vez, por su puesto, una medio de expresión también, a través de la
+              vez, por su puesto, un medio de expresión también, a través de la
               identificación, para un determinado grupo de jóvenes con unas
               inquietudes y valores determinados.
             </div>
@@ -71,49 +71,52 @@ function Maslow() {
           <div className="project__img-container">
             <img src="src/assets/img/maslow/maslow2.jpg" alt="" />
             <span className="project__img-container--caption">
-              Diferentes versiones del identificador
+              Muestra del manual de identidad
             </span>
           </div>
           <div className="project-info">
             <div className="project-info__titles">
               <div className="h4 project-info__title">El público</div>
               <div className="h5 project-info__subtitle">
-                La música como juego
+                Jóvenes con principios
               </div>
             </div>
             <div className="project-info__description">
-              Se trata de jóvenes urbanitas, aunque, muy conectados con la
-              naturaleza, y que reivindican el retorno a este vínculo natural.
+              Se trata de jóvenes urbanitas aunque, muy conectados con la
+              naturaleza y que reivindican el retorno a este vínculo natural.
               Esta reivindicación, va de la mano de su necesidad por una
-              sociedad que frene un poco el ritmo, y que vuelva a tener el
+              sociedad que frene un poco el ritmo y que vuelva a tener el
               bienestar emocional entre sus prioridades. De ahí el juego de
               palabras utilizando el nombre del célebre psicólogo Abraham
               Maslow, que a su vez contiene dentro del propio nombre las letras
-              del adjetivo "lento", ("slow") en inglés.
+              del adjetivo "lento" en inglés ("slow").
             </div>
           </div>
           <div className="project__img-container">
             <img src="src/assets/img/maslow/maslow3.jpg" alt="" />
             <span className="project__img-container--caption">
-              Aplicación de la identidad en un producto de papelería
+              Extracto del manual de identidad; paleta de colores. El rojo juega
+              un papel crucial. Como pigmento primitivo representa el valor de
+              la comunidad y la vuelta a las raíces.{" "}
             </span>
           </div>
           <div className="project__img-container">
             <img src="src/assets/img/maslow/maslow4.jpg" alt="" />
             <span className="project__img-container--caption">
-              Aplicación de la identidad en un producto de Merchandising
+              Extracto del manual de identidad mostrando las combinaciones de
+              color correctas en el uso del identificador.
             </span>
           </div>
           <div className="project__img-container">
             <img src="src/assets/img/maslow/maslow5.jpg" alt="" />
             <span className="project__img-container--caption">
-              Aplicación de la identidad en un producto de Merchandising
+              Muestra del diseño de publicaciones cuadradas para redes sociales.{" "}
             </span>
           </div>
           <div className="project__img-container">
             <img src="src/assets/img/maslow/maslow6.jpg" alt="" />
             <span className="project__img-container--caption">
-              Aplicación de la identidad en un producto de Merchandising
+              Muestra de diferentes aplicaciones de la identidad visual.{" "}
             </span>
           </div>
 

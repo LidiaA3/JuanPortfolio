@@ -38,8 +38,8 @@ function Jazzing() {
           <div className="project__header--intro">
             {/* <span className="h5">Introducción</span> */}
             <p className="h5">
-              Propuesta de identidad real para este festival de jazz para todos
-              los públicos, aunque especialmente destinado al público infantil.
+              Propuesta de identidad para este festival de jazz especialmente
+              destinado al público infantil.
             </p>
           </div>
         </div>
@@ -48,8 +48,8 @@ function Jazzing() {
           <div className="project__img-container">
             <img src="src/assets/img/jazzing1.jpg" alt="" />
             <span className="project__img-container--caption">
-              Logotipo creado a partir de la tipografía Poppins, emulando
-              bloques de construcción
+              Logotipo creado a partir de la tipografía Poppins, emulando el
+              clásico juego de bloques de construcción
             </span>
           </div>
           <div className="project-info">
