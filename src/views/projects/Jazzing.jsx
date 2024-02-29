@@ -28,12 +28,12 @@ function Jazzing() {
           <ProjectInfo
             role="Diseñador gráfico"
             typology="Identidad"
-            technologies="<Empty>"
+            technologies="</Empty>"
             tools="Adobe Illustrator"
             agency="Difusión Comunicación S.L"
             client="Festival Jazzing de Sant Andreu"
             year="2023"
-            link="<Empty>"
+            link="</Empty>"
           />
           <div className="project__header--intro">
             {/* <span className="h5">Introducción</span> */}

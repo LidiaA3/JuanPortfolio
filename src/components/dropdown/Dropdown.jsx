@@ -61,6 +61,12 @@ function Dropdown() {
               Diseño gráfico<span className="dropdown__icon"></span>
             </div>
             <ul className="text-default dropdown__projects-list">
+              <Link to="/ilustraciones" className="link">
+                <li>
+                  <span>Proyectos experimentales</span>
+                  <span>Ilustración</span>
+                </li>
+              </Link>
               <Link to="/jazzing" className="link">
                 <li>
                   <span>Jazzing Festival</span>
