@@ -46,31 +46,82 @@ function Ilustraciones() {
         </div>
 
         <div className="project__content">
+          <div className="project-info">
+            <div className="project-info__titles">
+              <div className="h4 project-info__title">Diseño de camiseta</div>
+              <div className="h5 project-info__subtitle">Estilo urbano</div>
+            </div>
+            <div className="project-info__description">
+              Este diseño pretende incitar a salir de la zona de comfort, a
+              hacer aquello que nos cuesta hacer pero que nos aporta placer o
+              emociones agradables. El estilo gráfico viene inspirado por estas
+              emociones; de fluidez, de goce, de desaparición del ego... Las
+              influencias del diseño son movimientos como el brutalismo y el
+              diseño retrowave.
+            </div>
+          </div>
           <div className="project__img-container">
             <img src="src/assets/img/ilustraciones/ilus1.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           <div className="project-info">
             <div className="project-info__titles">
-              <div className="h4 project-info__title">Descripción</div>
-              <div className="h5 project-info__subtitle"></div>
+              <div className="h4 project-info__title">
+                Ilustración experimental
+              </div>
+              <div className="h5 project-info__subtitle">Cartel turístico</div>
             </div>
             <div className="project-info__description">
-              Este proyecto consistía en traducir una gran cantidad de
-              información técnica sobre la tipografía, en una infografía
-              completa pero visualmente atractiva. Para ello, se trató de
-              jerarquizar la información mediante el tamaño de los elementos y
-              teniendo en cuenta el orden de lectura.
+              Este fue un trabajo en el que traté de representar la ciudad de
+              Kuala Lumpur de una manera distinta a como es habitual, buscando
+              asociarla a los conceptos de exotismo, espiritualidad y sobretodo,
+              modernidad. Para ello experimenté con colores y efectos ópticos,
+              inspirándome en la obra del artista Carlos Cruz-Diez.
             </div>
-          </div>
-          <div className="project__img-container">
-            <img src="src/assets/img/ilustraciones/ilus2.jpg" alt="" />
-            <span className="project__img-container--caption"></span>
           </div>
 
           <div className="project__img-container">
+            <img src="src/assets/img/ilustraciones/ilus2.jpg" alt="" />
+            <span className="project__img-container--caption">
+              Observando la imagen desde diferentes ángulos se puede observar la
+              aparición de un monumento representativo del lugar.
+            </span>
+          </div>
+          <div className="project-info">
+            <div className="project-info__titles">
+              <div className="h4 project-info__title">Diseño de camiseta </div>
+              <div className="h5 project-info__subtitle">
+                Encuentra tu tribu
+              </div>
+            </div>
+            <div className="project-info__description">
+              El mensaje está inspirado en las ideas del psicólogo Sergi Rufi
+              sobre las relaciones personales y la importancia de encontrar tu
+              "tribu", tu red de apoyo; un grupo de personas con las que confíes
+              y con las que puedas sentirte agusto siendo tú mismo. La
+              tipografía se refuerza con una ilustración realizada por mí, que
+              pretende transmitir diversas cosas, pero que en el fondo son una
+              misma: comunidad, comunión, colaboración y la fuerza de lo
+              primitivo.
+            </div>
+          </div>
+          <div className="project__img-container">
             <img src="src/assets/img/ilustraciones/ilus3.jpg" alt="" />
             <span className="project__img-container--caption"></span>
+          </div>
+
+          <div className="project-info">
+            <div className="project-info__titles">
+              <div className="h4 project-info__title">Diseño de etiqueta</div>
+              <div className="h5 project-info__subtitle">
+                Un vino para los amantes del jazz
+              </div>
+            </div>
+            <div className="project-info__description">
+              Reinterpretación de una mítica portada correspondiente a un álbum
+              de Thelonius Monk, pianista de jazz, utilizando elementos
+              tipográficos.{" "}
+            </div>
           </div>
           <div className="project__img-container">
             <img src="src/assets/img/ilustraciones/ilus4.jpg" alt="" />
