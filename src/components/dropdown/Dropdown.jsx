@@ -97,6 +97,12 @@ function Dropdown() {
                   <span>Packaging</span>
                 </li>
               </Link>
+              <Link to="/animacion" className="link">
+                <li>
+                  <span>Retrato animado</span>
+                  <span>Animación, Diseño sonoro</span>
+                </li>
+              </Link>
             </ul>
           </li>
           <li>
