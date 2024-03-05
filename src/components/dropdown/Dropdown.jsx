@@ -114,10 +114,12 @@ function Dropdown() {
               Diseño sonoro<span className="dropdown__icon"></span>
             </div>
             <ul className="text-default dropdown__projects-list">
-              <li>
-                <span>Piezas</span>
-                <span></span>
-              </li>
+              <Link to="/sonido" className="link">
+                <li>
+                  <span>Piezas pequeñas</span>
+                  <span>Diseño sonoro</span>
+                </li>
+              </Link>
             </ul>
           </li>
           {/* <li>

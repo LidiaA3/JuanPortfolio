@@ -21,6 +21,7 @@ import Ilustraciones from "./views/projects/Ilustraciones";
 import Editorial from "./views/projects/Editorial";
 import Packaging from "./views/projects/Packaging";
 import Animacion from "./views/projects/Animacion";
+import Sonido from "./views/projects/Sonido";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/editorial" element={<Editorial />} />
           <Route path="/packaging" element={<Packaging />} />
           <Route path="/animacion" element={<Animacion />} />
+          <Route path="/sonido" element={<Sonido />} />
 
           {/* <Route path="/project" element={<Project />} /> */}
           {/* <Route path="/personalportfolio" element={<Personalportfolio />} /> */}
