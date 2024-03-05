@@ -52,7 +52,7 @@ function Ilustraciones() {
               <div className="h5 project-info__subtitle">Estilo urbano</div>
             </div>
             <div className="project-info__description">
-              Este diseño pretende incitar a salir de la zona de comfort, a
+              Este diseño pretende incitar a salir de la zona de confort, a
               hacer aquello que nos cuesta hacer pero que nos aporta placer o
               emociones agradables. El estilo gráfico viene inspirado por estas
               emociones; de fluidez, de goce, de desaparición del ego... Las

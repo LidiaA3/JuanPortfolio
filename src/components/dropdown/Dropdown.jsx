@@ -85,6 +85,18 @@ function Dropdown() {
                   <span>Infografía</span>
                 </li>
               </Link>
+              <Link to="/editorial" className="link">
+                <li>
+                  <span>Proyecto de Maquetación</span>
+                  <span>Editorial</span>
+                </li>
+              </Link>
+              <Link to="/packaging" className="link">
+                <li>
+                  <span>Diseño de un CD</span>
+                  <span>Packaging</span>
+                </li>
+              </Link>
             </ul>
           </li>
           <li>

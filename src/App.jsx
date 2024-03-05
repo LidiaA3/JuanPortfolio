@@ -18,6 +18,9 @@ import Effect from "./components/effect/effect";
 import Effectright from "./components/effect/Effectright";
 import Infografia from "./views/projects/Infografia";
 import Ilustraciones from "./views/projects/Ilustraciones";
+import Editorial from "./views/projects/Editorial";
+import Packaging from "./views/projects/Packaging";
+
 function App() {
   return (
     <>
@@ -35,6 +38,8 @@ function App() {
           <Route path="/maslow" element={<Maslow />} />
           <Route path="/infografia" element={<Infografia />} />
           <Route path="/ilustraciones" element={<Ilustraciones />} />
+          <Route path="/editorial" element={<Editorial />} />
+          <Route path="/packaging" element={<Packaging />} />
 
           {/* <Route path="/project" element={<Project />} /> */}
           {/* <Route path="/personalportfolio" element={<Personalportfolio />} /> */}
