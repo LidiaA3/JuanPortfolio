@@ -46,8 +46,8 @@ function Dropdown() {
             <ul className="text-default dropdown__projects-list">
               <Link to="/modelproject" className="link">
                 <li>
-                  <span>Model Project</span>
-                  <span>UX</span>
+                  <span>Sobre este portafolio</span>
+                  <span>Web</span>
                 </li>
               </Link>
             </ul>
