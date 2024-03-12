@@ -10,6 +10,7 @@ import { collection, getDoc, getDocs } from "firebase/firestore";
 import { doc } from "firebase/firestore";
 import db from "../../firebase";
 import { useEffect } from "react";
+import Cv from "../../components/icons/cv/cv";
 
 function Animacion() {
   const scrollToTop = () => {
@@ -65,7 +66,7 @@ function Animacion() {
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
               <Button
-                icon={<Download />}
+                icon={<Cv />}
                 buttonType="secondary"
                 text="CV detallado"
               />
@@ -77,10 +78,10 @@ function Animacion() {
                 showIcon="show-icon"
               />
             </div>
-            <Link to="/home" className="text-default project__home-link">
+            {/* <Link to="/home" className="text-default project__home-link">
               <span className="project__home-link-arrow">←</span>Volver a la
               Home
-            </Link>
+            </Link> */}
           </section>
         </div>
       </main>

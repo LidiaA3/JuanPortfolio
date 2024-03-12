@@ -26,13 +26,13 @@ export default function Home() {
             <span className="h1">Juan Tamarit</span>
             <div>
               <h2 className="text-default hero-section__profession-text">
-                Diseñador UX/UI
+                Creativo
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                Diseñador Gráfico
+                Digital
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                Desarrollador Web
+                Multidisciplinar
               </h2>
             </div>
           </div>
@@ -48,42 +48,41 @@ export default function Home() {
         <section className="content-section">
           <section className="bio-section text-regular">
             <p>
-              Soy una persona apasionada, amante del aprendizaje y del
-              crecimiento constante. Mi historial académico es bastante
-              singular, me formé como pianista de jazz antes de meterme de lleno
-              en el diseño gráfico, el diseño UX/UI y el desarrollo.
+              ¡Hola! Mi nombre es Juan. Me defino como creativo porque no me
+              considero un especialista, sino más bien un generalista. Mis
+              habilidades fundamentales son el diseño gráfico y el diseño UX,
+              aunque tengo una amplia formación y experiencia musicales que me
+              gustaría aplicar también en proyectos transversales dentro del
+              mundo de la comunicación. No me siento diseñador únicamente,
+              además, porque me gusta conceptualizar, investigar y conocer los
+              procesos en profundidad.
             </p>
             <br />
             <p>
-              Este bagaje me ha permitido obtener valiosas habilidades como:
-              capacidad de trabajo en equipo, capacidad de escucha, creatividad,
-              proactividad, o pensamiento lateral, entre otras.
+              Aparte de mi formación académica, he sido influenciado por un
+              entorno familiar repleto de otras disciplinas artísticas como la
+              pintura, ejercida por mi padre desde siempre, o las artes
+              escénicas, dedicación exclusiva de mi hermana.
             </p>
             <br />
             <p>
-              Como diseñador y desarrollador, estoy muy interesado en la
-              usabilidad, puesto que es el factor diferenciador entre un diseño
-              “bonito” y un diseño realmente valioso.
+              Actualmente, estoy buscando la oportunidad de poner en práctica
+              mis conocimientos al servicio de los demás y de poder aprender
+              mucho en el proceso.
             </p>
-            <br />
-            <p>
-              Y en definitiva, es a esto a lo que quiero aspirar, a aportar
-              valor. Para ello, estoy deseoso de poder trabajar con un buen
-              equipo de creativos y/o desarrolladores, así que espero que te
-              guste mi trabajo y encajar en tu equipo.
-            </p>
-            <br />
-            <p>¡Gracias por tu tiempo!</p>
+            {/* <br />
+            <p>¡Gracias por tu tiempo!</p> */}
           </section>
           <section className="skills-section">
             {/* <Cubeempty /> */}
             <div className="skills-section__knowledges-container">
               <span className="h3">Conocimientos</span>
               <div className="skills-section__skills-group--knowledges">
+                <Skill type="rounded" text="Dirección artística" />
                 <Skill type="rounded" text="Diseño gráfico" />
                 <Skill type="straight" text="UX/UI" />
                 <Skill type="rounded" text="Desarrollo web" />
-                <Skill type="straight" text="Identidad" />
+                <Skill type="straight" text="Branding" />
                 <Skill type="rounded" text="Wordpress" />
                 <Skill type="straight" text="Marketing" />
                 <Skill type="rounded" text="Fotografía" />

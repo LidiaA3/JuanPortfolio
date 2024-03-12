@@ -10,6 +10,7 @@ import { collection, getDoc, getDocs } from "firebase/firestore";
 import { doc } from "firebase/firestore";
 import db from "../../firebase";
 import { useEffect } from "react";
+import Cv from "../../components/icons/cv/cv";
 
 function Modelproject() {
   const scrollToTop = () => {
@@ -37,26 +38,27 @@ function Modelproject() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span className="project-number">01 </span>Sobre este portafolio
+            <span className="project-number">00 </span>Sobre este portafolio
           </h2>
           <ProjectInfo
             role="Diseñador UX/UI, Desarrollador"
             typology="Web"
             technologies="React.js"
-            tools="Figma, Blender, Vs Code, Git"
-            agency="Proyecto personal"
-            client="Proyecto personal"
-            year="2023"
-            link="juantamarit.com"
+            tools="Figma, Illustrator, Vs Code, Git"
+            agency="</Empty>"
+            client="</Empty>"
+            year="2024"
+            link="</Empty>"
           />
           <div className="project__header--intro">
             {/* <span className="h5">Introducción</span> */}
             <p className="h5">
               Este proyecto se inició con el objetivo de mostrar mi trabajo.
-              Para ello me inspiré, en la primera versión, en las interfaces de
-              las películas de ciencia ficción. A continuación, se muestra el
-              proceso que realicé. El cual ejemplifica, a muy grandes rasgos, mi
-              proceso de diseño de productos digitales en general.
+              Para ello me inspiré en las interfaces de las películas de ciencia
+              ficción. A continuación, se muestra el proceso que realicé. El
+              cual ejemplifica, a muy grandes rasgos, mi proceso de diseño de
+              productos digitales en general. El proceso expuesto corresponde a
+              una versión anterior de este sitio web.
             </p>
           </div>
         </div>
@@ -124,7 +126,7 @@ function Modelproject() {
             </div>
             <div className="project-info__description">
               Llega el momento de dar forma al proyecto. Para ello, seguimos los
-              siguientes pasos:
+              siguientes pasos.
             </div>
           </div>
 
@@ -137,7 +139,7 @@ function Modelproject() {
             </div>
             <div className="project-info__description">
               Es necesario hacer un inventario del contenido. Esto nos permitirá
-              empezar a definir una AI (Arquitectura de Información), que iremos
+              empezar a definir una arquitectura de la información, que iremos
               construyendo ayudados de diferentes técnicas, como por ejemplo la
               de card sorting.
             </div>
@@ -148,8 +150,8 @@ function Modelproject() {
             <div className="project__img-container">
               <img src="src/assets/img/content-list.png" alt="" />
               <span className="project__img-container--caption">
-                Utilizo las hojas de cálculo para visualizar todo el contenido
-                que tendremos que organizar.
+                Utilizo las hojas de cálculo para visualizar todo el contenido a
+                organizar.
               </span>
             </div>
             <p>
@@ -231,6 +233,14 @@ function Modelproject() {
             </div>
           </div>
 
+          <div className="project__img-container">
+            <img src="src/assets/img/Figma-screenshot.png" alt="" />
+            <span className="project__img-container--caption">
+              Muestra del diseño original, el cual contiene diferentes elementos
+              estandarizados, conformando un pequeño design system.
+            </span>
+          </div>
+
           <div className="project-info">
             <div className="project-info__titles">
               <div className="h4 project-info__title">Fase 05</div>
@@ -279,7 +289,7 @@ function Modelproject() {
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
               <Button
-                icon={<Download />}
+                icon={<Cv />}
                 buttonType="secondary"
                 text="CV detallado"
               />
@@ -291,10 +301,10 @@ function Modelproject() {
                 showIcon="show-icon"
               />
             </div>
-            <Link to="/home" className="text-default project__home-link">
+            {/* <Link to="/home" className="text-default project__home-link">
               <span className="project__home-link-arrow">←</span>Volver a la
               Home
-            </Link>
+            </Link> */}
           </section>
         </div>
       </main>
