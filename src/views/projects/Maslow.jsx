@@ -10,6 +10,7 @@ import { collection, getDoc, getDocs } from "firebase/firestore";
 import { doc } from "firebase/firestore";
 import db from "../../firebase";
 import { useEffect } from "react";
+import Cv from "../../components/icons/cv/cv";
 
 function Maslow() {
   const scrollToTop = () => {
@@ -22,7 +23,7 @@ function Maslow() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span className="project-number">01 </span>Maslow
+            <span className="project-number">03 </span>Maslow
           </h2>
           <ProjectInfo
             role="Diseñador gráfico"
@@ -134,7 +135,7 @@ function Maslow() {
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
               <Button
-                icon={<Download />}
+                icon={<Cv />}
                 buttonType="secondary"
                 text="CV detallado"
               />
@@ -146,10 +147,10 @@ function Maslow() {
                 showIcon="show-icon"
               />
             </div>
-            <Link to="/home" className="text-default project__home-link">
+            {/* <Link to="/home" className="text-default project__home-link">
               <span className="project__home-link-arrow">←</span>Volver a la
               Home
-            </Link>
+            </Link> */}
           </section>
         </div>
       </main>

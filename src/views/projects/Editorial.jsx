@@ -23,7 +23,7 @@ function Editorial() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span className="project-number">01 </span>Proyecto de Maquetación
+            <span className="project-number">05 </span>Proyecto de Maquetación
           </h2>
           <ProjectInfo
             role="Diseñador gráfico"

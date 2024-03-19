@@ -23,7 +23,7 @@ function Infografia() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span className="project-number">01 </span>Cartel pedagógico
+            <span className="project-number">04 </span>Cartel pedagógico
           </h2>
           <ProjectInfo
             role="Diseñador gráfico"
@@ -106,10 +106,10 @@ function Infografia() {
                 showIcon="show-icon"
               />
             </div>
-            <Link to="/home" className="text-default project__home-link">
+            {/* <Link to="/home" className="text-default project__home-link">
               <span className="project__home-link-arrow">←</span>Volver a la
               Home
-            </Link>
+            </Link> */}
           </section>
         </div>
       </main>

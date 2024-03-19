@@ -154,10 +154,10 @@ function Ilustraciones() {
                 showIcon="show-icon"
               />
             </div>
-            <Link to="/home" className="text-default project__home-link">
+            {/* <Link to="/home" className="text-default project__home-link">
               <span className="project__home-link-arrow">←</span>Volver a la
               Home
-            </Link>
+            </Link> */}
           </section>
         </div>
       </main>

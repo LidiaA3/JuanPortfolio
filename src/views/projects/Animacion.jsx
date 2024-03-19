@@ -23,7 +23,7 @@ function Animacion() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span className="project-number">01 </span>Autoretrato animado
+            <span className="project-number">07 </span>Autoretrato animado
           </h2>
           <ProjectInfo
             role="Diseñador gráfico, Diseñador sonoro"
@@ -32,7 +32,7 @@ function Animacion() {
             tools="After Effects, Logic Pro"
             agency="Proyecto Personal"
             client="Proyecto Personal"
-            year="2022"
+            year="2021"
             link="</Empty>"
           />
           <div className="project__header--intro">

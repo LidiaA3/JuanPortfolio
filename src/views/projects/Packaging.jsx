@@ -10,6 +10,7 @@ import { collection, getDoc, getDocs } from "firebase/firestore";
 import { doc } from "firebase/firestore";
 import db from "../../firebase";
 import { useEffect } from "react";
+import Cv from "../../components/icons/cv/cv";
 
 function Packaging() {
   const scrollToTop = () => {
@@ -22,7 +23,7 @@ function Packaging() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span className="project-number">01 </span>Rediseño de CD
+            <span className="project-number">06 </span>Rediseño de CD
           </h2>
           <ProjectInfo
             role="Diseñador gráfico"
@@ -141,7 +142,7 @@ function Packaging() {
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
               <Button
-                icon={<Download />}
+                icon={<Cv />}
                 buttonType="secondary"
                 text="CV detallado"
               />
@@ -153,10 +154,10 @@ function Packaging() {
                 showIcon="show-icon"
               />
             </div>
-            <Link to="/home" className="text-default project__home-link">
+            {/* <Link to="/home" className="text-default project__home-link">
               <span className="project__home-link-arrow">←</span>Volver a la
               Home
-            </Link>
+            </Link> */}
           </section>
         </div>
       </main>
