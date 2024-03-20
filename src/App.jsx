@@ -14,7 +14,7 @@ import Portfolio from "./views/portfolio/Portfolio";
 import Modelproject from "./views/projects/Modelproject";
 import Maslow from "./views/projects/Maslow";
 import Jazzing from "./views/projects/Jazzing";
-import Effect from "./components/effect/effect";
+import Effect from "./components/effect/Effect";
 import Effectright from "./components/effect/Effectright";
 import Infografia from "./views/projects/Infografia";
 import Ilustraciones from "./views/projects/Ilustraciones";
