@@ -7,7 +7,7 @@ function Mail(props) {
   return (
     <img
       className="mail-icon"
-      src="https://github.com/JuanTamarit/Project-Gamma-00/blob/master/src/assets/img/mail-icon-new.svg"
+      src="https://juantamarit.netlify.app/assets/img/mail-icon-new.svg"
     ></img>
     // <svg
     //   className="mail-icon"
