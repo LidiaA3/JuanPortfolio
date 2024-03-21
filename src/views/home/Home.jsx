@@ -48,7 +48,7 @@ export default function Home() {
         <section className="content-section">
           <section className="bio-section text-regular">
             <p>
-              ¡Hoasla! Mi nombre es Juan. Me defino como creativo porque no me
+              ¡Hola! Mi nombre es Juan. Me defino como creativo porque no me
               considero un especialista, sino más bien un generalista. Mis
               habilidades fundamentales son el diseño gráfico y el diseño UX,
               aunque tengo una amplia formación y experiencia musicales que me
