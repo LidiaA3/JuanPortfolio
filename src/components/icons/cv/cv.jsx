@@ -4,7 +4,7 @@ import './cv.scss';
 function Cv(props) {
 	const { showIcon } = props;
 
-	return <img className="cv-icon" src="/assets/img/cv-icon.svg"></img>;
+	return <img className="cv-icon" src="/icons/cv-icon.svg"></img>;
 }
 
 export default Cv;

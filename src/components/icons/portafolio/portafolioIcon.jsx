@@ -5,7 +5,7 @@ function PortafolioIcon(props) {
 	const { showIcon } = props;
 
 	return (
-		<img className="portafolio-icon" src="../../../../assets/img/portafolio-icon.svg"></img>
+		<img className="portafolio-icon" src="/icons/portafolio-icon.svg"></img>
 		// <svg
 		//   className="mail-icon"
 		//   id={showIcon}
